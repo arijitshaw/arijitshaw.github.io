@@ -1,5 +1,5 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm a joint PhD student at [Chennai Mathematical Institute](http://www.cmi.ac.in) and [IAI, TCG CREST](https://www.tcgcrest.org/institutes/iai/). Currently, I am a visiting graduate student at the [University of Toronto](https://web.cs.toronto.edu/). My PhD advisor is [Kuldeep S. Meel](https://www.cs.toronto.edu/~meel/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interest lies in building better systems for "Beyond SMT" problems—I focus on designing model counting tools for different SMT constraint theories and applying these tools to solve real-world problems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Earlier, in 2019-'20, I was an intern at [Meel Research Group](https://meelgroup.github.io/), National University of Singapore. Before that, I studied Theoretical Computer Science and worked on Software Verification at Chennai Mathematical Institute, India.
