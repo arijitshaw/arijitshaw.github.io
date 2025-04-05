@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Automated Reasoning
+subtitle: Automated Reasoning | Satisfiability Modulo Theories
 
 profile:
   align: right
@@ -26,13 +26,10 @@ latest_posts:
 
 Hi! I'm a joint PhD student at [Chennai Mathematical Institute](http://www.cmi.ac.in) and [IAI, TCG CREST](https://www.tcgcrest.org/institutes/iai/), advised by [Kuldeep S. Meel](https://www.cs.toronto.edu/~meel/). Currently, I am a visiting graduate student at the [University of Toronto](https://web.cs.toronto.edu/).
 
-My research focus is on various aspectes of Satisfiability Modulo Theories (SMT), in particular quantitative aspects of SMT.
-  - Designed a counter for hybrid SMT formulas [[DAC'25](https://arxiv.org/abs/2408.07059)].
-  - Designed a counter and sampler for bit-vectors formulas [[SMT'24](https://arxiv.org/abs/2408.07059)].
-  - Designed a counter for functions [[AAAI'24](https://arxiv.org/abs/2408.07059)].
+My work explores the quantitative dimensions of Satisfiability Modulo Theories (SMT). I'm interested about extending SMT solvers to answer quantitative queries and developing techniques for sampling from SMT solution spaces. We have developed counting tools for hybrid SMT formulas [[DAC'25](https://arxiv.org/abs/2408.07059), [pact](https://github.com/meelgroup/pact)], bit-vectors formulas [[SMT'24](https://ceur-ws.org/Vol-3725/short2.pdf), [csb](https://github.com/meelgroup/csb)]
+and Skolem functions [[AAAI'24](https://arxiv.org/abs/2312.12026), [SkolemFC](https://github.com/meelgroup/skolemfc)].
+Out of these, [csb](https://github.com/meelgroup/csb) can do sampling from bit-vector formulas as well.
 
-**Broader interests:** understanding how automated reasoning systems work.
-  - In [[SAT'23](https://arxiv.org/abs/2306.06294)] we used causality to better understand SAT solvers.
-  - In [[KR'23](https://arxiv.org/abs/2408.07059)] we explored why and how model counters behave on practical instances.
-  - In [[SAT'20](https://arxiv.org/abs/2007.01499)] we desinged a phase selection heuristic for SAT solvers.
+I'm particularly enthusiastic about seeing my research make real-world impact. If you believe my tools or research might benefit your work, please get in touch!
 
+My curiosity extends to understanding the inner workings of automated reasoning systems. I've used causality to gain insights into SAT solvers [[SAT'23](https://arxiv.org/abs/2306.06294)], investigated the behavior of model counters on practical instances [[KR'23](https://arxiv.org/abs/2408.07059)], and designed innovative phase selection heuristics for SAT solvers [[SAT'20](https://arxiv.org/abs/2007.01499)].
