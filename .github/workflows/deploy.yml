@@ -31,7 +31,8 @@ jobs:
       - name: Install TeX & LaTeXML (recent)
         run: |
           sudo apt-get update
-          sudo apt-get install -y make cpanminus \
+          sudo apt-get install -y make build-essential pkg-config \
+            libxml2-dev libxslt1-dev zlib1g-dev libgmp-dev cpanminus \
             texlive texlive-latex-recommended texlive-latex-extra \
             texlive-pictures texlive-science texlive-fonts-recommended
           sudo cpanm --notest LaTeXML

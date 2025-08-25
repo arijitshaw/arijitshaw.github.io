@@ -7,12 +7,18 @@
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-  <div class="layout">
-    <aside class="sidebar">
-      <h1>Classes</h1>
+  <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar" aria-expanded="true">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+  </button>
+  <div class="backdrop" id="backdrop"></div>
+  <div class="layout" id="layout">
+    <aside class="sidebar" id="sidebar">
+      <h1>Lectures</h1>
       <ul id="classList"></ul>
       <div class="foot">
-        <small>Built with LaTeXML</small>
+        <small>3</small>
       </div>
     </aside>
     <main class="content">
