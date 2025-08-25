@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Class Notes</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar">
+      <h1>Classes</h1>
+      <ul id="classList"></ul>
+      <div class="foot">
+        <small>Built with LaTeXML</small>
+      </div>
+    </aside>
+    <main class="content">
+      <div id="placeholder">
+        <h2>Welcome 👋</h2>
+        <p>Select a class from the left to view its notes.</p>
+        <p>
+          Put your <code>.tex</code> files in <code>notes/</code>, then run <code>make</code> to build HTML into <code>build/notes/</code>.
+        </p>
+      </div>
+      <iframe id="notesFrame" title="Notes" loading="lazy"></iframe>
+    </main>
+  </div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
