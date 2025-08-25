@@ -28,13 +28,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install LaTeXML
+      - name: Install TeX & LaTeXML (recent)
         run: |
           sudo apt-get update
-          sudo apt-get install -y latexml
+          sudo apt-get install -y make cpanminus \
+            texlive texlive-latex-recommended texlive-latex-extra \
+            texlive-pictures texlive-science texlive-fonts-recommended
+          sudo cpanm --notest LaTeXML
+          latexmlc --VERSION
 
       - name: Build site
-        run: make
+        run: make VERBOSE=1
+
 
       - name: Assemble publishable site
         run: |
