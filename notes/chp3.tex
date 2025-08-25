@@ -1,0 +1,226 @@
+% LaTeX report template
+%
+
+\documentclass{article}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{caption}
+%
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=blue,
+	filecolor=black,
+	linkcolor=blue,
+	urlcolor=blue
+}
+\usepackage{amsfonts,graphicx, tikz, amssymb, tikz-cd}
+\usepackage{flafter}
+\usepackage{dcolumn}
+\usepackage{booktabs}
+\usetikzlibrary{positioning,shapes,arrows,shapes.geometric}
+\usetikzlibrary{bayesnet}
+\newcolumntype{M}[1]{D{.}{.}{1.#1}}
+\setlength{\textwidth}{6.25in}          % normal width of text on page
+\setlength{\oddsidemargin}{0in}   % left margin less 1 inch, odd #'ed pgs
+\setlength{\evensidemargin}{.25in}
+\usetikzlibrary{backgrounds,automata}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{calc}
+\tikzstyle{graphnode}=[circle,draw, fill=white, minimum size=2em]
+
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\newcommand{\mopbot}{MopBot}
+\usepackage{booktabs}
+\newcommand{\myindent}[1]{
+	\newline\makebox[#1cm]{}
+}
+\newcommand{\lmodels}{\rotatebox[origin=c]{180}{$\models$}}
+\usepackage{environ}
+\usepackage[fleqn]{amsmath}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{example}{Example}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newenvironment{proof}{{\bf Proof:}}{\hfill\rule{2mm}{2mm}}
+\usepackage[stable]{footmisc}
+
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+
+\newcommand{\ap}[1]{\ensuremath{\mathsf{AP}{#1}}}
+\tikzset{%
+	zeroarrow/.style = {-stealth,dashed},
+	onearrow/.style = {-stealth,solid},
+	c/.style = {circle,draw,solid,minimum width=2em,
+		minimum height=2em},
+	r/.style = {rectangle,draw,solid,minimum width=2em,
+		minimum height=2em}
+}
+\begin{document}
+\title{Lecture 2. Satisfiability}
+
+\section{Proposition Logic: Satisfiability}
+
+\subsection{Relevance Lemma}
+Now, let us consider a formula $\varphi:= (p_1 \lor p_2)$, and the following truth assignments:
+\begin{enumerate}
+	\item $\tau_1: \{p_1 \mapsto 1, p_2 \mapsto 1, p_3 \mapsto 0, p_4 \mapsto 1 \}$.
+	\item $\tau_2: \{p_1 \mapsto 1, p_2 \mapsto 1, p_3 \mapsto 1, p_4 \mapsto 0 \}$.
+	\item $\tau_3: \{p_1 \mapsto 1, p_2 \mapsto 1, \ldots\}$.
+\end{enumerate}
+
+Clearly, we see that $\varphi(\tau_1)$ and $\varphi(\tau_2)$ is $1$, but what about $\tau_3$? Observe that irrespective of valuation of $p_3$, and $p_4$, we can say that $\varphi(\tau_3) = 1$. That is, we want to capture the notation of only relevant propositions instead of considering the entire PROP.
+
+\begin{definition}
+	The set of Atomic Propositions \ap{(\varphi)} is defined as follows:
+	\begin{itemize}
+		\item \ap{(p)} = \{p\}
+		\item \ap{(\lnot \alpha)} = \ap{(\alpha)}
+		\item \ap{(\alpha \odot \beta)} = \ap{(\alpha)} $\cup$ \ap{(\beta)},  where $\odot$ is a binary connective.
+	\end{itemize}
+\end{definition}
+
+\begin{lemma}[Relevance lemma]
+	Let $\varphi$ be the formula and $\tau_1, \tau_2 \in 2^{\text{PROP}}$, $$\tau_1 \cap \ap{(\varphi)} = \tau_2 \cap \ap{(\varphi)} \implies \varphi(\tau_1) = \varphi(\tau_2)$$
+\end{lemma}
+
+Relevance lemma tells us that we need to \textit{only} care about $2^{\ap{(\varphi)}}$.
+
+\subsection{Set of all Models}
+
+\begin{definition}
+	Let $\varphi$ be a formula and the set of all models of $\varphi$ is defined as:
+	$$\text{models}(\varphi) = \{\tau | \varphi(\tau) = 1 \}$$
+
+\end{definition}
+
+The above definition of models does not give recipe for computation of models($\varphi$).
+\begin{enumerate}
+	\item models(p) = $2^{\text{PROP}} \setminus {\lnot p}$.
+	\item models($\lnot \alpha$) = $2^{\text{PROP}} \setminus \text{models}(\alpha)$.
+	\item models($\alpha \lor \beta$) = models($\alpha$) $\cup$ models($\beta$).
+	\item models($\alpha \land \beta$) = models($\alpha$) $\cap$ models($\beta$).
+\end{enumerate}
+Example: $\varphi := (p \lor q) \; \text{models}(\varphi) = \{ \{p\},  \{q\}, \{p,q\} \}$.
+We can view as for every formula $\varphi$, there is a unique models($\varphi$) $\subseteq 2^{\text{PROP}}$.
+\begin{definition}
+	Two formulas $\varphi$, and $\psi$ is considered to be logically equivalent to each other if and only if they both have the same set of models, i.e., $\varphi \equiv \psi$ if and only if models($\varphi$) = models($\psi$).
+\end{definition}
+Example, let $\varphi := (p)$, and $\psi := (\lnot(\lnot p))$. Observe that models($\varphi$) = models($\psi$) = $\{\{p\}\}$, therefore $(p) \equiv (\lnot (\lnot p))$.
+
+
+\section{Resolution}
+
+\subsection{Conjunctive Normal Form}
+
+The Conjunctive Normal Form (CNF) of a formula $C$ is represented as:
+\begin{align*}
+	C = C_1 \land C_2 \land \ldots \land C_{m} \\
+	\text{ Where } C_{i} &= ( l_1 \lor l_2 \lor \ldots \lor l_k)\\
+	\text{ Where } l_{j} &= p \text{ or } l_{j} = \lnot p
+\end{align*}
+Each $C_i$ is called a clause, and each $l_j$ is called a literal. One can observe that $C$ does not belong to FORM. Let us consider an example to understand the scenario:
+let $\varphi := (C_1 \land (C_2 \land C_3))$ and $\psi := ((C_1 \land C_2) \land C_3)$. As models($\varphi$) = models($\psi$), $\varphi \equiv \psi$. Therefore, as it does not matter where we put the parenthesis in $C$, we just omit the use of it.
+
+Let us find the models of formula $C$.
+\begin{enumerate}
+	\item models($C$) = $\bigcap$ models($C_i$).
+	\item models($C_i$) = $\bigcup$ models($l_j$).
+	\item If $C = \{\}$, then models($C$) = $2^{\text{PROP}}$.
+	\item If $C_{i} = \{\}$, then models($C_i$) = $\emptyset$. Let us denote an empty clause as $\square$, that is models($\square$) = $\emptyset$.
+	\item if $C = \{ \square\}$, then  models($C$) = $\emptyset$.
+
+\end{enumerate}
+
+\textit{Can we express arbitrary formula in CNF?}
+\begin{theorem}
+Every formula $\varphi$ can be represented in $\varphi_{\text{CNF}}$.
+\end{theorem}
+
+We can apply the distribution law to convert $\varphi$ to $\varphi_{\text{CNF}}$. But, in the worst case, it may take exponential many steps.
+
+Here is an example that uses distribution law to compute the CNF representation $\varphi_{\text{CNF}}$ of a formula $\varphi$:
+
+\begin{align*}
+\varphi &= ((y_1 \land y_2) \lor (y_3 \land y_4)) \lor (y_5 \land y_6)\\
+		&\equiv ((y_1 \lor (y_3 \land y_4))  \land (y_2 \lor (y_3 \land y_4))) \lor (y_5 \land y_6)\\
+		&\equiv (((y_1 \lor y_3) \land (y_1 \lor y_4))  \land ((y_2 \lor y_3) \land (y_2 \lor y_4))) \lor (y_5 \land y_6)\\
+		&\equiv (y_1 \lor y_3 \lor y_5)  \land (y_1 \lor y_3 \lor y_6) \land (y_1 \lor y_4 \lor y_5)  \land (y_1 \lor y_4 \lor y_6) \land (y_2 \lor y_3 \lor y_5)  \\
+		& \quad \quad \land (y_2 \lor y_3 \lor y_6) \land (y_2 \lor y_4 \lor y_5)  \land (y_2 \lor y_4 \lor y_6) \\
+		&\equiv \varphi_{\text{CNF}}
+\end{align*}
+
+
+Now, the question is, \emph{given a formula $\varphi$, can we determine whether it is satisfiable }
+
+ \begin{algorithm}[H]
+
+ 	\caption{CheckSAT{($\varphi$)}\label{algo:checksat}}
+ 	\begin{algorithmic}[1]
+ 		\For { $\tau \in 2^{\text{PROP}}$}\label{line:checksat:prop}
+	 		\If {$\varphi(\tau) = 1 $}
+		 		\State
+		 		\Return {{SAT, $\tau$}}
+
+	 		\EndIf
+ 		\EndFor
+ 		\State
+ 		\Return {{UNSAT, $\emptyset$}}
+ 	\end{algorithmic}
+ \end{algorithm}
+Algorithm~\ref{algo:checksat} iterates over $2^{\text{PROP}}$ to find a $\tau$, such that $\varphi(\tau)=1$. We can do slightly better by iterating over $\ap{(\varphi)}$. But, again $\ap{(\varphi)}$ can be PROP. In the worst case scenario, finding a such assignment of $\varphi$ can take exponential time with Algorithm~\ref{algo:checksat}.
+
+\emph{Can we do better?} We don't know.
+This is the fundamental question of our time, and this question has been at the heart of computer science ever since computer science has been a field.
+We do not know, for any given formula $\varphi$, does there exist an efficient (i.e. polynomial-time) algorithm which always finds an assignment
+over $\ap{(\varphi)}$ that evaluates $\varphi$ to be true, whenever it exists.
+
+However, we can still look for methods that run in a reasonable amount of time for most formulas, even though for some worst-case formulas they might take exponential amounts of time.
+
+\subsection{Resolution Refutation}
+\begin{definition}
+Resolution:  $(p \lor \alpha)\land (\lnot p \lor \beta) \iff (\alpha \lor \beta)$
+\end{definition}
+Let $\varphi = (p \lor \alpha)\land (\lnot p \lor \beta)$, and $\psi = (\alpha \lor \beta)$. Observe that $\varphi$ and $\psi$ are not equivalent, however $\varphi$ is satisfiable if and only if $\psi$ is satisfiable, formulas $\varphi$ and $\psi$ are called equisatisfiable formulas. The real benefit of resolution is if we somehow know that $(\alpha \lor \beta)$ is unsatisfiable then $(p \lor \alpha)\land (\lnot p \lor \beta)$ is also unsatisfiable.
+
+Now that, we are only interested in equisatisfiable formulas, let us again discuss the representation in CNF.
+
+If we are only interested in satisfiability of $\varphi$, then we can convert it to an equisatisfiable formula $\varphi_{\text{CNF}}$ in polynomial time.
+
+\begin{align*}
+\varphi &= ((y_1 \land y_2) \lor (y_3 \land y_4)) \lor (y_5 \land y_6)\\
+&\equiv (t_1 \implies (y_1 \land y_2)) \land (t_2 \implies (y_3 \land y_4)) \land (t_3 \implies (y_5 \land y_6)) \land (t_1 \lor t_2 \lor t_3)\\
+&\equiv (\lnot t_1 \lor y_1) \land (\lnot t_1 \lor y_2) \land (\lnot t_2 \lor y_3) \land (\lnot t_2 \lor y_4) \land (\lnot t_3 \lor y_5 ) \land (\lnot t_3 \lor y_6) \land (t_1 \lor t_2 \lor t_3)\\
+&\equiv \varphi_{\text{CNF}}
+\end{align*}
+
+The above transformation was proposed by Tseytin, and called as Tseytin transformation.
+\begin{theorem}
+	Every formula $\varphi$ can be represented to $\varphi_{\text{CNF}}$ in polynomial time such that $\varphi$ is satisfiable if and only if $\varphi_{\text{CNF}}$ is satisfiable.
+\end{theorem}
+
+Hence, we can determine whether $\varphi_{\text{CNF}}$ is satisfiable, then we know whether $\varphi$ is satisfiable. We are interested in CNF formula, as it directly give a method based on resolution to determine the satisfiability of formula.
+
+\begin{definition}
+	List of clauses $C_1, C_2,\ldots C_{t}$ is a \textbf{resolution refutation} of formula $\varphi_{\text{CNF}}$ if:
+	\begin{enumerate}
+		\item $C_t := \square$.
+		\item $C_k \in \varphi_{\text{CNF}}$ or $C_k$ is derived using resolution from $C_i, C_j$, where $i,j < k$.
+	\end{enumerate}
+\end{definition}
+
+\subsubsection{Power of Resolution Refutation}
+\begin{theorem}
+	\label{theorem:resolution_proof}
+	A formula $\varphi_{\text{CNF}}$ is refutable if and only if $\varphi_{\text{CNF}}$ is unsatisfiable.
+\end{theorem}
+\end{document}

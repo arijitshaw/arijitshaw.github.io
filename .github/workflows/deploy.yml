@@ -1,0 +1,62 @@
+name: Build LaTeX notes & publish to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "notes/**"
+      - "assets/**"
+      - "index.html"
+      - "Makefile"
+      - "scripts/**"
+      - ".github/workflows/deploy.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write        # deploy-pages needs this
+  id-token: write     # for OIDC
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install LaTeXML
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y latexml
+
+      - name: Build site
+        run: make
+
+      - name: Assemble publishable site
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          cp -r index.html assets .nojekyll _site/
+          cp -r build _site/
+          # If you add a CNAME file at repo root, copy it too:
+          if [ -f CNAME ]; then cp CNAME _site/; fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
