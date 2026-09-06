@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spiti Circuit &middot; Sept 2026</title>
+<meta name="description" content="Weather, road conditions and packing for the Shimla – Kinnaur – Kaza – Chandratal – Manali circuit, 16–24 September 2026.">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/classical-f8f64dfe-8466-474e-844c-beca58a723d3/styles.css">
+<script src="_ds/classical-f8f64dfe-8466-474e-844c-beca58a723d3/_ds_bundle.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{margin:0;background:var(--color-neutral-300)}
+summary::-webkit-details-marker{display:none}
+summary::marker{content:""}
+label:has(input:checked) .lbl{opacity:.4;text-decoration:line-through}
+details[open] .chev{transform:rotate(90deg)}
+a:hover{color:var(--color-accent-700)}
+</style>
+</helmet>
+<div ref="{{ setRoot }}" style="max-width:430px;margin:0 auto;min-height:100vh;background:var(--color-bg);border-inline:1px solid var(--color-divider);padding-bottom:var(--space-8)">
+
+<header style="padding:var(--space-8) var(--space-4) var(--space-4)">
+<div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--color-accent-700);font-variant-numeric:tabular-nums">Spiti Circuit &middot; Sept 2026</div>
+<h1 style="margin:var(--space-3) 0 0;font-weight:400;font-size:38px;line-height:1.04;letter-spacing:-0.02em">Spiti Circuit: Weather, Conditions and Packing</h1>
+<p style="margin:var(--space-4) 0 0;font-size:15px;line-height:1.5">Shimla &rarr; Kinnaur &rarr; Kaza &rarr; Chandratal &rarr; Manali</p>
+<p style="margin:var(--space-2) 0 0;font-size:13.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">16&ndash;24 September 2026 &nbsp;&bull;&nbsp; 2 adults, by car (Ertiga)</p>
+<hr class="hr" style="margin:var(--space-4) 0">
+<p style="margin:0;font-size:12.5px;color:var(--color-neutral-700)">Prepared for Arijit Shaw</p>
+<a class="btn btn-primary btn-block" href="https://www.google.com/maps/dir/Shimla/Sarahan,+Himachal+Pradesh/Chitkul/Kalpa,+Himachal+Pradesh/Tabo/Mud,+Pin+Valley/Kaza/Losar/Chandra+Taal/Manali" target="_blank" rel="noreferrer" style="margin-top:var(--space-4)">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+Open the route in Maps</a>
+</header>
+
+<nav style="position:sticky;top:0;z-index:9;background:var(--color-bg);border-block:1px solid var(--color-divider)">
+<div style="display:flex;gap:0;overflow-x:auto;padding:0 var(--space-3);scrollbar-width:none">
+<sc-for list="{{ navItems }}" as="n" hint-placeholder-count="5">
+<a href="{{ n.href }}" style="flex:none;padding:11px 10px;font-family:var(--font-heading);font-size:13px;letter-spacing:.04em;text-decoration:none;white-space:nowrap;color:{{ n.color }};border-bottom:2px solid {{ n.rule }}">{{ n.label }}</a>
+</sc-for>
+</div>
+</nav>
+
+<section id="s1" data-sec="s1" style="padding:var(--space-6) var(--space-4) var(--space-4);scroll-margin-top:46px">
+<div style="display:flex;align-items:baseline;gap:var(--space-2)">
+<span style="font-family:var(--font-heading);font-size:12px;color:var(--color-accent-700);font-variant-numeric:tabular-nums;letter-spacing:.1em">01</span>
+<h2 style="margin:0;font-weight:400;font-size:28px;line-height:1.08">Weather Report</h2>
+</div>
+<p style="margin:var(--space-4) 0 var(--space-3);font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">Two things dominate the weather on this route: <strong>altitude gain</strong> and the <strong>size of the day&ndash;night swing</strong>. The circuit is back-loaded for cold. The first four nights are mild; the last four get progressively colder, with the coldest night falling on the second-last day of the trip.</p>
+<p style="margin:0;font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">Expect a swing of 15&ndash;20 degrees between mid-afternoon and pre-dawn at every stop above 3,000&thinsp;m. In direct sun at midday you will often be comfortable in a t-shirt. Within an hour of sunset you will want everything you brought.</p>
+
+<h3 style="margin:var(--space-6) 0 0;font-weight:400;font-size:19px">Night halts, day by day</h3>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}">
+<div style="display:flex;justify-content:space-between;margin-top:var(--space-3);font-size:10px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);letter-spacing:.06em">
+<span>&minus;12&deg;</span><span>0&deg;</span><span>+26&deg;</span>
+</div>
+</sc-if>
+
+<div style="border-bottom:1px solid var(--color-divider)">
+<div style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:baseline;gap:9px">
+<span style="font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);width:46px;flex:none">16 Sep</span>
+<span style="font-family:var(--font-heading);font-size:19px">Sarahan</span>
+<span style="margin-left:auto;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">2,165&thinsp;m</span>
+</div>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}"><div style="position:relative;height:5px;background:var(--color-neutral-200);border-radius:var(--radius-sm)"><span style="position:absolute;top:0;bottom:0;left:31.6%;width:1px;background:var(--color-neutral-400)"></span><span style="position:absolute;top:0;bottom:0;left:52.6%;width:42.1%;background:var(--color-accent-300);border-radius:var(--radius-sm)"></span></div></sc-if>
+<div style="display:flex;align-items:baseline;gap:var(--space-4);font-size:12.5px;font-variant-numeric:tabular-nums">
+<span>Day <strong style="font-weight:600">20 to 24&thinsp;&deg;C</strong></span>
+<span>Night <strong style="font-weight:600">8 to 12&thinsp;&deg;C</strong></span>
+<sc-if value="{{ maps }}" hint-placeholder-val="{{ true }}"><a href="https://www.google.com/maps/search/?api=1&amp;query=Sarahan+Himachal+Pradesh" target="_blank" rel="noreferrer" style="margin-left:auto;font-size:11.5px;text-decoration:none">Directions</a></sc-if>
+</div>
+</div>
+
+<div style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:baseline;gap:9px">
+<span style="font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);width:46px;flex:none">17 Sep</span>
+<span style="font-family:var(--font-heading);font-size:19px">Chitkul</span>
+<span style="margin-left:auto;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">3,450&thinsp;m</span>
+</div>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}"><div style="position:relative;height:5px;background:var(--color-neutral-200);border-radius:var(--radius-sm)"><span style="position:absolute;top:0;bottom:0;left:31.6%;width:1px;background:var(--color-neutral-400)"></span><span style="position:absolute;top:0;bottom:0;left:31.6%;width:42.1%;background:var(--color-accent-300);border-radius:var(--radius-sm)"></span></div></sc-if>
+<div style="display:flex;align-items:baseline;gap:var(--space-4);font-size:12.5px;font-variant-numeric:tabular-nums">
+<span>Day <strong style="font-weight:600">12 to 16&thinsp;&deg;C</strong></span>
+<span>Night <strong style="font-weight:600">0 to 4&thinsp;&deg;C</strong></span>
+<sc-if value="{{ maps }}" hint-placeholder-val="{{ true }}"><a href="https://www.google.com/maps/search/?api=1&amp;query=Chitkul+Himachal+Pradesh" target="_blank" rel="noreferrer" style="margin-left:auto;font-size:11.5px;text-decoration:none">Directions</a></sc-if>
+</div>
+</div>
+
+<div style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:baseline;gap:9px">
+<span style="font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);width:46px;flex:none">18 Sep</span>
+<span style="font-family:var(--font-heading);font-size:19px">Kalpa</span>
+<span style="margin-left:auto;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">2,960&thinsp;m</span>
+</div>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}"><div style="position:relative;height:5px;background:var(--color-neutral-200);border-radius:var(--radius-sm)"><span style="position:absolute;top:0;bottom:0;left:31.6%;width:1px;background:var(--color-neutral-400)"></span><span style="position:absolute;top:0;bottom:0;left:44.7%;width:39.5%;background:var(--color-accent-300);border-radius:var(--radius-sm)"></span></div></sc-if>
+<div style="display:flex;align-items:baseline;gap:var(--space-4);font-size:12.5px;font-variant-numeric:tabular-nums">
+<span>Day <strong style="font-weight:600">16 to 20&thinsp;&deg;C</strong></span>
+<span>Night <strong style="font-weight:600">5 to 9&thinsp;&deg;C</strong></span>
+<sc-if value="{{ maps }}" hint-placeholder-val="{{ true }}"><a href="https://www.google.com/maps/search/?api=1&amp;query=Kalpa+Himachal+Pradesh" target="_blank" rel="noreferrer" style="margin-left:auto;font-size:11.5px;text-decoration:none">Directions</a></sc-if>
+</div>
+</div>
+
+<div style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:baseline;gap:9px">
+<span style="font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);width:46px;flex:none">19 Sep</span>
+<span style="font-family:var(--font-heading);font-size:19px">Tabo</span>
+<span style="margin-left:auto;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">3,280&thinsp;m</span>
+</div>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}"><div style="position:relative;height:5px;background:var(--color-neutral-200);border-radius:var(--radius-sm)"><span style="position:absolute;top:0;bottom:0;left:31.6%;width:1px;background:var(--color-neutral-400)"></span><span style="position:absolute;top:0;bottom:0;left:31.6%;width:50%;background:var(--color-accent-300);border-radius:var(--radius-sm)"></span></div></sc-if>
+<div style="display:flex;align-items:baseline;gap:var(--space-4);font-size:12.5px;font-variant-numeric:tabular-nums">
+<span>Day <strong style="font-weight:600">15 to 19&thinsp;&deg;C</strong></span>
+<span>Night <strong style="font-weight:600">0 to 4&thinsp;&deg;C</strong></span>
+<sc-if value="{{ maps }}" hint-placeholder-val="{{ true }}"><a href="https://www.google.com/maps/search/?api=1&amp;query=Tabo+Spiti" target="_blank" rel="noreferrer" style="margin-left:auto;font-size:11.5px;text-decoration:none">Directions</a></sc-if>
+</div>
+</div>
+
+<div style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:baseline;gap:9px">
+<span style="font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);width:46px;flex:none">20 Sep</span>
+<span style="font-family:var(--font-heading);font-size:19px">Mud, Pin Valley</span>
+<span style="margin-left:auto;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">3,800&thinsp;m</span>
+</div>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}"><div style="position:relative;height:5px;background:var(--color-neutral-200);border-radius:var(--radius-sm)"><span style="position:absolute;top:0;bottom:0;left:31.6%;width:1px;background:var(--color-neutral-400)"></span><span style="position:absolute;top:0;bottom:0;left:21.1%;width:52.6%;background:var(--color-accent-300);border-radius:var(--radius-sm)"></span></div></sc-if>
+<div style="display:flex;align-items:baseline;gap:var(--space-4);font-size:12.5px;font-variant-numeric:tabular-nums">
+<span>Day <strong style="font-weight:600">12 to 16&thinsp;&deg;C</strong></span>
+<span>Night <strong style="font-weight:600">&minus;1 to &minus;4&thinsp;&deg;C</strong></span>
+<sc-if value="{{ maps }}" hint-placeholder-val="{{ true }}"><a href="https://www.google.com/maps/search/?api=1&amp;query=Mudh+Pin+Valley+Spiti" target="_blank" rel="noreferrer" style="margin-left:auto;font-size:11.5px;text-decoration:none">Directions</a></sc-if>
+</div>
+</div>
+
+<div style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:baseline;gap:9px">
+<span style="font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);width:46px;flex:none">21 Sep</span>
+<span style="font-family:var(--font-heading);font-size:19px">Kaza</span>
+<span style="margin-left:auto;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">3,650&thinsp;m</span>
+</div>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}"><div style="position:relative;height:5px;background:var(--color-neutral-200);border-radius:var(--radius-sm)"><span style="position:absolute;top:0;bottom:0;left:31.6%;width:1px;background:var(--color-neutral-400)"></span><span style="position:absolute;top:0;bottom:0;left:15.8%;width:63.2%;background:var(--color-accent-300);border-radius:var(--radius-sm)"></span></div></sc-if>
+<div style="display:flex;align-items:baseline;gap:var(--space-4);font-size:12.5px;font-variant-numeric:tabular-nums">
+<span>Day <strong style="font-weight:600">12 to 18&thinsp;&deg;C</strong></span>
+<span>Night <strong style="font-weight:600">&minus;2 to &minus;6&thinsp;&deg;C</strong></span>
+<sc-if value="{{ maps }}" hint-placeholder-val="{{ true }}"><a href="https://www.google.com/maps/search/?api=1&amp;query=Kaza+Spiti" target="_blank" rel="noreferrer" style="margin-left:auto;font-size:11.5px;text-decoration:none">Directions</a></sc-if>
+</div>
+</div>
+
+<div style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:baseline;gap:9px">
+<span style="font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);width:46px;flex:none">22 Sep</span>
+<span style="font-family:var(--font-heading);font-size:19px">Losar</span>
+<span style="margin-left:auto;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">4,085&thinsp;m</span>
+</div>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}"><div style="position:relative;height:5px;background:var(--color-neutral-200);border-radius:var(--radius-sm)"><span style="position:absolute;top:0;bottom:0;left:31.6%;width:1px;background:var(--color-neutral-400)"></span><span style="position:absolute;top:0;bottom:0;left:10.5%;width:57.9%;background:var(--color-accent-300);border-radius:var(--radius-sm)"></span></div></sc-if>
+<div style="display:flex;align-items:baseline;gap:var(--space-4);font-size:12.5px;font-variant-numeric:tabular-nums">
+<span>Day <strong style="font-weight:600">10 to 14&thinsp;&deg;C</strong></span>
+<span>Night <strong style="font-weight:600">&minus;4 to &minus;8&thinsp;&deg;C</strong></span>
+<sc-if value="{{ maps }}" hint-placeholder-val="{{ true }}"><a href="https://www.google.com/maps/search/?api=1&amp;query=Losar+Spiti" target="_blank" rel="noreferrer" style="margin-left:auto;font-size:11.5px;text-decoration:none">Directions</a></sc-if>
+</div>
+</div>
+
+<div style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;display:flex;flex-direction:column;gap:9px">
+<div style="display:flex;align-items:baseline;gap:9px">
+<span style="font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-600);width:46px;flex:none">23 Sep</span>
+<span style="font-family:var(--font-heading);font-size:19px">Chandratal <span style="font-size:13px;color:var(--color-neutral-700)">(camp)</span></span>
+<span style="margin-left:auto;font-size:11.5px;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">4,337&thinsp;m</span>
+</div>
+<sc-if value="{{ bars }}" hint-placeholder-val="{{ true }}"><div style="position:relative;height:5px;background:var(--color-neutral-200);border-radius:var(--radius-sm)"><span style="position:absolute;top:0;bottom:0;left:31.6%;width:1px;background:var(--color-neutral-400)"></span><span style="position:absolute;top:0;bottom:0;left:5.3%;width:63.2%;background:var(--color-accent-300);border-radius:var(--radius-sm)"></span></div></sc-if>
+<div style="display:flex;align-items:baseline;gap:var(--space-4);font-size:12.5px;font-variant-numeric:tabular-nums">
+<span>Day <strong style="font-weight:600">8 to 14&thinsp;&deg;C</strong></span>
+<span>Night <strong style="font-weight:600">&minus;5 to &minus;10&thinsp;&deg;C</strong></span>
+<sc-if value="{{ maps }}" hint-placeholder-val="{{ true }}"><a href="https://www.google.com/maps/search/?api=1&amp;query=Chandra+Taal" target="_blank" rel="noreferrer" style="margin-left:auto;font-size:11.5px;text-decoration:none">Directions</a></sc-if>
+</div>
+</div>
+</div>
+
+<h3 style="margin:var(--space-6) 0 var(--space-2);font-weight:400;font-size:19px">Daytime high points (no overnight stay)</h3>
+<p style="margin:0 0 var(--space-3);font-size:14px;line-height:1.6;color:var(--color-neutral-800)">These are stops where you are exposed for an hour or two in the middle of the day. Temperature is less of an issue than wind.</p>
+<div style="display:flex;flex-direction:column;gap:var(--space-2)">
+<div class="card"><div style="display:flex;align-items:baseline;gap:8px"><span class="card-kicker">Day 6</span><span class="card-title" style="margin-left:auto;font-variant-numeric:tabular-nums;font-size:14px;color:var(--color-neutral-700)">4,587&thinsp;m</span></div><div class="card-title">Komic</div><p class="card-body" style="opacity:.9">Highest daytime exposure of the trip. Cold and windy even at noon.</p></div>
+<div class="card"><div style="display:flex;align-items:baseline;gap:8px"><span class="card-kicker">Day 6</span><span class="card-title" style="margin-left:auto;font-variant-numeric:tabular-nums;font-size:14px;color:var(--color-neutral-700)">c. 4,400&thinsp;m</span></div><div class="card-title">Hikkim / Langza</div><p class="card-body" style="opacity:.9">Around 4,400&thinsp;m. Open, exposed, little shelter.</p></div>
+<div class="card"><div style="display:flex;align-items:baseline;gap:8px"><span class="card-kicker">Day 7</span><span class="card-title" style="margin-left:auto;font-variant-numeric:tabular-nums;font-size:14px;color:var(--color-neutral-700)">c. 4,270&thinsp;m</span></div><div class="card-title">Kibber / Chicham</div><p class="card-body" style="opacity:.9">Around 4,270&thinsp;m. Bridge crossing is very exposed to wind.</p></div>
+<div class="card"><div style="display:flex;align-items:baseline;gap:8px"><span class="card-kicker">Day 8</span><span class="card-title" style="margin-left:auto;font-variant-numeric:tabular-nums;font-size:14px;color:var(--color-neutral-700)">4,590&thinsp;m</span></div><div class="card-title">Kunzum La</div><p class="card-body" style="opacity:.9">4,590&thinsp;m. Wind is constant. First snow of the season typically arrives here in late September or early October.</p></div>
+</div>
+
+<h3 style="margin:var(--space-6) 0 var(--space-3);font-weight:400;font-size:19px">Caveats on these numbers</h3>
+<ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:var(--space-3)">
+<li style="border-left:1px solid var(--color-accent-300);padding-left:var(--space-3);font-size:14px;line-height:1.62"><strong>Sources disagree by several degrees.</strong> Long-run climate records for Kaza give mid-September lows near &minus;4.5&thinsp;&deg;C and month-end lows near &minus;8.4&thinsp;&deg;C. Live forecasts in early September 2026 have been running 4&ndash;6 degrees warmer than that. The figures above lean towards the colder end deliberately. It costs nothing to carry a warm layer you do not use.</li>
+<li style="border-left:1px solid var(--color-accent-300);padding-left:var(--space-3);font-size:14px;line-height:1.62"><strong>Late September falls off a cliff.</strong> The 22nd to 24th is a different trip from the 16th to 18th. Do not calibrate your packing on how the first three days feel.</li>
+<li style="border-left:1px solid var(--color-accent-300);padding-left:var(--space-3);font-size:14px;line-height:1.62"><strong>Wind chill is not in these numbers.</strong> At Kunzum, Chandratal and Komic the felt temperature is well below the reading.</li>
+<li style="border-left:1px solid var(--color-accent-300);padding-left:var(--space-3);font-size:14px;line-height:1.62"><strong>The Kinnaur leg can be wet.</strong> Sarahan, Chitkul and Kalpa still catch rain in mid-September. From Tabo onwards the air turns dry and rain is unlikely.</li>
+</ul>
+</section>
+
+<section id="s2" data-sec="s2" style="padding:var(--space-6) var(--space-4) var(--space-4);border-top:1px solid var(--color-divider);scroll-margin-top:46px">
+<div style="display:flex;align-items:baseline;gap:var(--space-2)">
+<span style="font-family:var(--font-heading);font-size:12px;color:var(--color-accent-700);font-variant-numeric:tabular-nums;letter-spacing:.1em">02</span>
+<h2 style="margin:0;font-weight:400;font-size:28px;line-height:1.08">What Travellers and Operators Say</h2>
+</div>
+<p style="margin:var(--space-4) 0 var(--space-4);font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">Drawn from trip reports, long-running Spiti travel blogs and tour operators who run this route every season. A few themes come up again and again.</p>
+<ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column">
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>September is widely called the sweet spot.</strong> The monsoon has passed, skies are at their clearest, the crowds thin out and the photography is the best of the year. The cold nights are the accepted trade-off.</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>Under-packing is the single most common regret.</strong> Operators repeat that even in July the nights are cold, and that by September it is properly freezing after dark. Nobody reports regretting the extra jacket.</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>Wind is what people actually complain about, not temperature.</strong> The consistent advice is a hood that protects neck, head, ears and face, or a cap and muffler if your jacket has none. At Chandratal the wind comes off the surrounding glaciers and is more or less constant.</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>Layers beat one heavy jacket.</strong> Thermal base, fleece middle, windproof shell on top. This handles the swing from a warm afternoon to a freezing night far better than a single thick coat, and it is easier to manage on short walks.</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>Cotton is the wrong material.</strong> It traps moisture and makes the cold worse. This applies to the hoodie most people default to.</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>Losar is described everywhere as the coldest place in Spiti.</strong> It sits at the foot of Kunzum, and the homestays there have essentially no heating.</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>Chandratal is basic and people underestimate it.</strong> No mobile network, no charging, no hot shower. Camps are set back from the lake, which is a protected Ramsar site, so there is a walk involved.</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>Black ice is a late-September hazard.</strong> Overnight moisture freezes into an invisible sheet on the road. The standard advice from people who drive this route is to wait for the sun to come up before setting off, particularly in the last week of September.</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>The camps are still in season on your dates.</strong> Chandratal camps typically run until around 10&ndash;15 October. In 2025 they closed on roughly 11 October after snow at Kunzum. Your 23 September night sits comfortably inside the operating window.</li>
+<li style="border-block:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><strong>Coming up through Kinnaur is the kinder route.</strong> Gaining altitude over five days is far easier on the body than entering abruptly from Manali through the Atal Tunnel. Your itinerary does this correctly.</li>
+</ul>
+</section>
+
+<section id="s3" data-sec="s3" style="padding:var(--space-6) var(--space-4) var(--space-4);border-top:1px solid var(--color-divider);scroll-margin-top:46px">
+<div style="display:flex;align-items:baseline;gap:var(--space-2)">
+<span style="font-family:var(--font-heading);font-size:12px;color:var(--color-accent-700);font-variant-numeric:tabular-nums;letter-spacing:.1em">03</span>
+<h2 style="margin:0;font-weight:400;font-size:28px;line-height:1.08">What the Trip Will Likely Feel Like</h2>
+</div>
+
+<div style="margin-top:var(--space-6)">
+<div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);font-variant-numeric:tabular-nums">Phase 1 &middot; Days 1&ndash;3 &middot; 16&ndash;18 Sep</div>
+<h3 style="margin:var(--space-2) 0 var(--space-3);font-weight:400;font-size:23px">Shimla to Kalpa</h3>
+<p style="margin:0 0 var(--space-3);font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">Green, forested and humid. This feels like a normal Himalayan hill trip, not a high-altitude one. Sarahan is mild enough that you will privately conclude you have over-packed. Chitkul is the first real jolt: at 3,450&thinsp;m it is windy, damp and considerably colder than anything before it, and the night there is a preview of what is coming.</p>
+<p style="margin:0;font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">The genuine risk in this phase is not the weather but the road. NH-5 through Kinnaur is a chronic landslide zone around Nigulsari and Chaura, with no alternate route into the district. The 2026 monsoon has been severe across Himachal, though the worst-hit districts have been Mandi and Kullu rather than Kinnaur, and the monsoon is expected to weaken.</p>
+</div>
+
+<hr class="hr" style="margin:var(--space-6) 0">
+
+<div>
+<div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);font-variant-numeric:tabular-nums">Phase 2 &middot; Days 4&ndash;6 &middot; 19&ndash;21 Sep</div>
+<h3 style="margin:var(--space-2) 0 var(--space-3);font-weight:400;font-size:23px">Tabo to Kaza</h3>
+<p style="margin:0 0 var(--space-3);font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">The landscape flips. Somewhere past Nako the green disappears and you are in cold desert: brown, ochre and grey, enormous scale, almost no vegetation. The air turns very dry. Expect cracked lips, a dry nose and possibly a mild headache. Drink far more water than feels necessary.</p>
+<p style="margin:0 0 var(--space-3);font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">The sun becomes deceptive here. Midday in direct sunlight is warm enough for a t-shirt while the ambient temperature is 12&ndash;15&thinsp;&deg;C, and the UV is strong enough to burn in under an hour. Nights start biting properly from Tabo onwards.</p>
+<p style="margin:0;font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">Day 6 is your highest daytime exposure of the trip, with Langza, Hikkim and Komic all above 4,400&thinsp;m. Some breathlessness on short uphill walks and a poor first night's sleep in Kaza are normal at this altitude and usually pass.</p>
+</div>
+
+<hr class="hr" style="margin:var(--space-6) 0">
+
+<div>
+<div style="font-family:var(--font-heading);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--color-accent-700);font-variant-numeric:tabular-nums">Phase 3 &middot; Days 7&ndash;9 &middot; 22&ndash;24 Sep</div>
+<h3 style="margin:var(--space-2) 0 var(--space-3);font-weight:400;font-size:23px">Losar to Chandratal to Manali</h3>
+<p style="margin:0 0 var(--space-3);font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">The hard part. Losar is bleak, beautiful and genuinely cold, and the homestay will be unheated. Kunzum Top on Day 8 is windy and exposed, with a real chance of the season's first snow on the surrounding peaks.</p>
+<p style="margin:0 0 var(--space-3);font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">The Chandratal night is the one everything is packed for. Sub-zero, windy, no electricity, no network, tents rather than walls. Sunset to sunrise is roughly twelve hours in the cold. It is also, by common agreement, the best night of the trip: the stargazing at 4,337&thinsp;m with no light pollution is the reason people do this route in September rather than July.</p>
+<p style="margin:0;font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">Day 9 then drops roughly 3,000&thinsp;m from Chandratal to Manali in a single day. Manali will feel tropical by comparison and you will be peeling layers off from Koksar onwards.</p>
+</div>
+
+<h3 style="margin:var(--space-6) 0 var(--space-3);font-weight:400;font-size:19px">Two practical realities</h3>
+<ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:var(--space-3)">
+<li style="border-left:1px solid var(--color-accent-300);padding-left:var(--space-3);font-size:14px;line-height:1.62"><strong>You will change clothes three or four times a day.</strong> This is normal and is the whole reason for layering. Keep the warm layers accessible in the cabin rather than in the boot.</li>
+<li style="border-left:1px solid var(--color-accent-300);padding-left:var(--space-3);font-size:14px;line-height:1.62"><strong>Sweat is what makes you cold at night</strong>, not the air temperature. Change into dry thermals before bed at Losar and Chandratal even if you do not feel damp.</li>
+</ul>
+</section>
+
+<section id="s4" data-sec="s4" style="padding:var(--space-6) var(--space-4) var(--space-4);border-top:1px solid var(--color-divider);scroll-margin-top:46px">
+<div style="display:flex;align-items:baseline;gap:var(--space-2)">
+<span style="font-family:var(--font-heading);font-size:12px;color:var(--color-accent-700);font-variant-numeric:tabular-nums;letter-spacing:.1em">04</span>
+<h2 style="margin:0;font-weight:400;font-size:28px;line-height:1.08">What to Pack</h2>
+</div>
+<p style="margin:var(--space-4) 0 var(--space-4);font-size:15px;line-height:1.68;text-align:justify;hyphens:auto">Quantities are per person for nine days. Luggage space in an Ertiga with two travellers is not a constraint, so carry the warm gear rather than trimming it. Use soft duffels rather than hard suitcases.</p>
+
+<div style="display:flex;align-items:baseline;gap:var(--space-3);padding:var(--space-2) 0 var(--space-1)">
+<span style="font-size:12px;letter-spacing:.06em;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">{{ done }} of {{ total }} packed</span>
+<button type="button" onClick="{{ clearAll }}" class="btn btn-ghost" style="margin-left:auto;font-size:12px">Reset list</button>
+</div>
+<div style="height:3px;background:var(--color-neutral-200);border-radius:var(--radius-sm);margin-bottom:var(--space-2)"><div style="height:3px;width:{{ pct }};background:var(--color-accent);border-radius:var(--radius-sm);transition:width .25s ease"></div></div>
+
+<div onChange="{{ onPack }}" onClick="{{ onAddClick }}">
+<details open style="border-top:1px solid var(--color-divider)">
+<summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;padding:var(--space-3) 0;font-family:var(--font-heading);font-size:19px">
+<svg class="chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;transition:transform .2s ease"><path d="m9 18 6-6-6-6"></path></svg>
+Clothing &mdash; layers</summary>
+<ul style="margin:0;padding:0 0 var(--space-3) 22px;list-style:none">
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="c1" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">2 sets thermals (merino or synthetic), top and bottom &mdash; keep one set dry and sleep-only</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="c2" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">1 mid-weight fleece</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="c3" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">1 hooded down jacket, comfort rating around &minus;10&thinsp;&deg;C &mdash; the most important single item</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="c4" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">1 windproof, water-resistant shell</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="c5" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">2 quick-dry trekking pants</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="c6" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">3&ndash;4 t-shirts (days are genuinely warm in the sun)</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="c7" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">1 pair jeans or casuals for Shimla, Kalpa and Manali</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="c8" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Innerwear for the full trip; laundry will not be possible</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+</ul>
+</details>
+
+<details style="border-top:1px solid var(--color-divider)">
+<summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;padding:var(--space-3) 0;font-family:var(--font-heading);font-size:19px">
+<svg class="chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;transition:transform .2s ease"><path d="m9 18 6-6-6-6"></path></svg>
+Extremities</summary>
+<ul style="margin:0;padding:0 0 var(--space-3) 22px;list-style:none">
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="e1" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Wool beanie that covers the ears</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="e2" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Buff or balaclava &mdash; doubles as dust protection on the Kinnaur road</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="e3" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Two pairs of gloves: thin touchscreen liners plus insulated outers</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="e4" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">5 pairs wool socks</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="e5" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Disposable hand warmers &mdash; cheap, and worth it at Chandratal</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+</ul>
+</details>
+
+<details style="border-top:1px solid var(--color-divider)">
+<summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;padding:var(--space-3) 0;font-family:var(--font-heading);font-size:19px">
+<svg class="chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;transition:transform .2s ease"><path d="m9 18 6-6-6-6"></path></svg>
+Footwear</summary>
+<ul style="margin:0;padding:0 0 var(--space-3) 22px;list-style:none">
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="f1" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Waterproof trekking shoes with ankle support and grip (stream crossings near Kunzum and Batal)</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="f2" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Slippers or floaters for homestays</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="f3" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">One spare pair of dry shoes</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+</ul>
+</details>
+
+<details style="border-top:1px solid var(--color-divider)">
+<summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;padding:var(--space-3) 0;font-family:var(--font-heading);font-size:19px">
+<svg class="chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;transition:transform .2s ease"><path d="m9 18 6-6-6-6"></path></svg>
+Sun and skin</summary>
+<ul style="margin:0;padding:0 0 var(--space-3) 22px;list-style:none">
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="s1" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Wraparound UV400 sunglasses, plus a spare if you wear prescription lenses</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="s2" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Sunscreen SPF 50+</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="s3" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Two lip balms with SPF (you will lose one)</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="s4" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Heavy moisturiser or cold cream</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="s5" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Cap or sun hat for daytime</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+</ul>
+</details>
+
+<details style="border-top:1px solid var(--color-divider)">
+<summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;padding:var(--space-3) 0;font-family:var(--font-heading);font-size:19px">
+<svg class="chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;transition:transform .2s ease"><path d="m9 18 6-6-6-6"></path></svg>
+Health</summary>
+<ul style="margin:0;padding:0 0 var(--space-3) 22px;list-style:none">
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="h1" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Personal medication plus a copy of any prescription</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="h2" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Speak to your doctor about Diamox <em>before</em> leaving &mdash; it must be started ahead of the altitude gain</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="h3" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Paracetamol, ORS or electrolyte sachets, anti-nausea, anti-diarrhoeal, basic first aid</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="h4" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Reusable water bottle &mdash; drink 3&ndash;4 litres daily</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="h5" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Thermos flask</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="h6" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Dry fruits and energy bars</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+</ul>
+</details>
+
+<details style="border-block:1px solid var(--color-divider)">
+<summary style="list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;padding:var(--space-3) 0;font-family:var(--font-heading);font-size:19px">
+<svg class="chev" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--color-accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;transition:transform .2s ease"><path d="m9 18 6-6-6-6"></path></svg>
+Practical</summary>
+<ul style="margin:0;padding:0 0 var(--space-3) 22px;list-style:none">
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="p1" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">20,000&thinsp;mAh power bank (no charging at Chandratal, unreliable elsewhere)</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="p2" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Headlamp or torch</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="p3" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Offline maps downloaded before leaving Shimla</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="p4" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Cash &mdash; ATMs are unreliable past Reckong Peo and often empty in Kaza</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="p5" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Photo ID for both travellers (explicitly required by the operator)</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="p6" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Wet wipes, tissues, hand sanitiser</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+<li style="display:flex;align-items:flex-start;gap:6px"><label style="flex:1;display:flex;gap:11px;align-items:flex-start;padding:11px 0;cursor:pointer;font-size:14px;line-height:1.5"><input type="checkbox" data-k="p7" style="width:17px;height:17px;margin:2px 0 0;flex:none;accent-color:var(--color-accent)"><span class="lbl">Hot water bottle &mdash; optional, but excellent at Losar and Chandratal</span></label><button type="button" data-add="1" title="Add to shopping list" style="flex:none;margin-top:8px;width:26px;height:26px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid var(--color-divider);border-radius:var(--radius-md);color:var(--color-accent);font-family:var(--font-heading);font-size:15px;line-height:1;cursor:pointer">+</button></li>
+</ul>
+</details>
+</div>
+
+<div style="margin-top:var(--space-6);border:1px solid var(--color-accent-300);border-radius:var(--radius-md);padding:var(--space-3)">
+<h3 style="margin:0 0 var(--space-2);font-weight:400;font-size:19px">Keep in the cabin, not the boot</h3>
+<p style="margin:0;font-size:14px;line-height:1.62">Down jacket, gloves, beanie, buff, thermos. You will want these at Komic and Hikkim on Day 6, at Kunzum Top on Day 8, and at every photo stop above 4,000&thinsp;m.</p>
+</div>
+
+<h3 style="margin:var(--space-6) 0 var(--space-2);font-weight:400;font-size:19px">Leave behind</h3>
+<ul style="margin:0;padding:0;list-style:none">
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62;color:var(--color-neutral-700)">Insulated snow boots &mdash; overkill for September</li>
+<li style="border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62;color:var(--color-neutral-700)">Umbrella &mdash; the wind makes it useless; a hood works better</li>
+<li style="border-block:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62;color:var(--color-neutral-700)">Your own sleeping bag, <em>if</em> Sakya Camps confirms theirs is rated to &minus;10&thinsp;&deg;C</li>
+</ul>
+</section>
+
+<section id="s5" data-sec="s5" style="padding:var(--space-6) var(--space-4) var(--space-4);border-top:1px solid var(--color-divider);background:var(--color-neutral-100);scroll-margin-top:46px">
+<h2 style="margin:0;font-weight:400;font-size:25px;line-height:1.1">Before you leave: five things to confirm with the operator</h2>
+<ol style="margin:var(--space-4) 0 0;padding:0;list-style:none;counter-reset:cf">
+<li style="counter-increment:cf;display:flex;gap:var(--space-3);border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><span style="font-family:var(--font-heading);color:var(--color-accent-700);font-variant-numeric:tabular-nums;flex:none;width:18px">1</span><span>That Sakya Camps is operating on 23 September, and the temperature rating of their sleeping bags.</span></li>
+<li style="counter-increment:cf;display:flex;gap:var(--space-3);border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><span style="font-family:var(--font-heading);color:var(--color-accent-700);font-variant-numeric:tabular-nums;flex:none;width:18px">2</span><span>What &ldquo;heater charges extra&rdquo; covers at Losar and Chandratal, so there are no surprises.</span></li>
+<li style="counter-increment:cf;display:flex;gap:var(--space-3);border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><span style="font-family:var(--font-heading);color:var(--color-accent-700);font-variant-numeric:tabular-nums;flex:none;width:18px">3</span><span>Whether there are current reports of a washout near Chicham Bridge on the Kaza&ndash;Losar stretch (your Day 7).</span></li>
+<li style="counter-increment:cf;display:flex;gap:var(--space-3);border-top:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><span style="font-family:var(--font-heading);color:var(--color-accent-700);font-variant-numeric:tabular-nums;flex:none;width:18px">4</span><span>Agreement that you will not start before sunrise on the 23rd and 24th, because of black ice.</span></li>
+<li style="counter-increment:cf;display:flex;gap:var(--space-3);border-block:1px solid var(--color-divider);padding:var(--space-3) 0;font-size:14px;line-height:1.62"><span style="font-family:var(--font-heading);color:var(--color-accent-700);font-variant-numeric:tabular-nums;flex:none;width:18px">5</span><span>The fallback plan if Kunzum La closes with early snow after Day 7. Low probability on these dates, but it would mean backtracking the entire Kinnaur route to Shimla and would change your onward travel from Manali.</span></li>
+</ol>
+<p style="margin:var(--space-6) 0 0;text-align:center;font-size:12px;line-height:1.6;color:var(--color-neutral-700)">Compiled 6 September 2026. Verify road status and camp operation close to departure.</p>
+</section>
+
+<section id="s6" data-sec="s6" style="padding:var(--space-6) var(--space-4) var(--space-8);border-top:1px solid var(--color-divider);scroll-margin-top:46px">
+<div style="display:flex;align-items:baseline;gap:var(--space-2)">
+<span style="font-family:var(--font-heading);font-size:12px;color:var(--color-accent-700);font-variant-numeric:tabular-nums;letter-spacing:.1em">05</span>
+<h2 style="margin:0;font-weight:400;font-size:28px;line-height:1.08">Shopping List</h2>
+</div>
+<p style="margin:var(--space-3) 0 var(--space-4);font-size:14px;line-height:1.6;color:var(--color-neutral-700)">What still needs buying before the 16th. Type an item below, or tap the <span style="color:var(--color-accent)">+</span> beside anything in the packing list to send it here.</p>
+
+<form onSubmit="{{ onAdd }}" style="display:flex;gap:var(--space-2);align-items:stretch">
+<input class="input" ref="{{ setInput }}" placeholder="Add an item&hellip;" aria-label="Add an item" style="flex:1;min-height:40px">
+<button type="submit" class="btn btn-primary" style="flex:none">Add</button>
+</form>
+
+<div style="display:flex;align-items:baseline;gap:var(--space-2);padding:var(--space-4) 0 var(--space-2)">
+<span style="font-size:12px;letter-spacing:.06em;font-variant-numeric:tabular-nums;color:var(--color-neutral-700)">{{ shopLine }}</span>
+<button type="button" onClick="{{ clearBought }}" class="btn btn-ghost" style="margin-left:auto;font-size:12px">Clear bought</button>
+</div>
+
+<sc-if value="{{ shopEmpty }}" hint-placeholder-val="{{ false }}">
+<p style="margin:0;border-block:1px solid var(--color-divider);padding:var(--space-6) 0;text-align:center;font-size:13.5px;font-style:italic;color:var(--color-neutral-600)">Nothing on the list yet.</p>
+</sc-if>
+
+<ul style="margin:0;padding:0;list-style:none">
+<sc-for list="{{ shop }}" as="it" hint-placeholder-count="0">
+<li style="display:flex;align-items:flex-start;gap:10px;border-top:1px solid var(--color-divider);padding:var(--space-3) 0">
+<button type="button" onClick="{{ it.toggle }}" aria-pressed="{{ it.bought }}" style="flex:none;margin-top:1px;width:19px;height:19px;padding:0;display:grid;place-items:center;background:transparent;border:1px solid {{ it.boxBorder }};border-radius:var(--radius-sm);color:var(--color-accent);cursor:pointer">{{ it.mark }}</button>
+<span style="flex:1;font-size:14px;line-height:1.5;opacity:{{ it.opacity }};text-decoration:{{ it.strike }}">{{ it.text }}</span>
+<button type="button" onClick="{{ it.remove }}" title="Remove" style="flex:none;width:24px;height:24px;padding:0;display:grid;place-items:center;background:transparent;border:0;color:var(--color-neutral-600);font-size:15px;line-height:1;cursor:pointer">&times;</button>
+</li>
+</sc-for>
+</ul>
+</section>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;$preview&quot;:{&quot;width&quot;:430,&quot;height&quot;:900},&quot;showTempBars&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Weather&quot;},&quot;showMapLinks&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Weather&quot;}}">
+class Component extends DCLogic {
+  state = { done: 0, total: 0, sec: 's1', shop: [] };
+
+  componentDidMount() {
+    this.count(true);
+    this.spy();
+    let shop = [];
+    try { shop = JSON.parse(localStorage.getItem('spiti-shop-v1') || '[]'); } catch (e) {}
+    if (Array.isArray(shop) && shop.length) this.setState({ shop: shop });
+  }
+
+  setShop(next) {
+    this.setState({ shop: next });
+    try { localStorage.setItem('spiti-shop-v1', JSON.stringify(next)); } catch (e) {}
+  }
+  addItem(text) {
+    const t = (text || '').trim();
+    if (!t) return;
+    const has = this.state.shop.some(i => i.text.toLowerCase() === t.toLowerCase());
+    if (has) return;
+    this.setShop(this.state.shop.concat([{ id: 'i' + Date.now() + Math.random().toString(36).slice(2, 6), text: t, bought: false }]));
+  }
+  componentWillUnmount() { if (this.io) this.io.disconnect(); }
+
+  boxes() {
+    return this.root ? Array.from(this.root.querySelectorAll('input[data-k]')) : [];
+  }
+  count(restore) {
+    const bs = this.boxes();
+    if (restore) {
+      let saved = {};
+      try { saved = JSON.parse(localStorage.getItem('spiti-pack-v1') || '{}'); } catch (e) {}
+      bs.forEach(b => { if (saved[b.dataset.k]) b.checked = true; });
+    }
+    this.setState({ done: bs.filter(b => b.checked).length, total: bs.length });
+  }
+  save() {
+    const m = {};
+    this.boxes().forEach(b => { if (b.checked) m[b.dataset.k] = 1; });
+    try { localStorage.setItem('spiti-pack-v1', JSON.stringify(m)); } catch (e) {}
+  }
+  spy() {
+    if (!window.IntersectionObserver) return;
+    const secs = this.root ? Array.from(this.root.querySelectorAll('[data-sec]')) : [];
+    if (!secs.length) return;
+    this.io = new IntersectionObserver(entries => {
+      const vis = entries.filter(e => e.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+      if (vis) this.setState({ sec: vis.target.dataset.sec });
+    }, { rootMargin: '-46px 0px -70% 0px', threshold: 0 });
+    secs.forEach(s => this.io.observe(s));
+  }
+
+  renderVals() {
+    const nav = [
+      ['s1', 'Weather'], ['s2', 'Reports'], ['s3', 'The Feel'],
+      ['s4', 'Packing'], ['s5', 'Confirm'], ['s6', 'Shopping']
+    ];
+    const total = this.state.total;
+    const shop = this.state.shop;
+    const bought = shop.filter(i => i.bought).length;
+    return {
+      setRoot: el => { this.root = el; },
+      setInput: el => { this.input = el; },
+      onAdd: e => {
+        e.preventDefault();
+        if (this.input) { this.addItem(this.input.value); this.input.value = ''; this.input.focus(); }
+      },
+      onAddClick: e => {
+        const btn = e.target.closest && e.target.closest('button[data-add]');
+        if (!btn) return;
+        const li = btn.closest('li');
+        const lbl = li && li.querySelector('.lbl');
+        if (lbl) this.addItem(lbl.textContent);
+      },
+      clearBought: () => this.setShop(shop.filter(i => !i.bought)),
+      shopEmpty: shop.length === 0,
+      shopLine: shop.length + (shop.length === 1 ? ' item' : ' items') + ' \u00b7 ' + bought + ' bought',
+      shop: shop.map(i => ({
+        text: i.text,
+        bought: i.bought,
+        mark: i.bought ? '\u2713' : '',
+        boxBorder: i.bought ? 'var(--color-accent)' : 'var(--color-divider)',
+        opacity: i.bought ? 0.4 : 1,
+        strike: i.bought ? 'line-through' : 'none',
+        toggle: () => this.setShop(shop.map(x => x.id === i.id ? Object.assign({}, x, { bought: !x.bought }) : x)),
+        remove: () => this.setShop(shop.filter(x => x.id !== i.id))
+      })),
+      onPack: e => {
+        if (e.target && e.target.matches && e.target.matches('input[data-k]')) {
+          this.save(); this.count(false);
+        }
+      },
+      clearAll: () => {
+        this.boxes().forEach(b => { b.checked = false; });
+        this.save(); this.count(false);
+      },
+      done: this.state.done,
+      total: total,
+      pct: (total ? (this.state.done / total) * 100 : 0) + '%',
+      bars: this.props.showTempBars !== false,
+      maps: this.props.showMapLinks !== false,
+      navItems: nav.map(([id, label]) => ({
+        href: '#' + id,
+        label: label,
+        color: this.state.sec === id ? 'var(--color-accent-700)' : 'var(--color-neutral-700)',
+        rule: this.state.sec === id ? 'var(--color-accent)' : 'transparent'
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>
+

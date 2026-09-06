@@ -7,6 +7,7 @@ on:
       - "notes/**"
       - "assets/**"
       - "index.html"
+      - "spiti/**"
       - "Makefile"
       - "scripts/**"
       - ".github/workflows/deploy.yml"
@@ -47,6 +48,7 @@ jobs:
           rm -rf _site
           mkdir -p _site
           cp -r index.html assets .nojekyll _site/
+          cp -r spiti _site/
           cp -r build _site/
           # If you add a CNAME file at repo root, copy it too:
           if [ -f CNAME ]; then cp CNAME _site/; fi
