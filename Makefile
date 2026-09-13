@@ -6,9 +6,13 @@ SCRIPT_DIR := scripts
 NOTES_TEX := $(wildcard $(NOTES_DIR)/*.tex)
 NOTES_HTML := $(patsubst $(NOTES_DIR)/%.tex,$(BUILD_DIR)/%.html,$(NOTES_TEX))
 
-.PHONY: all clean serve
+.PHONY: all clean serve spiti-book
 
-all: $(NOTES_HTML) build/index.json
+all: $(NOTES_HTML) build/index.json spiti-book
+
+# Spiti long read: markdown -> single-page web book (always rebuilt; it's fast)
+spiti-book:
+	python3 $(SCRIPT_DIR)/build_spiti_book.py
 
 # Use latexmlc (the convenient wrapper running latexml + latexmlpost)
 $(BUILD_DIR)/%.html: $(NOTES_DIR)/%.tex
