@@ -224,9 +224,9 @@ def render_body(lines, prefix, figs=None):
             out.append(f'<aside class="box box-{kind}"><div class="box-label">{html.escape(label.strip())}</div>')
             out.append(f'<h{level} id="{hid}">{inline(rest[:1].upper() + rest[1:])}</h{level}>')
             box_level = level
-        elif hist := re.fullmatch(r"([A-Z][a-z]+(?: [a-z]+)? section)\s*·\s*(.+)", text):
+        elif hist := re.fullmatch(r"([A-Z][a-z]+(?: [a-z]+)? section|PART [A-Z]+)\s*·\s*(.+)", text):
             # a labelled heading rather than a box: these sections don't mark where they end
-            out.append(f'<div class="h-label">{hist[1]}</div>'
+            out.append(f'<div class="h-label">{hist[1].capitalize() if hist[1].startswith("PART") else hist[1]}</div>'
                        f'<h{level} id="{hid}" class="labelled">{inline(hist[2])}</h{level}>')
         else:
             out.append(f'<h{level} id="{hid}">{inline(text)}</h{level}>')

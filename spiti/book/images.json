@@ -649,7 +649,8 @@
   "source": "https://commons.wikimedia.org/wiki/File:Pea_Plants_Mudh_Spiti_Himachal_Jun18_D72_7222.jpg"
  },
  {
-  "anchor": "Food",
+  "anchor": "The two that are not for tourists",
+  "after": "Po cha, butter tea",
   "file": "monk-with-pot-of-butter-tea-at-key-monastry-spiti-india.webp",
   "w": 768,
   "h": 1024,
@@ -1056,126 +1057,6 @@
   "source": "https://commons.wikimedia.org/wiki/File:Getting_ready_for_Losar.jpg"
  },
  {
-  "anchor": "One thing to notice each day",
-  "after": "Day 1 · Shimla → Sarahan",
-  "file": "satyanand-stokes-with-local-children.webp",
-  "w": 1080,
-  "h": 813,
-  "caption": "Samuel Evans Stokes, who planted Kotgarh's first Delicious apples, with local children.",
-  "alt": "Samuel Evans Stokes, who planted Kotgarh's first Delicious apples, with local children.",
-  "credit": "WP iampiyushnegi",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Satyanand_Stokes_with_local_children.jpg"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 2 · → Chitkul",
-  "file": "wooden-hut-in-chitkul.webp",
-  "w": 900,
-  "h": 675,
-  "caption": "A wooden hut in Chitkul.",
-  "alt": "A wooden hut in Chitkul.",
-  "credit": "Malvikabaru",
-  "license": "CC BY-SA 3.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Wooden_hut_in_Chitkul.jpg"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 3 · → Kalpa",
-  "file": "kalpa-and-kailash.webp",
-  "w": 453,
-  "h": 604,
-  "caption": "Kalpa under the Kinner Kailash range.",
-  "alt": "Kalpa under the Kinner Kailash range.",
-  "credit": "Honinbou",
-  "license": "CC0",
-  "source": "https://commons.wikimedia.org/wiki/File:Kalpa_and_Kailash.jpg"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 4 · → Tabo",
-  "file": "nako-village.webp",
-  "w": 900,
-  "h": 675,
-  "caption": "Nako, where the trees stop.",
-  "alt": "Nako, where the trees stop.",
-  "credit": "Sumita Roy Dutta",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Nako_Village.jpg"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 4 · → Tabo",
-  "file": "tabo-gompa-old-walls-and-chortens.webp",
-  "w": 900,
-  "h": 675,
-  "caption": "Tabo's thousand-year-old mud walls.",
-  "alt": "Tabo's thousand-year-old mud walls.",
-  "credit": "John Hill",
-  "license": "CC BY-SA 3.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Tabo_Gompa_-_old_walls_and_chortens.jpg"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 5 · → Mud",
-  "file": "pin-valley-spiti-himachal-jun18-d72-7092.webp",
-  "w": 900,
-  "h": 506,
-  "caption": "The Pin valley.",
-  "alt": "The Pin valley.",
-  "credit": "Timothy Gonsalves",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Pin_Valley_Spiti_Himachal_Jun18_D72_7092.jpg"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 7 · → Losar",
-  "file": "chicham-bridge-east-spiti-jun18-d72-7453.webp",
-  "w": 900,
-  "h": 600,
-  "caption": "The Chicham bridge over the gorge.",
-  "alt": "The Chicham bridge over the gorge.",
-  "credit": "This Photo was taken by Timothy A. Gonsalves. Feel free to use my photos, but please mention me as the author. I would m",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Chicham_Bridge_East_Spiti_Jun18_D72_7453.jpg"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 8 · → Chandratal",
-  "file": "kunzummilestone.webp",
-  "w": 640,
-  "h": 480,
-  "caption": "The milestone on Kunzum La.",
-  "alt": "The milestone on Kunzum La.",
-  "credit": "Jini.ee06b056",
-  "license": "CC BY-SA 3.0",
-  "source": "https://commons.wikimedia.org/wiki/File:KunzumMilestone.JPG"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 8 · → Chandratal",
-  "file": "chandratal-july-2017.webp",
-  "w": 900,
-  "h": 600,
-  "caption": "Chandratal.",
-  "alt": "Chandratal.",
-  "credit": "Wayfarersonmove",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Chandratal_July_2017.jpg"
- },
- {
-  "anchor": "One thing to notice each day",
-  "after": "Day 9 · → Manali",
-  "file": "kullu-valley-near-manali-himachal-pradesh-india.webp",
-  "w": 900,
-  "h": 600,
-  "caption": "Trees again: the Kullu valley near Manali.",
-  "alt": "Trees again: the Kullu valley near Manali.",
-  "credit": "UnpetitproleX",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Kullu_Valley_near_Manali,_Himachal_Pradesh,_India.jpg"
- },
- {
   "anchor": "What is made here",
   "after": "Thangka painting",
   "file": "thanka-in-making.webp",
@@ -1416,7 +1297,7 @@
   "source": "https://commons.wikimedia.org/wiki/File:Zhuan_cha.jpg"
  },
  {
-  "anchor": "Food",
+  "anchor": "The two that are not for tourists",
   "after": "Tsampa",
   "file": "tsampainabowl.webp",
   "w": 800,
@@ -1428,7 +1309,7 @@
   "source": "https://commons.wikimedia.org/wiki/File:TsampaInABowl.JPG"
  },
  {
-  "anchor": "Food",
+  "anchor": "The Tibetan standards",
   "after": "Thukpa",
   "file": "thukpa-tibetan-noodle-in-osaka-japan.webp",
   "w": 800,
@@ -1440,7 +1321,7 @@
   "source": "https://commons.wikimedia.org/wiki/File:Thukpa,_Tibetan_noodle_in_Osaka,_Japan.jpg"
  },
  {
-  "anchor": "Food",
+  "anchor": "The Tibetan standards",
   "after": "Momos",
   "file": "momo-nepal.webp",
   "w": 800,
@@ -1452,7 +1333,7 @@
   "source": "https://commons.wikimedia.org/wiki/File:Momo_nepal.jpg"
  },
  {
-  "anchor": "Food",
+  "anchor": "Drinks",
   "after": "Chhang",
   "file": "chhyang-or-chhaang-fermented-rice-drink-8902831091.webp",
   "w": 800,
@@ -1464,7 +1345,7 @@
   "source": "https://commons.wikimedia.org/wiki/File:Chhyang_or_Chhaang_-_Fermented_rice_drink!_(8902831091).jpg"
  },
  {
-  "anchor": "Food",
+  "anchor": "The Tibetan standards",
   "after": "Chhurpi",
   "file": "chhurpi-nep.webp",
   "w": 800,
@@ -1812,18 +1693,6 @@
   "source": "https://commons.wikimedia.org/wiki/File:Bijli_Mahadev_Temple.jpg"
  },
  {
-  "anchor": "One thing to notice each day",
-  "after": "Day 6 · → Kaza",
-  "file": "fossilised-object-at-komic-village-spiti.webp",
-  "w": 768,
-  "h": 510,
-  "caption": "A fossil weathering out of the ground at Komic.",
-  "alt": "A fossil weathering out of the ground at Komic.",
-  "credit": "Sumita Roy Dutta",
-  "license": "CC BY-SA 4.0",
-  "source": "https://commons.wikimedia.org/wiki/File:Fossilised_object_at_Komic_village_,Spiti.jpg"
- },
- {
   "anchor": "In the rock: how to read a Spiti hillside",
   "after": "Horizontal banding",
   "file": "right-bank-pin-mudh-spiti-himachal-jun18-d72-7114.webp",
@@ -1930,5 +1799,207 @@
   "credit": "SpeakingArch",
   "license": "CC BY-SA 4.0",
   "source": "https://commons.wikimedia.org/wiki/File:Kinnauri_Bridal_Cap_or_kir-kir_the-pang.jpg"
+ },
+ {
+  "anchor": "Siddu",
+  "file": "siddu-traditional-steamed-bread-from-himachal-pradesh.webp",
+  "w": 1000,
+  "h": 1000,
+  "caption": "Siddu, steamed stuffed bread, in the steamer.",
+  "alt": "Siddu, steamed stuffed bread, in the steamer.",
+  "credit": "Rajani Gairshail",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Siddu_%E2%80%93_Traditional_Steamed_Bread_from_Himachal_Pradesh.jpg"
+ },
+ {
+  "anchor": "The rest of the Kinnaur menu",
+  "after": "Rajma",
+  "file": "rajma-masala-32081557778.webp",
+  "w": 800,
+  "h": 535,
+  "caption": "Rajma.",
+  "alt": "Rajma.",
+  "credit": "Gaurav Nemade",
+  "license": "CC BY-SA 2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rajma_Masala_(32081557778).jpg"
+ },
+ {
+  "anchor": "The rest of the Kinnaur menu",
+  "after": "Madra",
+  "file": "white-chana-madra.webp",
+  "w": 800,
+  "h": 1067,
+  "caption": "Chana madra.",
+  "alt": "Chana madra.",
+  "credit": "Niyati Sharma 1505",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:White_Chana_Madra.jpg"
+ },
+ {
+  "anchor": "The rest of the Kinnaur menu",
+  "after": "Patrodu",
+  "file": "arbi-colocasia-pakoda-fritters.webp",
+  "w": 800,
+  "h": 533,
+  "caption": "Colocasia-leaf rolls, the patrodu family.",
+  "alt": "Colocasia-leaf rolls, the patrodu family.",
+  "credit": "Vivekpat30",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arbi-colocasia-pakoda-fritters.jpg"
+ },
+ {
+  "anchor": "The rest of the Kinnaur menu",
+  "after": "Buckwheat",
+  "file": "japanese-buckwheat-flower.webp",
+  "w": 800,
+  "h": 594,
+  "caption": "Buckwheat in flower.",
+  "alt": "Buckwheat in flower.",
+  "credit": "STRONGlk7",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Japanese_Buckwheat_Flower.JPG"
+ },
+ {
+  "anchor": "The rest of the Kinnaur menu",
+  "after": "Chilgoza",
+  "file": "pinus-gerardiana-female-cone.webp",
+  "w": 1200,
+  "h": 790,
+  "caption": "Chilgoza cone.",
+  "alt": "Chilgoza cone.",
+  "credit": "Unknown author",
+  "license": "Public domain",
+  "source": "https://commons.wikimedia.org/wiki/File:Pinus_gerardiana_female_cone.jpg"
+ },
+ {
+  "anchor": "The rest of the Kinnaur menu",
+  "after": "Apricots, walnuts, apples",
+  "file": "apricot-and-cross-section.webp",
+  "w": 800,
+  "h": 414,
+  "caption": "Apricots.",
+  "alt": "Apricots.",
+  "credit": "Fir0002",
+  "license": "GFDL 1.2",
+  "source": "https://commons.wikimedia.org/wiki/File:Apricot_and_cross_section.jpg"
+ },
+ {
+  "anchor": "Drinking in Kinnaur",
+  "after": "Arak",
+  "file": "arak-with-water-and-ice.webp",
+  "w": 800,
+  "h": 862,
+  "caption": "Arak.",
+  "alt": "Arak.",
+  "credit": "Preacher lad",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Arak_with_water_and_ice.jpg"
+ },
+ {
+  "anchor": "The Tibetan standards",
+  "after": "Thenthuk",
+  "file": "thenthuk.webp",
+  "w": 800,
+  "h": 600,
+  "caption": "Thenthuk.",
+  "alt": "Thenthuk.",
+  "credit": "Gaurav Dhwaj Khadka",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Thenthuk.jpg"
+ },
+ {
+  "anchor": "The Tibetan standards",
+  "after": "Tingmo",
+  "file": "tingmo-traditional-tibetan-dish-prepared-during-fagli-festiv.webp",
+  "w": 800,
+  "h": 1067,
+  "caption": "Tingmo, made for the Fagli festival in Lahaul and Spiti.",
+  "alt": "Tingmo, made for the Fagli festival in Lahaul and Spiti.",
+  "credit": "Rajani Gairshail",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tingmo_%E2%80%93_Traditional_Tibetan_Dish_Prepared_During_Fagli_Festival_in_Lahaul_and_Spiti.jpg"
+ },
+ {
+  "anchor": "The Tibetan standards",
+  "after": "Shabaley",
+  "file": "tibetan-snack-syabhaley-in-nepal.webp",
+  "w": 800,
+  "h": 1204,
+  "caption": "Shabaley.",
+  "alt": "Shabaley.",
+  "credit": "Kushal Goyal",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Tibetan_snack_Syabhaley_in_Nepal.jpg"
+ },
+ {
+  "anchor": "The Tibetan standards",
+  "after": "Tibetan bread",
+  "file": "balep-korkun-the-tibetan-bread-photographed-in-nepal-decembe.webp",
+  "w": 800,
+  "h": 452,
+  "caption": "Balep, Tibetan bread.",
+  "alt": "Balep, Tibetan bread.",
+  "credit": "Billjones94",
+  "license": "CC0",
+  "source": "https://commons.wikimedia.org/wiki/File:Balep_korkun,_the_Tibetan_bread,_photographed_in_Nepal,_December_1,_2023.jpg"
+ },
+ {
+  "anchor": "Drinks",
+  "after": "Seabuckthorn juice or tea",
+  "file": "hippophae-rhamnoides-01-xndr.webp",
+  "w": 800,
+  "h": 1011,
+  "caption": "Seabuckthorn berries.",
+  "alt": "Seabuckthorn berries.",
+  "credit": "No machine-readable author provided. Svdmolen assumed (based on copyright claims).",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Hippophae_rhamnoides-01_(xndr).JPG"
+ },
+ {
+  "anchor": "Drinks",
+  "after": "Namak chai / sweet chai",
+  "file": "the-great-kashmiri-salt-tea.webp",
+  "w": 800,
+  "h": 952,
+  "caption": "Salt tea.",
+  "alt": "Salt tea.",
+  "credit": "Jamee937",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:The_Great_Kashmiri_Salt_tea.png"
+ },
+ {
+  "anchor": "Drinks",
+  "after": "Rhubarb tea",
+  "file": "rheum-rhabarbarum-2006-04-27-uellue.webp",
+  "w": 800,
+  "h": 600,
+  "caption": "Rhubarb.",
+  "alt": "Rhubarb.",
+  "credit": "Dieter Weber (User:Uellue)",
+  "license": "CC BY-SA 3.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Rheum_rhabarbarum.2006-04-27.uellue.jpg"
+ },
+ {
+  "anchor": "The dhaba standard",
+  "after": "Chandra Dhaba at Batal",
+  "file": "batal-11-chandra-dhaba-2016-gje.webp",
+  "w": 800,
+  "h": 533,
+  "caption": "Inside Chandra Dhaba, Batal.",
+  "alt": "Inside Chandra Dhaba, Batal.",
+  "credit": "Gerd Eichmann",
+  "license": "CC BY 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Batal-11-Chandra_Dhaba-2016-gje.jpg"
+ },
+ {
+  "anchor": "Batal",
+  "file": "batal-06-chandra-dhaba-gje.webp",
+  "w": 1000,
+  "h": 666,
+  "caption": "Chandra Dhaba at Batal.",
+  "alt": "Chandra Dhaba at Batal.",
+  "credit": "Gerd Eichmann",
+  "license": "CC BY-SA 4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Batal-06-Chandra_Dhaba-gje.jpg"
  }
 ]

@@ -40,32 +40,36 @@ One request before you start. In Chapter 11 you will read about the fossils of L
 | 1 | Shimla, and the Idea of a Road | Day 1 morning |
 | 2 | Narkanda, Kotgarh, Rampur | Day 1, in the car |
 | 3 | Sarahan | Night 1 · 16 Sep |
-| II | **How to Read a Kinnauri Village** | buildings, clothes, crops, water |
+| II | **How to Read a Kinnauri Village** | buildings, clothes, crafts, crops, water |
+| III | **What You Will Eat** | *the chapter you'll open most often* |
 | — | *Sidebar: What You Will Hear* | the music of the road |
 | 4 | The Baspa Valley — Sangla, Kamru, Chitkul | Night 2 · 17 Sep |
 | 5 | Kalpa, and the Mountain That Is a God | Night 3 · 18 Sep |
-| III | **Who Came Through Here** | the surveyors, spies and scholars |
+| IV | **Who Came Through Here** | the surveyors, spies and scholars |
+| — | *Sidebar: Your Body on This Road* | altitude, sun, cold, sleep |
 | 6 | The Road Itself | Day 4 · 19 Sep, the long drive |
-| IV | **A Biography of the Sutlej** | where it comes from, and what comes down it |
+| — | *Sidebar: The Texture of a Driving Day* | |
+| V | **A Biography of the Sutlej** | where it comes from, and what comes down it |
 | 7 | The Dams | the live argument in Kinnaur |
-| V | **The Frontier, 1850 to Now** | the Great Game, 1962, and why there are soldiers |
-| VI | **What Moved Over the Passes** | the trade, and what killed it |
+| VI | **The Frontier, 1850 to Now** | the Great Game, 1962, and why there are soldiers |
+| VII | **What Moved Over the Passes** | the trade, and what killed it |
 
 **Spiti · Days 4–8**
 
 | | | |
 |---|---|---|
-| VII | **How to Read a Monastery** | *read the night before Tabo* |
+| VIII | **How to Read a Monastery** | *read the night before Tabo* |
 | 8 | Tabo | Night 4 · 19 Sep |
 | 9 | Dhankar and Lalung | Day 5 · 20 Sep |
 | 10 | Pin Valley | Night 5 · 20 Sep, Mud |
 | 11 | Kaza and Ki | Night 6 · 21 Sep |
-| VIII | **How a Spiti Village Works** | the house, the year, the peas |
-| IX | **Birth, Marriage, Death** | names, weddings, and what happens when someone dies |
+| IX | **How a Spiti Village Works** | the house, the year, the peas |
+| X | **Birth, Marriage, Death** | names, weddings, and what happens when someone dies |
 | — | *Sidebar: Manners* | the small things that are noticed |
 | 12 | The High Villages | Days 6–7 · 21–22 Sep |
-| X | **The Passes** | the map under the road map, and Shilla |
+| XI | **The Passes** | the map under the road map, and Shilla |
 | 13 | Losar and Kunzum La | Night 7 · 22 Sep |
+| — | *Sidebar: Light, Silence, Smell* | |
 | 14 | Chandratal | Night 8 · 23 Sep |
 
 **Out · Day 9**
@@ -80,7 +84,7 @@ One request before you start. In Chapter 11 you will read about the fossils of L
 
 **Back matter** — A: Timeline · B: The Festival Year · C: What Is Alive Out There · D: Words
 
-The ten **Interludes** are the thematic chapters. If you only read two, read **I** (the people) and **VII** (how to read a monastery). Interlude VII in particular will change what you see at Tabo, Dhankar, Ki and Komic, and it is wasted if you read it afterwards.
+The eleven **Interludes** are the thematic chapters. If you only read three, read **I** (the people), **III** (food, which you'll use daily) and **VIII** (how to read a monastery). Interlude VIII in particular will change what you see at Tabo, Dhankar, Ki and Komic, and it is wasted if you read it afterwards.
 
 ---
 
@@ -618,6 +622,235 @@ If your dates were different you might catch:
 The **kayang** is the characteristic Kinnauri group dance: a long linked line or circle, arms interlocked, moving slowly and deliberately, sometimes for hours. It looks simple. It is not.
 
 ---
+# Interlude Three · What You Will Eat
+
+*Read on the first evening, at Sarahan. You will come back to this chapter more often than any other.*
+
+Here is the thing worth knowing before the first meal.
+
+**The food changes where everything else changes.** Kinnaur eats like the Indian hills: wheat, rice, rajma, yoghurt, ghee, spice. Spiti eats like Tibet: barley, butter, salt, noodles, and almost no spice at all. The switch happens over one afternoon's drive, somewhere around Nako, at the same place the trees stop and the temples turn into monasteries.
+
+You will meet that transition three times a day, which is more often than you will see a monastery. Pay attention to it and you will understand this road better than most people who drive it.
+
+---
+
+## PART ONE · The Kinnauri plate
+
+### Siddu
+
+If you eat one thing in the first half of this trip, make it **siddu**.
+
+It is a **steamed, fermented wheat bun**, roughly the size of a fist, stuffed with a thick paste of crushed walnuts and poppy seeds with cumin, fennel and green chilli. Sometimes it is stuffed with lentil paste, green peas, or, in the sweet version, dry fruit and jaggery. The dough is left to ferment for hours before it is filled and steamed, which gives it a faint sourness and a texture somewhere between bread and dumpling.
+
+It arrives split open with **melted ghee** poured into it, and chutney on the side. Eat it hot. Cold siddu is a disappointment.
+
+Two things about it are interesting beyond the taste.
+
+It is **travelling food**. Shepherds carried siddu on long journeys because it is filling, portable, dense, and keeps. A cold-country food designed around a long walk.
+
+And it is almost certainly **not originally Indian**. The form — fermented dough, stuffed, steamed — is the form of a bao, and the likeliest explanation is that it came over the passes with the trade. Its cousins are the Tibetan *shabaley* and, further afield, everything from a Russian chebureki to an empanada. On the first night of this trip you will eat a Chinese steamed bun with Himalayan walnuts in it, and this will be presented to you as a Himachali speciality, which it now genuinely is.
+
+### The dham
+
+If you are ever invited to a **dham**, cancel whatever else you were doing.
+
+The dham is the Himachali ceremonial feast, served at weddings, births, festivals and religious occasions, and it is a thousand-year-old institution. The details:
+
+**It is cooked by botis** — a hereditary caste of Brahmin cooks, who do this and only this. They cook barefoot. Preparation begins the night before and cooking starts around four in the morning.
+
+**It is never cooked indoors.** A temporary kitchen is built outside, and the food is cooked in brass or copper vessels with narrow necks, set in a wood-fired trench. The narrow necks mean the boti cannot see inside, and yoghurt curdles if it is not stirred continuously, so the skill is substantial and entirely non-visual.
+
+**It is eaten sitting on the ground in rows**, from **pattal** — plates about a foot across, made of sal, tor or banyan leaves stitched together with bamboo slivers. Everyone sits in the same line, eats the same food off the same leaves, regardless of standing. That is part of the point.
+
+**It is served in a fixed sequence**, roughly: rice, then a dal, then **madra** — the defining dish, beans or chickpeas in a thick yoghurt-and-ghee gravy — then **khatta**, a sweet-sour preparation of pumpkin or black chickpeas with tamarind and jaggery, whose function is to cut the fat of the madra, then a black-lentil dal, then a sweet, usually **meetha bhat**, sweet rice with dried fruit.
+
+And here is the detail that belongs in this book. **A traditional dham contains no onion, garlic, ginger or tomato.** Not for religious reasons primarily, but because those ingredients were historically not available up here. The feast is built entirely from lentils, beans, yoghurt, ghee, buttermilk, mustard oil, sugar and rice — the things that could be grown or carried.
+
+A Himachali ceremonial feast excludes almost every ingredient that defines Indian food elsewhere, because of where the roads went. You are about to spend four days on one of those roads.
+
+**And the Kinnauri dham is different again.** Lower down, the dham is strictly satvik. In Kinnaur and the upper Shimla hills, wedding feasts can include **mutton and liquor**. The gradient again: the further up the valley you go, the more the plains rules loosen.
+
+### The rest of the Kinnaur menu
+
+- **Rajma.** Pahari rajma is a genuinely different thing from the plains version — smaller beans, thinner skin, deeper flavour, cooked long. Order it.
+- **Madra.** If you see it outside a dham, take it.
+- **Chha gosht.** Mutton slow-cooked in a yoghurt and gram-flour gravy. The other great Himachali dish.
+- **Babru.** The hill version of a kachori, stuffed with black gram paste.
+- **Patrodu.** Colocasia leaves layered with spiced gram-flour batter, rolled, steamed and sliced. More a lower-Himachal thing but worth grabbing if you see it.
+- **Sepu badi**, **mash ki dal**, **kadhi**, **khatta** — the dham repertoire, sometimes available à la carte.
+- **Buckwheat.** *Ogla* and *phapra* grow where wheat struggles. Look for buckwheat rotis and pancakes in the upper valleys.
+- **Chilgoza.** Interlude Two. September and October is the harvest. Buy some and eat them in the car.
+- **Apricots, walnuts, apples.** You are there at harvest. The apples in Kinnaur in September are as good as apples get anywhere.
+
+### Drinking in Kinnaur
+
+Kinnaur drinks, and this surprises people who assume rural India is dry.
+
+- **Angoori**, the grape wine of **Ribba**, which sits in a pocket of the Sutlej valley warm enough for vines. Home-made, variable, often very good.
+- **Arak** (also *ghanti*), the local distillate — from grapes, apricots, barley or apples depending on where you are. Strong, rough, warming, and the standard offer of hospitality.
+- **Apple and apricot brandies**, increasingly commercial.
+- **Chhang** appears in the upper valleys as you approach the Buddhist belt.
+
+Two cautions. It is stronger than it tastes, and **altitude roughly doubles the apparent effect of alcohol** while making the next morning considerably worse. On Days 1 to 3 you are still low enough to get away with it. From Kalpa onward, be careful, and on Days 4 to 8 I would not drink at all.
+
+---
+
+## PART TWO · The hinge
+
+Somewhere past Nako, watch what happens to the food.
+
+The **spice stops**. The chilli, the garam masala, the ginger, the garlic, the coriander — they thin out and then vanish. The yoghurt goes. The ghee is replaced by butter. The wheat is replaced by barley. The gravies are replaced by broths.
+
+This is not a matter of taste. It is **trade geography**, and it is the same explanation as the dham having no onions.
+
+Spices are a product of the Indian plains and tropics. They reached Kinnaur, expensively, because Kinnaur faces down the Sutlej towards the plains. They barely reached Spiti, because Spiti faced **north and east**, towards Tibet and Ladakh, and what came over those passes was salt, wool, borax and butter, not cardamom.
+
+So the food of Spiti is built from the four things the place could actually supply: **barley, dairy, salt and whatever meat there was.** Everything else is elaboration.
+
+Then the road came, from the south, and brought rice, potatoes, onions, instant noodles and chilli powder. Which is why a Kaza café menu now reads half Tibetan and half North Indian, and why the genuinely local food has retreated into houses.
+
+---
+
+## PART THREE · The Spiti plate
+
+### The two that are not for tourists
+
+**Tsampa.** Roasted barley flour. You are given a bowl, a lump of butter and some butter tea; you mix it with your fingers in the bowl into a stiff dough and eat it.
+
+It is the most efficient food ever devised for this environment. The barley is **already roasted**, so it needs no cooking and no fuel — which matters enormously in a place where fuel is dried dung. It keeps indefinitely. It weighs almost nothing. It travels in a pouch. For a thousand years, a Spitian or Tibetan setting out over a pass carried tsampa and a lump of butter and needed nothing else.
+
+You will probably find it dull. That is fine. Eat some anyway, because you are eating the thing this entire civilisation ran on.
+
+**Po cha, butter tea.** Tea churned with salt and butter into an emulsion. It is not tea in any sense you recognise. **Think of it as a thin salty soup** and you will get on with it immediately; think of it as tea and you will recoil.
+
+It does three things at once at 4,000 metres: replaces the fluid you lose to dry air, replaces the salt you lose, and delivers a large hit of fat in a climate burning calories to keep you warm. The butter also greases your lips, which crack in this air.
+
+It is refilled constantly. See the Manners sidebar for what to do about that.
+
+### The household dishes
+
+These are the ones to ask for, and you will often have to ask, because homestays assume visitors want momos.
+
+- **Chhutagi** — literally "water bread". Discs of dough folded into bow-tie shapes and simmered in a thick vegetable or meat broth. The Himalayan pasta. Substantial, plain, excellent. Traditionally fed to people bringing in the harvest.
+- **Skyu** — the same idea with thumb-pressed dough pieces, cooked long in a thick stew with root vegetables, potatoes and turnips. Winter food.
+- **Quo** — barley flour, potatoes and yak cheese. A quick savoury household supper.
+- **Churam** — black tea cooked with barley flour, cheese, sugar and butter. Somewhere between a drink, a porridge and a dessert.
+- **Shunaali** — a sweet of wholewheat flour, dried cheese, sugar and ghee.
+- **Barley kheer** — cooked barley, milk, sugar, raisins. Unexpectedly good.
+- **Popped barley** — the local popcorn. Snack food, offered with tea.
+- **Black peas** — the traditional Spiti pulse, distinct from the green peas that now go to Delhi. Cooked into stews and salads. If you see black peas on a menu, order them; you are eating the old economy.
+
+### The Tibetan standards
+
+Available everywhere, in every homestay and café, and good:
+
+- **Thukpa** — noodle soup with vegetables or meat. The everyday meal.
+- **Thenthuk** — the same but with hand-torn flat noodles and a thicker broth. Better than thukpa. Order this one.
+- **Tingmo** — steamed, fermented, swirled bread with no filling, served alongside a stew or dal. Tear it and use it to eat the stew. Sometimes called *timok*.
+- **Momos** — steamed or fried dumplings. Universal now, and often made with whole wheat up here.
+- **Shabaley** — fried stuffed pastry, the deep-fried cousin of siddu.
+- **Chhurpi** — rock-hard dried cheese, chewed slowly over an hour. Treat it as a lozenge, not a snack.
+- **Tibetan bread** — thick round leavened bread, often served at monasteries with tea. Breakfast for monks.
+
+### Drinks
+
+- **Chhang** — barley beer, cloudy, sour, low-strength, socially central.
+- **Arak** — the distillate, considerably less gentle.
+- **Seabuckthorn juice or tea** — the orange berry from the thickets along the riverbed, called *chharma*. Very high in vitamin C. Made by local cooperatives, sold in Kaza and at roadside stops, and the single best purchase on this route in terms of money reaching the valley. Buy it repeatedly.
+- **Namak chai / sweet chai** — salt tea and normal Indian sweet tea coexist. Say which you want.
+- **Rhubarb tea**, in some places, from wild Himalayan rhubarb.
+- **Beer and rum** are available in Kaza. See the altitude warning above and think hard.
+
+---
+
+## PART FOUR · Lahaul, on the way out
+
+Lahaul on Day 9 is a brief taste of a third cuisine, mostly eaten in passing.
+
+The staple is the **potato**, introduced at Keylong by Moravian missionaries in 1857 (Chapter 16), and the valley now produces some of the best seed potato in the world. Buckwheat, barley and peas fill out the rest. The cooking is closer to Spiti's than Kinnaur's in the upper valleys and closer to Kullu's down in Pattan.
+
+If you stop in Lahaul, get whatever has local potato in it. It is genuinely better than potato has any right to be.
+
+---
+
+## PART FIVE · The food that is neither
+
+### Maggi
+
+You will eat a great deal of Maggi on this trip and you should not be snobbish about it, because there are real reasons it has conquered the Himalaya.
+
+**Water boils at a lower temperature at altitude.** At 4,000 metres it boils around 86 °C, which means anything that needs actual boiling — rice, dal, beans — takes vastly longer and more fuel. Instant noodles cook in the water anyway.
+
+**It needs one pot, no skill and two minutes.** At a dhaba at 4,000 metres with a gas cylinder trucked over a pass, that is the whole argument.
+
+**It weighs nothing, costs little and keeps forever**, which matters when your supply chain is a road that closes.
+
+At a roadside stop in Spiti, Maggi with an egg, hot, in the cold, is not a compromise. It is the correct order.
+
+### The dhaba standard
+
+Across the whole route, the default roadside menu is: Maggi, omelette, aloo paratha, rajma chawal, dal chawal, chow mein, momos, chai. It is the same in Kinnaur and Spiti with minor variations. It is fine. Eat it, and save your curiosity for the homestays.
+
+**Chandra Dhaba at Batal**, on Day 9, is the one to stop at. Chapter 15.
+
+---
+
+## PART SIX · The practical half
+
+This is the part no one tells you and it matters more than the menu.
+
+### Your appetite is going to collapse
+
+At altitude, appetite drops sharply. You will not feel like eating. This is normal and it is also a problem, because you are burning more calories than usual — staying warm, breathing harder, walking uphill at Komic — and eating less.
+
+**Eat anyway.** Treat meals as something you do on a schedule rather than when hungry. Carbohydrates are digested more efficiently at altitude than fat, so eat the rice and the noodles and the bread. On the Losar and Chandratal nights especially, have the full dinner even if you want to skip it; being under-fuelled is what makes a cold night unbearable at three in the morning.
+
+### Water is more important than food
+
+Three to four litres a day, more than feels reasonable. The air is extremely dry and you lose water with every breath without noticing it. Dehydration mimics and worsens altitude sickness, and most mild "altitude headaches" are at least partly thirst.
+
+Carry a bottle and a purification method — tablets, a filter or a SteriPEN — rather than buying plastic. Chapter 18.
+
+### Digestion goes odd
+
+Expect it. Slower digestion, bloating, gas, and a general sense that things are not moving as they should. Heavy, greasy food sits badly above 3,500 m. Smaller and more frequent works better than one big meal.
+
+Ginger-lemon-honey tea is available everywhere and is genuinely the most useful thing on the menu for a queasy stomach.
+
+### Vegetarian and vegan
+
+**Vegetarian is easy everywhere.** Kinnaur is a dal-rice-rajma culture. Spiti's own food is largely vegetarian by necessity, and every menu has vegetable thukpa, vegetable momos and dal.
+
+**Vegan is harder in Spiti than anywhere else on the route**, because the entire local cuisine is built on butter, cheese and milk. Butter tea, tsampa, chhurpi, churam, skyu — all dairy. You can live on dal, rice, vegetable thukpa (check the broth), tingmo and vegetable momos, but tell your homestay in advance, kindly and without fuss, because "no dairy" in a valley whose food is dairy is a genuinely difficult request rather than a preference.
+
+**Jain, no-onion-no-garlic:** ironically easy, since the traditional dham and most Spitian food use neither.
+
+### Meat, and a thing worth understanding
+
+You will notice that Buddhist Spiti eats meat, and that this surprises people.
+
+The reasoning, roughly, is that the first precept prohibits **killing**, not eating. A household that buys meat from a butcher, or eats an animal that died, has not taken life. There is an old and slightly uncomfortable tradition across the Tibetan world by which the actual slaughtering was done by people of low status, and the moral weight fell on them.
+
+There is also simple necessity. At 4,000 metres with four months of growing season, a diet without animal products is not a lifestyle option.
+
+Many monks and devout laypeople are vegetarian, and many observe meat-free periods on auspicious days in the lunar calendar. Do not assume either way, and do not, whatever you do, explain Buddhism to a Spitian.
+
+### Hygiene, briefly
+
+Standard rules. Hot food that arrives hot. Avoid raw salad and cut fruit at roadside places. Peel the apples you buy — they will be unwashed and orchards are sprayed. Bottled or purified water only. The cold and dry air actually make Spiti safer than most of India in this respect; the risk is higher in the warmer Kinnaur end.
+
+### What to carry
+
+Nuts, dried fruit, chocolate, a few energy bars, and electrolyte sachets. On Days 8 and 9 there is genuinely very little between Losar and Gramphu, and a jar of peanut butter and a spoon has rescued many people on this road.
+
+### And say yes
+
+The single best food advice for this trip: when someone in a homestay offers you something you do not recognise, eat it. Ask what it is afterwards. The things in Part Three you will only ever be offered — they are not on any menu, and nobody will push them on you, because the assumption is that visitors want momos.
+
+Ask your homestay, the night before, whether they can cook you what **they** are eating. It usually works, it costs the same, and it is the difference between having been to Spiti and having eaten in Spiti.
+
+---
+
 # Sidebar · What You Will Hear
 
 *Read anywhere. Useful before any festival or morning prayer.*
@@ -749,7 +982,7 @@ Peo is also the administrative memory of the **Inner Line**. For decades after 1
 ---
 
 
-# Interlude Three · Who Came Through Here
+# Interlude Four · Who Came Through Here
 
 *Read on the Kalpa–Tabo leg, which is where most of them passed.*
 
@@ -858,6 +1091,38 @@ He has a useful habit, visible in his review of one European travel book about S
 Worth remembering when you are writing your own captions.
 
 ---
+# Sidebar · Your Body on This Road
+
+*Consolidated from the practical notes scattered through the chapters. Read before Day 4.*
+
+Nine days, a maximum of 4,590 m, three thousand metres of descent on the last day, temperatures from 25 °C to −10 °C, and air about a third thinner than at home. Your body will notice all of it.
+
+**Altitude.** Chapter 12 has the detail. Short version: breathlessness on slopes, headache, broken sleep, vivid dreams, low appetite, more urination — all normal. Headache that ignores painkillers, vomiting, confusion, unsteadiness, or breathlessness at rest — go down, immediately, no debate. Kaza has a hospital. Losar and Chandratal do not.
+
+**Sleep.** The first night at Kaza is usually the worst of the trip. Periodic breathing — where your breath pauses and then restarts with a gasp, waking you — is common at altitude and is not dangerous. Knowing that in advance is worth a lot at two in the morning.
+
+**Sun.** This is underrated and it gets people. At 4,000 m there is roughly a third less atmosphere filtering UV, and you are often on snow, rock or water that reflects it back up at you. **You can burn badly in under an hour in air that feels cold.** Sunscreen every morning including under your chin and nose, lip balm with SPF, and proper sunglasses — bright reflected light off snow can cause genuine photokeratitis, which feels like sand in the eyes and arrives hours later.
+
+**Dry air.** The humidity is brutally low. Expect cracked lips, split fingertips, a dry cough, nosebleeds, and skin that feels like paper. Lip balm, heavy moisturiser and a little petroleum jelly inside the nostrils at night solve most of it. The dry cough people get at altitude is usually just dry air, not illness.
+
+**Eyes and contact lenses.** Dust plus dry air is hard on contacts. Bring glasses as a backup and rewetting drops.
+
+**Cold.** The rule that matters: **change into dry thermals before bed**, even when you do not feel damp. The sweat from the day is what makes you cold at 3 a.m. Get into the sleeping bag before you are cold, not after. A hot water bottle filled at dinner and put in the bag half an hour early is transformative on the Losar and Chandratal nights.
+
+**Alcohol.** Roughly doubles its effect at altitude, worsens dehydration, and disrupts the already-poor sleep. Skip it from Kalpa onwards.
+
+**Medication.** Talk to a doctor before you go about acetazolamide (Diamox) — commonly used for altitude, usually started a day before ascending, with side effects including tingling fingers and a metallic taste that makes fizzy drinks disgusting. Whether to take it prophylactically is a real medical decision, not a travel-blog one. Also carry: paracetamol or ibuprofen, an anti-emetic, ORS sachets, something for diarrhoea, throat lozenges, antiseptic, blister plasters, and whatever you normally take, in quantities that assume a two-day delay.
+
+**Periods.** Worth planning around. Altitude can shift cycles and make cramps worse, and Days 7 to 9 offer no reliable running water, no bins and no shops. Carry more than you need, carry sealable bags for waste, and carry it out. Chandratal has no facilities of any kind.
+
+**Motion sickness.** Nine days of hairpins on broken roads. If you are at all susceptible, take something before you get in the car rather than after you feel ill. Front seat, eyes on the horizon, window cracked open, no reading, no phone.
+
+**Washing.** Realistically: hot water is available at Sarahan, Chitkul, Kalpa, Tabo and Kaza, unreliably and often only in buckets. Mud, Losar and Chandratal, assume none. Wet wipes, dry shampoo, and a change of base layers. Nobody cares. Everyone is in the same state.
+
+**The last day.** Three thousand metres down in one day is a bigger physiological change than anything on the way up, and it feels wonderful — thicker air, warmth, appetite returning. Do not celebrate too hard in Manali on the first night. Your sleep is still recovering.
+
+---
+
 # Chapter 6 · The Road Itself
 
 **Day 4 · 19 September · Kalpa → Tabo, the long day**
@@ -920,7 +1185,33 @@ The local account is not medical. Gue, they say, was suffering a plague of scorp
 
 ---
 
-# Interlude Four · A Biography of the Sutlej
+# Sidebar · The Texture of a Driving Day
+
+Nine days in a car on mountain roads has a rhythm, and knowing it in advance makes it much more pleasant.
+
+**Leave early.** There is a reason everyone in the mountains starts at six or seven. Streams that are fed by glacier melt are at their lowest in the morning and rise through the afternoon as the sun works on the ice, which matters on the unbridged crossings between Batal and Gramphu on Day 9. Weather deteriorates in the afternoon. Landslide-prone stretches are cleared in the morning. And if something goes wrong, you want daylight left.
+
+**Distances are meaningless.** A hundred and eighty kilometres in Kinnaur is a seven-hour day. Twenty kilometres of the Batal road can take two hours. Stop converting distance into time using any instinct you have from anywhere else.
+
+**You will be stopped.** Road crews blast and clear on a schedule, and traffic is held and released in batches. Convoys form. Single-lane sections alternate direction. This is not a failure of the system, it is the system. Expect an hour here or there and do not treat it as a crisis.
+
+**Give way uphill.** The convention on single-track mountain roads is that the vehicle going **up** has priority, because restarting on a steep gradient is harder. The vehicle going down reverses to the nearest passing place. Your driver knows this; you do not need to do anything except not panic when the car reverses towards a drop.
+
+**The horn is a sonar, not an insult.** Continuous horn use on blind corners is how you announce your existence to whatever is coming the other way. It is safety equipment. It will take three days to stop flinching.
+
+**Dust.** Everything you own will be coated by Day 4. Keep cameras and electronics in sealed bags. A buff or scarf over the face on the rough sections is worth having. Keep one clean layer sealed for the last night, when you will want it.
+
+**Motion.** Sit in the front if you are prone to sickness, keep your eyes up and out, and don't read.
+
+**Music and silence.** Nine days is long enough to run out of things to say and long enough for that to become comfortable. Download music and podcasts before Shimla. But also try, at least once a day, driving a stretch with everything off and the windows down.
+
+**Your drivers.** They are professionals doing a genuinely difficult job, and they will know things about the road that no amount of planning replaces. Ask them. Whether to take Rohtang or the tunnel, when to leave, which stretch is bad this week, where the good dhaba is — their answer is better than yours. Feed them, and make sure they are eating and resting properly; a tired driver on Day 8 is the single biggest risk on this trip.
+
+**Patience is the skill.** The road will take longer than you planned, a stretch will be closed, and something will not work. The people who enjoy this trip are the ones who treated the delay as part of it. The people who have a bad time are the ones running a schedule.
+
+---
+
+# Interlude Five · A Biography of the Sutlej
 
 *Read on Day 4, somewhere between Reckong Peo and Khab.*
 
@@ -1043,7 +1334,7 @@ You will see the substations, the transmission towers marching over ridges, the 
 
 ---
 
-# Interlude Five · The Frontier, 1850 to Now
+# Interlude Six · The Frontier, 1850 to Now
 
 *Read on the Kinnaur leg, or at the Sumdo check post.*
 
@@ -1097,7 +1388,7 @@ Be polite at check posts, carry your ID, and don't photograph military installat
 
 ---
 
-# Interlude Six · What Moved Over the Passes
+# Interlude Seven · What Moved Over the Passes
 
 *The economic history in one page. Read at Khab or Kaza.*
 
@@ -1128,7 +1419,7 @@ The Lavi fair still sells Kinnauri woollens, chilgoza, apricots, horses and meta
 
 ---
 
-# Interlude Seven · How to Read a Monastery
+# Interlude Eight · How to Read a Monastery
 
 *Read this the night before Tabo. It will change what you see for the next four days.*
 
@@ -1544,7 +1835,7 @@ This war is the reason your itinerary looks the way it does. Two of its settleme
 ---
 
 
-# Interlude Eight · How a Spiti Village Works
+# Interlude Nine · How a Spiti Village Works
 
 *Read at Kaza, or at Mud the night before.*
 
@@ -1616,23 +1907,7 @@ And now **apples** are arriving in Spiti — which would have been unthinkable a
 
 ## Food
 
-**Tsampa** — roasted barley flour, mixed with butter tea into a dough in the bowl with the fingers. The Tibetan staple for a thousand years. Extremely efficient: pre-cooked, needs no fuel, keeps indefinitely, travels.
-
-**Po cha / butter tea** — tea churned with salt and butter. Calories, salt and fluid in one cup, which is exactly what you need at altitude in the cold.
-
-**Thukpa** — noodle soup, usually with vegetables and sometimes meat. **Thenthuk** — the same with hand-torn flat noodles, and the better of the two.
-
-**Momos** — steamed dumplings. Universal now; still good.
-
-**Chhang** — barley beer, cloudy, sour, low-strength, ceremonially important. **Arak** — the distillate, much less gentle.
-
-**Seabuckthorn** — the orange berry growing in dense thorny thickets along the river beds, called *chharma* locally. Extraordinarily high in vitamin C, harvested for juice by local cooperatives, and one of the few genuine value-added products the valley produces. Try it.
-
-**Chhurpi** — hard dried cheese, chewed for hours.
-
-In Kinnaur, on the earlier days, look for **siddu** (a steamed stuffed bread, a Himachali speciality), **chha gosht**, rajma, buckwheat pancakes, and the local apricot and grape spirits.
-
----
+See **Interlude Three**, which covers the whole route. The short version for Spiti: **tsampa**, **po cha**, and the household dishes — chhutagi, skyu, quo, churam, black peas — are the ones that belong to this valley and the ones you will have to ask for.
 
 ## Medicine: the amchi
 
@@ -1654,7 +1929,7 @@ This is neither a tragedy nor progress. It is what happens when a road reaches a
 
 ---
 
-# Interlude Nine · Birth, Marriage, Death
+# Interlude Ten · Birth, Marriage, Death
 
 *The part of a culture you cannot see from a car. Read it anyway.*
 
@@ -1787,6 +2062,14 @@ Small things that cost nothing and are noticed.
 
 **Photographing people.** Ask. "Juley, photo?" with a gesture is enough and works. Take no for an answer, and if you say you will send a picture, actually send it — people give out phone numbers for exactly this and are often disappointed. Do not photograph people praying, prostrating or grieving. Do not photograph inside old shrine rooms. Do not fly a drone over a village or a monastery.
 
+**Children, and what not to give them.** You will be surrounded by children, particularly in Kinnauri and Spitian villages, and they are charming and curious and will practise their English on you.
+
+**Do not give them sweets, money, pens or chocolate.** This is not prudishness. Handing things to children in a village on a tourist route reliably produces a generation who ask visitors for things, which corrodes exactly the ordinary confident hospitality that makes these places good to visit, and dentistry at 4,000 metres is not readily available. In Ladakh and Spiti alike, local organisations have been asking visitors to stop doing this for twenty years.
+
+If you want to give something, give it **to the school or the monastery** rather than to a child, and ask first what is actually needed. Or simply spend money in the village.
+
+Playing with children, answering their questions, showing them a photo of where you live, letting them look through your binoculars — all excellent. Handing out lollipops from a car window — not.
+
 **Money.** Haggling hard over a few rupees with someone who has carried goods over a pass is not a good look. Pay the asking price for handicrafts.
 
 **Water and taps.** Interlude Eight, again. Short showers, and turn the tap off.
@@ -1886,7 +2169,7 @@ Water is the single most useful intervention. Three to four litres a day, more t
 
 ---
 
-# Interlude Ten · The Passes
+# Interlude Eleven · The Passes
 
 *Read at Kaza or Kibber. This is the map underneath the road map.*
 
@@ -2028,6 +2311,42 @@ Losar as a festival falls in February or in some Spiti traditions earlier, and i
 - **Fill your thermos** before bed.
 - **Hot water bottle** into the sleeping bag half an hour before you get in.
 - This is the second-highest night of the trip and often the one people find hardest, because Chandratal is anticipated and Losar is not.
+
+---
+
+# Sidebar · Light, Silence, Smell
+
+The things you will remember and nobody writes down.
+
+**The light.** At altitude with dry, clean air there is far less atmosphere scattering the sunlight, and the effect is dramatic. **Shadows are hard-edged and very dark.** The contrast between a sunlit wall and its shadow is greater than you are used to, which is why midday photographs in Spiti tend to look harsh and disappointing. The sky is a deeper blue, approaching indigo overhead at Komic and Kunzum, for the same reason.
+
+Then the ends of the day do something else entirely. Because the rock is bare, unvegetated mineral — iron-stained ochres, greys, violets, greens — **low sun turns the whole landscape a colour**. There is a window of about forty minutes after sunrise and before sunset when Spiti goes gold and then rose and then a cold blue, and the fifteen minutes after that, when the sun is off the peaks but the sky is still lit, is the best light of the day.
+
+Practical: shoot early and late, and in the middle of the day put the camera away and look at things. On the Chandratal night, the last light off the peaks around the lake happens well after the sun has left the ground, and it is worth being outside, cold, to watch.
+
+**The silence.** This is the one that startles people.
+
+In Spiti, above about 3,500 m, there are almost **no insects**. So there is no insect noise. There are few birds, and they are not songbirds. There is no traffic once the road is out of earshot, no aircraft on most routes, no machinery, no electricity humming.
+
+What is left is wind, water, and your own heartbeat, which you will hear.
+
+The result, on a still evening at Chandratal or Losar or Komic, is a **quality of silence most people have never experienced** — not quiet, which is the absence of loud things, but silence, the absence of sound. It is genuinely disorienting for the first minute and then it becomes the best thing about the place.
+
+Deliberately go and stand in it, away from the camp, for ten minutes, on the Chandratal night. Everyone who does this remembers it.
+
+**The smells.** Three, and they are the ones that will bring the trip back years later.
+
+**Juniper.** *Shukpa*, burned as incense in every monastery and at every household shrine. Sharp, resinous, slightly medicinal. It is the smell of a Tibetan shrine room, along with butter lamps and old wood, and it is unmistakable.
+
+**Butter.** Rancid, faintly cheesy, warm. Butter lamps, butter tea, butter on the images. In a closed shrine room after a thousand years of it, the smell is in the walls.
+
+**Dung smoke.** The fuel of the cold desert. Sweetish, grassy, quite unlike woodsmoke, and it hangs in villages in the evening when the kitchens are going.
+
+And in Kinnaur, on the first days, something entirely different: **deodar and wet earth and apples**, the smell of the monsoon hills, which you will not smell again after Nako until the descent into Kullu on Day 9.
+
+**The cold.** Worth naming as a sensation rather than a problem. Spiti is a **dry cold**, and it feels completely unlike the damp cold of the plains in winter or a European winter. −8 °C at Chandratal with no humidity is more bearable than +4 °C and wet at home, right up until the wind gets up, at which point it is not.
+
+And the **diurnal range** is the thing: 25 °C in the sun at midday and below freezing eight hours later, in the same place, on the same day. Nowhere else in India does this. It is why every piece of advice in this book is about layers.
 
 ---
 
@@ -2658,7 +2977,7 @@ A quick field list, because nine days is long enough to see most of this if you 
 - **Chorten** — stupa. **Khata** — ceremonial scarf. **Cham** — masked ritual dance. **Bardo** — the intermediate state after death. **Tsa-tsa** — small clay votive object. **Jhator** — sky burial. **Mani** — prayer stone or wall. **Lha** — god. **Gonkhang** — protector chapel. **Dukhang** — assembly hall. **Tsuglakhang** — main temple. **Lhakhang** — shrine room. **Thangka** — scroll painting. **Lotsawa** — translator. **Rinpoche** — "precious one", an honorific for a senior or reincarnate lama. **Geshe** — a Gelug doctorate. **Chomo** — a nun. **Gur** — an oracle. **Rath** — a deity's palanquin. **Deota / Devta** — a village god. **Losar** — new year.
 
 **Food and household**
-- **Tsampa** — roasted barley flour. **Po cha** — butter tea. **Chhang** — barley beer. **Arak** — distilled spirit. **Thukpa / Thenthuk** — noodle soup. **Chhurpi** — dried cheese. **Chak-sa** — dry composting toilet. **Bukhari** — a stove. **Chuba** — Tibetan robe. **Siddu** — Himachali steamed bread.
+- **Tsampa** — roasted barley flour. **Po cha** — butter tea. **Chhang** — barley beer. **Arak** — distilled spirit. **Thukpa / Thenthuk** — noodle soup. **Chhurpi** — dried cheese. **Chak-sa** — dry composting toilet. **Bukhari** — a stove. **Chuba** — Tibetan robe. **Siddu** — Himachali steamed stuffed bread. **Dham** — the Himachali ceremonial feast. **Boti** — its hereditary Brahmin cook. **Pattal** — leaf plate. **Madra** — yoghurt-and-ghee gravy. **Khatta** — sweet-sour dish. **Chhutagi** — "water bread", dough bow-ties in broth. **Skyu** — thumb-pressed dough stew. **Churam** — barley-flour tea porridge. **Tingmo** — steamed bread. **Angoori** — Kinnauri grape wine.
 
 **Society and history**
 - **Nono** — hereditary ruler of Spiti. **Begar** — forced unpaid labour. **Bethu** — bonded service for a homestead. **Reet** — the customary purchase of a bride, banned after 1948. **Kanet** — the dominant landholding community of the hill states. **Praja Mandal** — people's association, the vehicle of the hill freedom movement. **Kath-kuni** — timber-and-stone construction. **Khaddi** — the Kinnauri pit loom. **Ranekang** — the Kinnauri wedding rite. **Bagston** — a Spiti wedding. **Negi** — the commonest Kinnauri surname, from an old administrative title. **Jhatpo** — snow leopard (Spiti). **Tangrol** — ibex (Spiti). **Neoza / Ri** — chilgoza pine nut (Kinnauri).
