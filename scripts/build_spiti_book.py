@@ -44,6 +44,9 @@ WORDS = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
 LIST_ITEM = re.compile(r"^\s*([-*+]|\d+\.)\s")
 
 _used_ids = set()
+_fig_ids = set()
+TOKENS = {}   # placeholder paragraph -> gallery html, swapped in by md()
+ITEM_LINE = re.compile(r"^(?:\s*[-*+]\s+)?\*\*([^*]+?)\*\*")
 
 
 def slug(text, prefix=""):
@@ -70,6 +73,15 @@ def md(lines):
         fixed.append(line)
     out = markdown.markdown("\n".join(fixed), extensions=["tables", "smarty", "sane_lists"])
     out = re.sub(r"<thead>\s*<tr>\s*(<th[^>]*>\s*</th>\s*)+</tr>\s*</thead>\s*", "", out)  # empty header rows
+    for token in re.findall(r"<p>(GALLERYPLACEHOLDER\d+)</p>", out):
+        out = out.replace(f"<p>{token}</p>", TOKENS[token])
+    # a floated thumbnail is boxed with the paragraph it belongs to, so short paragraphs
+    # don't let the next thumbnail drift down beside the wrong text
+    for token in re.findall(r"<p>(FLOATPLACEHOLDER\d+)</p>", out):
+        fig = TOKENS[token]
+        out = re.sub(rf"<p>{token}</p>\s*(<p>.*?</p>)", lambda m: f'<div class="with-float">{fig}{m.group(1)}</div>',
+                     out, count=1, flags=re.S)
+        out = out.replace(f"<p>{token}</p>", fig)
     return out.replace("<table>", '<div class="table-wrap"><table>').replace("</table>", "</table></div>")
 
 
@@ -91,10 +103,76 @@ def clean_credit(text):
     return "" if t.lower() in ("as in description", "unknown author", "") else t
 
 
+def fig_id(img):
+    base = out = f"fig-{Path(img['file']).stem}"
+    n = 2
+    while out in _fig_ids:
+        out, n = f"{base}-{n}", n + 1
+    _fig_ids.add(out)
+    return out
+
+
+def credit_html(img):
+    credit = clean_credit(img.get("credit"))
+    return (f'<span class="credit">{html.escape(credit) + " · " if credit else ""}'
+            f'<a href="{html.escape(img["source"])}" target="_blank" rel="noopener">{html.escape(img["license"])}</a></span>')
+
+
+def gfig_html(img, cls="gfig"):
+    return (f'<figure class="{cls}" id="{fig_id(img)}"><img src="img/{img["file"]}" '
+            f'alt="{html.escape(img.get("alt") or plain(img.get("caption") or img["after"]))}" '
+            f'width="{img["w"]}" height="{img["h"]}" loading="lazy" decoding="async">'
+            f'<figcaption>{inline(img.get("caption") or img["after"])} {credit_html(img)}</figcaption></figure>')
+
+
+def gallery_html(imgs):
+    return f'<div class="gallery">{"".join(gfig_html(img) for img in imgs)}</div>'
+
+
+def inject_items(lines, title, items):
+    """Images anchored to a bold item (**Day 1 · …**, - **Wallcreeper** …).
+    A single image for a paragraph floats beside that paragraph; images for list items, or
+    several for one paragraph, go in a grid after the list or paragraph.
+    items: {(heading, item): [img]}."""
+    heading, points = title, {}
+    for i, line in enumerate(lines):
+        if m := re.match(r"^#{2,4} (.+)$", line):
+            heading = plain(m.group(1))
+            continue
+        b = ITEM_LINE.match(line)
+        key = b and (heading, b.group(1).strip(" .:—"))
+        if not key or key not in items:
+            continue
+        imgs, end = items.pop(key), i
+        if LIST_ITEM.match(line):
+            while end + 1 < len(lines) and LIST_ITEM.match(lines[end + 1]):
+                end += 1
+        else:
+            while end + 1 < len(lines) and lines[end + 1].strip() and not LIST_ITEM.match(lines[end + 1]):
+                end += 1
+            if len(imgs) == 1:
+                points.setdefault(i, {"float": [], "grid": []})["float"] += imgs   # before the paragraph
+                continue
+        points.setdefault(end + 1, {"float": [], "grid": []})["grid"] += imgs      # after the block
+    out = list(lines)
+    for pos in sorted(points, reverse=True):
+        new = []
+        if points[pos]["grid"]:
+            token = f"GALLERYPLACEHOLDER{len(TOKENS)}"
+            TOKENS[token] = gallery_html(points[pos]["grid"])
+            new += ["", token, ""]
+        if points[pos]["float"]:
+            token = f"FLOATPLACEHOLDER{len(TOKENS)}"
+            TOKENS[token] = "".join(gfig_html(img, "gfig float") for img in points[pos]["float"])
+            new += ["", token, ""]
+        out[pos:pos] = new
+    return out
+
+
 def figure_html(img, hero=False):
     cap = f"{inline(img['caption'])} " if img.get("caption") else ""
     credit = clean_credit(img.get("credit"))
-    return (f'<figure class="fig{" hero" if hero else ""}" id="fig-{Path(img["file"]).stem}">'
+    return (f'<figure class="fig{" hero" if hero else ""}" id="{fig_id(img)}">'
             f'<img src="img/{img["file"]}" alt="{html.escape(img.get("alt") or img.get("caption", ""))}" '
             f'width="{img["w"]}" height="{img["h"]}" loading="lazy" decoding="async">'
             f'<figcaption>{cap}<span class="credit">{html.escape(credit) + " · " if credit else ""}'
@@ -128,7 +206,7 @@ def render_body(lines, prefix, figs=None):
     for line in lines:
         m = re.match(r"^(#{2,4}) (.+)$", line)
         if not m:
-            if pending and not line.strip() and any(l.strip() for l in buf):
+            if pending and not line.strip() and any(l.strip() and not re.match(r"(GALLERY|FLOAT)PLACEHOLDER", l) for l in buf):
                 place()
             buf.append(line)
             continue
@@ -203,9 +281,12 @@ def main():
 
     # ---- images: anchor (chapter title or heading text) -> figure html ----
     images = json.loads(IMAGES.read_text(encoding="utf-8")) if IMAGES.exists() else []
-    figs = {}
+    figs, items = {}, {}
     for img in images:
-        figs[img["anchor"]] = figs.get(img["anchor"], "") + figure_html(img)
+        if img.get("after"):
+            items.setdefault((img["anchor"], img["after"]), []).append(img)
+        else:
+            figs[img["anchor"]] = figs.get(img["anchor"], "") + figure_html(img)
 
     # ---- chapters, interludes, sidebars, appendices ----
     sections, colophon = [], ""
@@ -233,28 +314,31 @@ def main():
             if len(tail) == 1 and re.fullmatch(r"\*[^*].*\*", tail[0].strip()):
                 colophon = inline(tail[0].strip())
                 body = body[:last]
-        body = [l for l in body if l.strip() != "---"]
+        body = inject_items([l for l in body if l.strip() != "---"], name, items)
 
         body_html, toc = render_body(body, sid, figs)
         sections.append(dict(id=sid, n=n, kind=kind, label=label, title=name,
                              here=f"{label} · {name}" if label else name,
                              meta=meta, body=body_html, toc=toc, hero=hero))
 
-    for anchor in figs:
-        print(f"warning: no chapter or heading called {anchor!r}; its image was not placed")
-
     if images:
-        items = "".join(
-            f'<li><a href="#fig-{Path(i["file"]).stem}">{html.escape(plain(i.get("caption") or i["anchor"]))}</a>'
-            f'{" — " + html.escape(clean_credit(i["credit"])) if clean_credit(i["credit"]) else ""}, '
-            f'<a href="{html.escape(i["source"])}" target="_blank" rel="noopener">'
-            f'{html.escape(i["license"])}</a></li>' for i in images if i["anchor"] not in figs)
+        seen, credit_items = set(), []
+        for i in images:
+            if i["anchor"] in figs or (i["anchor"], i.get("after")) in items or i["file"] in seen:
+                continue
+            seen.add(i["file"])
+            credit_items.append(
+                f'<li><a href="#fig-{Path(i["file"]).stem}">{html.escape(plain(i.get("caption") or i.get("after") or i["anchor"]))}</a>'
+                f'{" — " + html.escape(clean_credit(i["credit"])) if clean_credit(i["credit"]) else ""}, '
+                f'<a href="{html.escape(i["source"])}" target="_blank" rel="noopener">'
+                f'{html.escape(i["license"])}</a></li>')
+        credit_items = "".join(credit_items)
         _used_ids.add("image-credits")
         sections.append(dict(
             id="image-credits", n="", kind="back", label="", title="Image credits", here="Image credits",
             meta=[("Photographs and artwork from Wikimedia Commons and Wikipedia. "
                    "Each link goes to the original file, with its author and licence.", True)],
-            body=f'<ol class="credits">{items}</ol>', toc=[], hero=""))
+            body=f'<ol class="credits">{credit_items}</ol>', toc=[], hero=""))
 
     # ---- front matter; the Contents section also yields sidebar groups and "when" notes ----
     by_title = {s["title"].lower(): s["id"] for s in sections}
@@ -297,10 +381,14 @@ def main():
                         l = f"| {row[1]} | [{row[2]}](#{target}) | {row[3]} |"
                 linked.append(l)
             body = linked
-        body_html, toc = render_body([l for l in body if l.strip() != "---"], sid)
+        body_html, toc = render_body(inject_items([l for l in body if l.strip() != "---"], title, items), sid, figs)
         front_sections.append(dict(id=sid, n="", kind="front", label="Before you start", title=title,
                                    here=title, meta=[], body=body_html, toc=toc, hero=""))
     sections = front_sections + sections
+    for anchor in figs:
+        print(f"warning: no chapter or heading called {anchor!r}; its image was not placed")
+    for anchor, after in items:
+        print(f"warning: no bold item {after!r} under {anchor!r}; its image was not placed")
 
     # ---- sidebar: document order, a new group header whenever the Contents group changes ----
     def nav_item(s):
@@ -613,6 +701,20 @@ td:first-child{white-space:nowrap;color:var(--muted)}
 .fig.hero{margin:-8px 0 44px}
 .box .fig{margin:1.2em 0 1.4em}
 @media (min-width:1280px){.fig.hero{margin-left:-3.5rem;margin-right:-3.5rem}.fig.hero figcaption{padding:0 3.5rem}}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px 12px;margin:1.2em 0 1.9em}
+.gallery .gfig{margin:0}
+.gallery img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;object-position:50% 35%;border-radius:5px;background:var(--surface)}
+.gallery figcaption{margin-top:6px;font-size:12.5px;line-height:1.35;color:var(--muted)}
+.gallery .credit{display:block;margin-top:2px;font-size:10.5px;opacity:.8}
+.gallery .credit a{color:inherit}
+.with-float{display:flow-root}
+.gfig.float{float:right;width:min(36%,190px);margin:.35em 0 1.1em 1.1em}
+.gfig.float img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover;object-position:50% 35%;border-radius:5px;background:var(--surface)}
+.gfig.float figcaption{margin-top:5px;font-size:12px;line-height:1.3;color:var(--muted)}
+.gfig.float .credit{display:block;margin-top:1px;font-size:10px;opacity:.8}
+.gfig.float .credit a{color:inherit}
+.chapter-body :is(h2,h3,.h-label,.gallery,.box,.fig,.table-wrap){clear:both}
+.chapter-body :is(ul,ol){display:flow-root}
 .credits{padding-left:1.4em;font-size:14px;line-height:1.5}
 .credits li{margin:.45em 0}
 .credits a:first-child{color:inherit}

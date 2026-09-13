@@ -8,6 +8,10 @@ picks.json is a list of {"anchor", "title", "caption", "alt"}:
   anchor   a chapter title or a ## / ### heading, exactly as written in the markdown
            (without the #s or *s); chapter titles get a full-width image under the title,
            headings get the image after their first paragraph
+  after    optional: a bold item under that heading ("Wallcreeper" for "- **Wallcreeper** — …",
+           "Day 1 · Shimla → Sarahan" for "**Day 1 · Shimla → Sarahan.** …"); the image then goes
+           in a small gallery right after that paragraph or list
+  max_w    optional pixel width (default 1200; 800 is plenty for gallery images)
   title    the Commons file name, e.g. "File:Key Monastery.jpg"
 
 Each image is shrunk to a web-sized WebP in spiti/book/img/, and its author, licence and
@@ -57,8 +61,11 @@ def slug(text):
 
 
 def add(pick, db):
+    # ask for a standard thumbnail size just above what we keep; standard sizes are cached upstream
+    # and far less likely to be rate-limited than a fresh 1280px render
+    want = 960 if int(pick.get("max_w", MAX_W)) <= 960 else 1280
     r = get(API, params=dict(action="query", format="json", titles=pick["title"], prop="imageinfo",
-                             iiprop="url|size|extmetadata", iiurlwidth=1280,
+                             iiprop="url|size|extmetadata", iiurlwidth=want,
                              iiextmetadatafilter="LicenseShortName|Artist|Credit"))
     page = next(iter(r.json()["query"]["pages"].values()))
     if "imageinfo" not in page:
@@ -73,16 +80,18 @@ def add(pick, db):
     if not out.exists():
         raw = get(ii.get("thumburl") or ii["url"]).content
         im = ImageOps.exif_transpose(Image.open(io.BytesIO(raw))).convert("RGB")
-        if im.width > MAX_W:
-            im = im.resize((MAX_W, round(im.height * MAX_W / im.width)), Image.LANCZOS)
+        max_w = int(pick.get("max_w", MAX_W))
+        if im.width > max_w:
+            im = im.resize((max_w, round(im.height * max_w / im.width)), Image.LANCZOS)
         im.save(out, "WEBP", quality=QUALITY, method=6)
     w, h = Image.open(out).size
 
-    entry = dict(anchor=pick["anchor"], file=name, w=w, h=h, caption=pick.get("caption", ""),
+    entry = dict(anchor=pick["anchor"], **({"after": pick["after"]} if pick.get("after") else {}),
+                 file=name, w=w, h=h, caption=pick.get("caption", ""),
                  alt=pick.get("alt") or pick.get("caption", ""), credit=author[:120], license=licence,
                  source=ii["descriptionurl"])
     for i, old in enumerate(db):
-        if old["source"] == entry["source"] and old["anchor"] == entry["anchor"]:
+        if (old["source"], old["anchor"], old.get("after")) == (entry["source"], entry["anchor"], entry.get("after")):
             db[i] = entry
             break
     else:
