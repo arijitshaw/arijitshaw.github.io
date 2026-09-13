@@ -427,10 +427,34 @@ def main():
             .replace("%%NAV%%", "".join(nav))
             .replace("%%SECTIONS%%", "\n".join(section_html(s) for s in sections))
             .replace("%%COLOPHON%%", colophon)
+            .replace("%%ROUTE_MAP%%", route_map_html())
             .replace("%%MAP_URL%%", html.escape(MAP_URL)))
     OUT.write_text(page, encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)} ({len(sections)} sections, {len(images)} images)")
     write_service_worker()
+
+
+RIDGE = ('<svg class="ridge" viewBox="0 0 150 34" fill="none" stroke="currentColor" stroke-width="1.4" '
+         'stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M1 33 24 14l10 8 22-21 16 15 9-6 '
+         '20 17 11-9 18 15"/><path d="M50 7l6-6 6 6-3-1-3 3-3-3Z" fill="currentColor" stroke-width="1"/></svg>')
+
+
+def route_map_html():
+    """The route drawn over OpenStreetMap (made by scripts/build_route_map.py), or the ridge ornament."""
+    base, overlay = SPITI / "book/img/route-map-base.webp", SPITI / "book/img/route-map-overlay.svg"
+    if not (base.exists() and overlay.exists()):
+        return RIDGE
+    vb = re.search(r'viewBox="0 0 ([\d.]+) ([\d.]+)"', overlay.read_text(encoding="utf-8"))
+    ratio = f"{float(vb[1]):.1f} / {float(vb[2]):.1f}" if vb else "1"
+    num = float(vb[1]) / float(vb[2]) if vb else 1
+    return (f'<figure class="route-map" style="--map-ratio:{num:.4f}">'
+            f'<div class="route-map-stack" style="aspect-ratio:{ratio}">'
+            '<img src="img/route-map-base.webp" alt="" fetchpriority="high" decoding="async">'
+            '<img class="overlay" src="img/route-map-overlay.svg" '
+            'alt="Route map: Shimla, Sarahan, Chitkul, Kalpa, Nako, Tabo, Mud, Kaza, Losar, Kunzum La, Chandratal, Manali">'
+            '</div><figcaption>The route, night by night. Map data © '
+            '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>.'
+            '</figcaption></figure>')
 
 
 def write_service_worker():
@@ -629,7 +653,13 @@ main{margin-left:var(--side);padding:calc(var(--top) + 8px) 40px 120px}
 .page{max-width:37rem;margin:0 auto}
 .cover{min-height:calc(100svh - var(--top) - 8px);display:flex;flex-direction:column;justify-content:center;padding:48px 0 64px;text-align:center}
 .cover .kicker{margin-bottom:22px}
-.ridge{display:block;width:150px;margin:0 auto 26px;color:var(--accent)}
+.cover:has(.route-map){padding-top:24px}
+.route-map{margin:0 auto 34px;width:100%;max-width:calc(76svh * var(--map-ratio, 1))}
+.route-map-stack{position:relative;overflow:hidden;border-radius:10px;background:var(--surface);box-shadow:var(--shadow)}
+.route-map-stack img{display:block;width:100%;height:100%;object-fit:cover}
+.route-map-stack .overlay{position:absolute;inset:0}
+.route-map figcaption{margin-top:9px;font-size:12.5px;line-height:1.4;color:var(--muted)}
+.route-map figcaption a{color:inherit}.ridge{display:block;width:150px;margin:0 auto 26px;color:var(--accent)}
 .cover-title{font:400 clamp(58px,11vw,96px)/.95 var(--display);letter-spacing:-.025em;margin:0}
 .cover-route{font:500 clamp(19px,3.4vw,24px)/1.35 var(--display);margin:22px 0 6px}
 .cover-tag{font-style:italic;color:var(--muted);margin:0}
@@ -781,7 +811,7 @@ td:first-child{white-space:nowrap;color:var(--muted)}
 <main>
 <div class="page">
   <header class="cover" id="top" data-section data-here="%%BOOK_TITLE%%">
-    <svg class="ridge" viewBox="0 0 150 34" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M1 33 24 14l10 8 22-21 16 15 9-6 20 17 11-9 18 15"/><path d="M50 7l6-6 6 6-3-1-3 3-3-3Z" fill="currentColor" stroke-width="1"/></svg>
+    %%ROUTE_MAP%%
     <div class="kicker">Spiti Circuit · September 2026</div>
     <h1 class="cover-title">%%BOOK_TITLE%%</h1>
     <p class="cover-route">%%SUBTITLE%%</p>
