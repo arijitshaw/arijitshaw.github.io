@@ -36,7 +36,13 @@ EXTERNAL = [
     "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Lora:wght@400;600&display=swap",
     "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400"
     "&family=Lora:ital,wght@0,400;0,600;1,400&display=swap",
+    # spiti/map/: Leaflet and its fonts (the map tiles themselves always come from the network)
+    "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css",
+    "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js",
+    "https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600&display=swap",
 ]
+# only these third-party hosts are kept in the offline cache; anything else (map tiles) passes through
+RUNTIME_HOSTS = ["fonts.googleapis.com", "fonts.gstatic.com", "unpkg.com"]
 
 BOXES = {"In the rock": "rock", "The other story": "myth", "Who came through here": "people"}
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
@@ -476,7 +482,8 @@ def write_service_worker():
             for f in files]
     sw = (SW_TEMPLATE.replace("%%VERSION%%", version)
           .replace("%%PRECACHE%%", json.dumps(urls, indent=1))
-          .replace("%%EXTERNAL%%", json.dumps(EXTERNAL, indent=1)))
+          .replace("%%EXTERNAL%%", json.dumps(EXTERNAL, indent=1))
+          .replace("%%RUNTIME_HOSTS%%", json.dumps(RUNTIME_HOSTS)))
     (SPITI / "sw.js").write_text(sw, encoding="utf-8")
     size = sum((SPITI / f).stat().st_size for f in files) / 1e6
     print(f"wrote spiti/sw.js (version {version}, {len(urls)} files, {size:.1f} MB)")
@@ -490,6 +497,8 @@ const CACHE = `spiti-${VERSION}`;
 const RUNTIME = "spiti-runtime";
 const PRECACHE = %%PRECACHE%%;
 const EXTERNAL = %%EXTERNAL%%;
+const RUNTIME_HOSTS = %%RUNTIME_HOSTS%%;   // third-party hosts worth keeping offline; map tiles are not
+const keepable = url => RUNTIME_HOSTS.includes(new URL(url).hostname);
 
 const fill = (cache, url) =>
   cache.match(url, { ignoreVary: true })
@@ -519,7 +528,7 @@ self.addEventListener("message", event => {
   if (data.type === "version" && event.source) event.source.postMessage({ type: "version", version: VERSION });
   if (data.type === "cache" && Array.isArray(data.urls))
     event.waitUntil(caches.open(RUNTIME).then(runtime => Promise.all(
-      data.urls.filter(url => new URL(url).origin !== location.origin).map(url => fill(runtime, url)))));
+      data.urls.filter(keepable).map(url => fill(runtime, url)))));
 });
 
 self.addEventListener("fetch", event => {
@@ -545,7 +554,9 @@ self.addEventListener("fetch", event => {
     return;
   }
 
-  // fonts and scripts from other sites: cache first, filled on first use
+  // fonts and scripts from other sites: cache first, filled on first use.
+  // Anything else (map tiles) goes straight to the network so it cannot fill the phone's storage.
+  if (!keepable(request.url)) return;
   event.respondWith((async () => {
     const runtime = await caches.open(RUNTIME);
     const hit = await runtime.match(request, { ignoreVary: true });
@@ -800,7 +811,8 @@ td:first-child{white-space:nowrap;color:var(--muted)}
   <nav>%%NAV%%</nav>
   <div class="sidebar-foot">
     <a href="../preparation/">Preparation: weather, roads, packing</a>
-    <a href="%%MAP_URL%%" target="_blank" rel="noopener">Trip map ↗</a>
+    <a href="../map/">Route map</a>
+    <a href="%%MAP_URL%%" target="_blank" rel="noopener">Google My Maps ↗</a>
     <a href="../">Spiti Circuit home</a>
     <a href="#" data-pwa-install>Install on this phone</a>
     <a href="#" data-pwa-update>Check for updates</a>
@@ -828,7 +840,7 @@ td:first-child{white-space:nowrap;color:var(--muted)}
 
   <footer class="colophon">
     <p>%%COLOPHON%%</p>
-    <nav><a href="../">Spiti Circuit</a><a href="../preparation/">Preparation</a><a href="%%MAP_URL%%" target="_blank" rel="noopener">Trip map ↗</a></nav>
+    <nav><a href="../">Spiti Circuit</a><a href="../preparation/">Preparation</a><a href="../map/">Route map</a><a href="%%MAP_URL%%" target="_blank" rel="noopener">Google My Maps ↗</a></nav>
   </footer>
 </div>
 </main>

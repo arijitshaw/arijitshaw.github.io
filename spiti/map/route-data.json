@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "title": "Spiti circuit",
+    "subtitle": "16\u201324 September 2026",
+    "route": "Shimla \u2192 Kinnaur \u2192 Kaza \u2192 Chandratal \u2192 Manali"
+  },
+  "stops": [
+    {"id": "shimla", "kind": "end", "label": "Shimla", "num": null, "date": "16 Sep", "alt": 2205, "lat": 31.1044, "lon": 77.1748, "note": "Set off. Draw cash and download offline maps here \u2014 ATMs get unreliable past Reckong Peo.", "night": null},
+    {"id": "sarahan", "kind": "night", "label": "Sarahan", "num": 1, "date": "16 Sep", "alt": 2165, "lat": 31.5103, "lon": 77.7954, "note": "Mild enough that you will privately conclude you have over-packed.", "night": "8 to 12 \u00b0C"},
+    {"id": "chitkul", "kind": "night", "label": "Chitkul", "num": 2, "date": "17 Sep", "alt": 3450, "lat": 31.3508, "lon": 78.4366, "note": "The first real jolt. Windy, damp, and a preview of what is coming.", "night": "0 to 4 \u00b0C"},
+    {"id": "kalpa", "kind": "night", "label": "Kalpa", "num": 3, "date": "18 Sep", "alt": 2960, "lat": 31.5377, "lon": 78.2754, "note": "Kinnaur Kailash across the valley. Last mild night of the trip.", "night": "5 to 9 \u00b0C"},
+    {"id": "tabo", "kind": "night", "label": "Tabo", "num": 4, "date": "19 Sep", "alt": 3280, "lat": 32.0935, "lon": 78.3829, "note": "Cold desert from here. Air turns very dry and nights start biting.", "night": "0 to 4 \u00b0C"},
+    {"id": "mudh", "kind": "night", "label": "Mudh", "num": 5, "date": "20 Sep", "alt": 3800, "lat": 31.9559, "lon": 78.0363, "note": "Up a dead-end side valley. First sub-zero night.", "night": "\u22121 to \u22124 \u00b0C"},
+    {"id": "kaza", "kind": "night", "label": "Kaza", "num": 6, "date": "21 Sep", "alt": 3650, "lat": 32.2276, "lon": 78.0710, "note": "A poor first night's sleep here is normal and usually passes.", "night": "\u22122 to \u22126 \u00b0C"},
+    {"id": "losar", "kind": "night", "label": "Losar", "num": 7, "date": "22 Sep", "alt": 4085, "lat": 32.4383, "lon": 77.7552, "note": "Described everywhere as the coldest place in Spiti. Homestays have essentially no heating.", "night": "\u22124 to \u22128 \u00b0C"},
+    {"id": "chandratal", "kind": "night", "label": "Chandratal", "num": 8, "date": "23 Sep", "alt": 4337, "lat": 32.4824, "lon": 77.6157, "note": "No network, no charging, no hot shower. Twelve hours between sunset and sunrise.", "night": "\u22125 to \u221210 \u00b0C"},
+    {"id": "manali", "kind": "end", "label": "Manali", "num": null, "date": "24 Sep", "alt": 2050, "lat": 32.2432, "lon": 77.1892, "note": "A 3,000 m drop in one day. You will be peeling layers off from Koksar onwards.", "night": null}
+  ],
+  "highpoints": [
+    {"id": "langza", "label": "Langza", "alt": 4400, "lat": 32.2738, "lon": 78.0816, "day": 6},
+    {"id": "hikkim", "label": "Hikkim", "alt": 4400, "lat": 32.2900, "lon": 78.0680, "day": 6},
+    {"id": "komic", "label": "Komic", "alt": 4587, "lat": 32.2331, "lon": 78.1087, "day": 6},
+    {"id": "kibber", "label": "Kibber", "alt": 4270, "lat": 32.3327, "lon": 78.0103, "day": 7},
+    {"id": "chicham", "label": "Chicham", "alt": 4145, "lat": 32.3432, "lon": 77.9971, "day": 7},
+    {"id": "kunzum", "label": "Kunzum La", "alt": 4590, "lat": 32.3989, "lon": 77.6356, "day": 8}
+  ],
+  "legs": [
+    {"day": 1, "from": "Shimla", "to": "Sarahan", "coords": [[31.1044,77.1748],[31.0975,77.2650],[31.0908,77.2900],[31.1220,77.3580],[31.1830,77.4130],[31.2530,77.4630],[31.3100,77.5000],[31.3630,77.5340],[31.3900,77.5700],[31.4500,77.6300],[31.4760,77.7080],[31.5080,77.7420],[31.5103,77.7954]]},
+    {"day": 2, "from": "Sarahan", "to": "Chitkul", "coords": [[31.5103,77.7954],[31.5080,77.7420],[31.5350,77.8550],[31.5620,77.9150],[31.5580,77.9800],[31.5300,78.0900],[31.4750,78.1750],[31.4200,78.2650],[31.3800,78.3550],[31.3508,78.4366]]},
+    {"day": 3, "from": "Chitkul", "to": "Kalpa", "coords": [[31.3508,78.4366],[31.3800,78.3550],[31.4200,78.2650],[31.4750,78.1750],[31.5000,78.2100],[31.5230,78.2450],[31.5377,78.2754]]},
+    {"day": 4, "from": "Kalpa", "to": "Tabo", "coords": [[31.5377,78.2754],[31.5230,78.2450],[31.5600,78.3300],[31.6000,78.3800],[31.6380,78.4300],[31.6620,78.4830],[31.7100,78.5400],[31.7640,78.5920],[31.7900,78.7100],[31.8797,78.6297],[31.9340,78.6360],[31.9900,78.5550],[32.0300,78.4800],[32.0935,78.3829]]},
+    {"day": 5, "from": "Tabo", "to": "Mudh", "coords": [[32.0935,78.3829],[32.0800,78.2400],[32.0600,78.1450],[32.0250,78.1000],[32.0000,78.0700],[31.9800,78.0500],[31.9559,78.0363]]},
+    {"day": 6, "from": "Mudh", "to": "Kaza", "coords": [[31.9559,78.0363],[31.9800,78.0500],[32.0250,78.1000],[32.0600,78.1450],[32.1200,78.1100],[32.1800,78.1000],[32.2276,78.0710]]},
+    {"day": 7, "from": "Kaza", "to": "Losar", "coords": [[32.2276,78.0710],[32.2600,78.0400],[32.2980,78.0120],[32.3327,78.0103],[32.3432,77.9971],[32.3700,77.9300],[32.3900,77.8700],[32.4200,77.8100],[32.4383,77.7552]]},
+    {"day": 8, "from": "Losar", "to": "Chandratal", "coords": [[32.4383,77.7552],[32.4300,77.7000],[32.4150,77.6600],[32.3989,77.6356],[32.4150,77.6150],[32.4450,77.6050],[32.4700,77.6100],[32.4824,77.6157]]},
+    {"day": 9, "from": "Chandratal", "to": "Manali", "coords": [[32.4824,77.6157],[32.4700,77.6100],[32.4450,77.6050],[32.4150,77.6150],[32.3989,77.6356],[32.3800,77.6000],[32.3617,77.5644],[32.3900,77.5000],[32.4200,77.4100],[32.4450,77.3300],[32.4300,77.2600],[32.4150,77.2100],[32.4530,77.1470],[32.3660,77.2000],[32.3170,77.1730],[32.2432,77.1892]]}
+  ],
+  "spurs": [
+    {"day": 6, "label": "Langza, Hikkim and Komic", "coords": [[32.2276,78.0710],[32.2500,78.0800],[32.2738,78.0816],[32.2900,78.0680],[32.2331,78.1087],[32.2276,78.0710]]}
+  ]
+}

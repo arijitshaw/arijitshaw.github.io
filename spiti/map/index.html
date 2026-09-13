@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spiti circuit route map · 16–24 September 2026</title>
+<meta name="description" content="Route map for the Shimla – Kinnaur – Kaza – Chandratal – Manali circuit, 16–24 September 2026.">
+<meta name="theme-color" content="#201f1d">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Spiti">
+<script src="../pwa.js" defer></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#201f1d;
+  --ink-2:#2c2a26;
+  --ink-3:#3a3733;
+  --edge:#43403a;
+  --bone:#f2efe9;
+  --bone-2:#a8a296;
+  --route:#f5d547;
+  --casing:#171614;
+  --warm:#e9e2d3;
+  --cold:#26364f;
+  --font:"Barlow",system-ui,-apple-system,sans-serif;
+  --font-map:"Barlow Semi Condensed","Barlow",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--ink);color:var(--bone);font-family:var(--font);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+#map{position:absolute;inset:0;background:var(--ink)}
+
+/* ---------- route ---------- */
+.route-casing{stroke:var(--casing);stroke-width:7;stroke-linecap:round;stroke-linejoin:round;fill:none;opacity:.5}
+.route-line{stroke:var(--route);stroke-width:3;stroke-linecap:round;stroke-linejoin:round;fill:none}
+.route-line.lit{stroke-width:5.5}
+.route-spur{stroke:var(--route);stroke-width:2;stroke-dasharray:2 5;stroke-linecap:round;fill:none;opacity:.85}
+@media (prefers-reduced-motion:no-preference){
+  .route-line.draw{animation:draw 1.8s cubic-bezier(.4,0,.2,1) forwards}
+  @keyframes draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+}
+
+/* ---------- markers ---------- */
+.pin{display:grid;place-items:center;border-radius:50%;font-family:var(--font-map);font-weight:600;
+  border:2px solid var(--casing);box-shadow:0 1px 4px rgba(0,0,0,.5);cursor:pointer;
+  transition:transform .15s ease;width:100%;height:100%}
+.pin:hover,.pin.on{transform:scale(1.2)}
+.pin-night{font-size:15px;line-height:1}
+.pin-end{background:var(--bone);border-width:4px}
+.pin-high{background:var(--route)}
+
+.leaflet-tooltip.stop-label{background:none;border:0;box-shadow:none;padding:0 5px;white-space:nowrap;
+  font-family:var(--font-map);font-weight:600;font-size:17px;color:#fff;
+  text-shadow:0 0 3px rgba(0,0,0,.95),0 0 9px rgba(0,0,0,.85),0 1px 2px #000}
+.leaflet-tooltip.stop-label.high{font-size:12.5px;font-weight:500;color:var(--route)}
+.leaflet-tooltip.stop-label:before{display:none}
+
+/* ---------- panel ---------- */
+.panel{position:absolute;z-index:600;left:16px;bottom:16px;width:330px;max-width:calc(100% - 32px);
+  background:rgba(32,31,29,.94);backdrop-filter:blur(10px);border:1px solid var(--edge);
+  border-radius:3px;padding:15px 16px 13px}
+.panel h1{margin:0;font-size:17px;font-weight:600}
+.panel .dates{margin:1px 0 0;font-size:13px;color:var(--bone-2)}
+.profile{margin:13px 0 0;width:100%;display:block;height:auto;overflow:visible}
+.profile text{font-family:var(--font-map);font-size:9.5px;fill:var(--bone-2)}
+.profile .notch{cursor:pointer}
+.detail{margin:11px 0 0;padding:11px 0 0;border-top:1px solid var(--edge);min-height:104px}
+.detail .row{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.detail .name{font-family:var(--font-map);font-weight:600;font-size:19px}
+.detail .alt{font-size:13px;color:var(--bone-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.detail .when{margin:1px 0 0;font-size:12.5px;color:var(--bone-2)}
+.detail .note{margin:7px 0 0;font-size:13.5px;color:#ddd8cd}
+.reset{margin:9px 0 0;background:none;border:0;padding:0;font:inherit;font-size:12.5px;
+  color:var(--bone-2);cursor:pointer;border-bottom:1px solid #4d4941}
+.reset:hover{color:var(--bone)}
+
+/* ---------- basemap switch ---------- */
+.basemaps{position:absolute;z-index:600;right:12px;top:12px;display:flex;
+  background:rgba(32,31,29,.94);backdrop-filter:blur(10px);border:1px solid var(--edge);
+  border-radius:3px;overflow:hidden}
+.basemaps button{background:none;border:0;padding:7px 11px;font:inherit;font-size:12.5px;
+  color:var(--bone-2);cursor:pointer;border-right:1px solid var(--edge)}
+.basemaps button:last-child{border-right:0}
+.basemaps button[aria-pressed="true"]{background:var(--route);color:var(--casing);font-weight:600}
+.basemaps button:hover:not([aria-pressed="true"]){color:var(--bone)}
+
+.panel .links{margin:0 0 8px;font-size:12.5px;color:var(--bone-2)}
+.panel .links a{color:var(--bone-2);text-decoration:none;border-bottom:1px solid #4d4941}
+.panel .links a:hover{color:var(--bone)}
+:focus-visible{outline:2px solid var(--route);outline-offset:2px}
+
+.leaflet-control-attribution{background:rgba(32,31,29,.9)!important;color:var(--bone-2)!important;font-size:10.5px!important}
+.leaflet-control-attribution a{color:#cfc9bc!important}
+.leaflet-bar a{background:var(--ink-2)!important;color:var(--bone)!important;border-color:var(--edge)!important}
+.leaflet-bar a:hover{background:var(--ink-3)!important}
+
+@media (max-width:640px){
+  .panel{left:8px;right:8px;bottom:26px;width:auto;padding:12px 13px 11px}
+  .detail{min-height:0}
+  .basemaps{right:8px;top:8px}
+  .basemaps button{padding:6px 9px;font-size:12px}
+  .leaflet-tooltip.stop-label{font-size:15px}
+  .leaflet-control-attribution{width:100%;margin:0!important;text-align:center}
+  .leaflet-control-zoom{display:none}
+}
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div class="basemaps" role="group" aria-label="Base map style">
+  <button type="button" data-base="street" aria-pressed="true">Street</button>
+  <button type="button" data-base="terrain" aria-pressed="false">Terrain</button>
+  <button type="button" data-base="satellite" aria-pressed="false">Satellite</button>
+</div>
+
+<div class="panel">
+  <p class="links"><a href="../">← Spiti Circuit</a> · <a href="../book/">The Long Read</a></p>
+  <h1>Spiti circuit</h1>
+  <p class="dates">16–24 September 2026 · Shimla to Manali</p>
+  <svg class="profile" viewBox="0 0 300 76" role="img"
+       aria-label="Altitude profile of the nine-day route, rising from 2,165 metres at Sarahan to 4,337 metres at Chandratal before dropping to Manali"></svg>
+  <div class="detail" aria-live="polite"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const DATA = {"meta": {"title": "Spiti circuit","subtitle": "16–24 September 2026","route": "Shimla → Kinnaur → Kaza → Chandratal → Manali"},"stops": [{"id": "shimla","kind": "end","label": "Shimla","num": null,"date": "16 Sep","alt": 2205,"lat": 31.1044,"lon": 77.1748,"note": "Set off. Draw cash and download offline maps here — ATMs get unreliable past Reckong Peo.","night": null},{"id": "sarahan","kind": "night","label": "Sarahan","num": 1,"date": "16 Sep","alt": 2165,"lat": 31.5103,"lon": 77.7954,"note": "Mild enough that you will privately conclude you have over-packed.","night": "8 to 12 °C"},{"id": "chitkul","kind": "night","label": "Chitkul","num": 2,"date": "17 Sep","alt": 3450,"lat": 31.3508,"lon": 78.4366,"note": "The first real jolt. Windy, damp, and a preview of what is coming.","night": "0 to 4 °C"},{"id": "kalpa","kind": "night","label": "Kalpa","num": 3,"date": "18 Sep","alt": 2960,"lat": 31.5377,"lon": 78.2754,"note": "Kinnaur Kailash across the valley. Last mild night of the trip.","night": "5 to 9 °C"},{"id": "tabo","kind": "night","label": "Tabo","num": 4,"date": "19 Sep","alt": 3280,"lat": 32.0935,"lon": 78.3829,"note": "Cold desert from here. Air turns very dry and nights start biting.","night": "0 to 4 °C"},{"id": "mudh","kind": "night","label": "Mudh","num": 5,"date": "20 Sep","alt": 3800,"lat": 31.9559,"lon": 78.0363,"note": "Up a dead-end side valley. First sub-zero night.","night": "−1 to −4 °C"},{"id": "kaza","kind": "night","label": "Kaza","num": 6,"date": "21 Sep","alt": 3650,"lat": 32.2276,"lon": 78.071,"note": "A poor first night's sleep here is normal and usually passes.","night": "−2 to −6 °C"},{"id": "losar","kind": "night","label": "Losar","num": 7,"date": "22 Sep","alt": 4085,"lat": 32.4383,"lon": 77.7552,"note": "Described everywhere as the coldest place in Spiti. Homestays have essentially no heating.","night": "−4 to −8 °C"},{"id": "chandratal","kind": "night","label": "Chandratal","num": 8,"date": "23 Sep","alt": 4337,"lat": 32.4824,"lon": 77.6157,"note": "No network, no charging, no hot shower. Twelve hours between sunset and sunrise.","night": "−5 to −10 °C"},{"id": "manali","kind": "end","label": "Manali","num": null,"date": "24 Sep","alt": 2050,"lat": 32.2432,"lon": 77.1892,"note": "A 3,000 m drop in one day. You will be peeling layers off from Koksar onwards.","night": null}],"highpoints": [{"id": "langza","label": "Langza","alt": 4400,"lat": 32.2738,"lon": 78.0816,"day": 6},{"id": "hikkim","label": "Hikkim","alt": 4400,"lat": 32.29,"lon": 78.068,"day": 6},{"id": "komic","label": "Komic","alt": 4587,"lat": 32.2331,"lon": 78.1087,"day": 6},{"id": "kibber","label": "Kibber","alt": 4270,"lat": 32.3327,"lon": 78.0103,"day": 7},{"id": "chicham","label": "Chicham","alt": 4145,"lat": 32.3432,"lon": 77.9971,"day": 7},{"id": "kunzum","label": "Kunzum La","alt": 4590,"lat": 32.3989,"lon": 77.6356,"day": 8}],"legs": [{"day": 1,"from": "Shimla","to": "Sarahan","coords": [[31.1044,77.1748],[31.0975,77.265],[31.0908,77.29],[31.122,77.358],[31.183,77.413],[31.253,77.463],[31.31,77.5],[31.363,77.534],[31.39,77.57],[31.45,77.63],[31.476,77.708],[31.508,77.742],[31.5103,77.7954]]},{"day": 2,"from": "Sarahan","to": "Chitkul","coords": [[31.5103,77.7954],[31.508,77.742],[31.535,77.855],[31.562,77.915],[31.558,77.98],[31.53,78.09],[31.475,78.175],[31.42,78.265],[31.38,78.355],[31.3508,78.4366]]},{"day": 3,"from": "Chitkul","to": "Kalpa","coords": [[31.3508,78.4366],[31.38,78.355],[31.42,78.265],[31.475,78.175],[31.5,78.21],[31.523,78.245],[31.5377,78.2754]]},{"day": 4,"from": "Kalpa","to": "Tabo","coords": [[31.5377,78.2754],[31.523,78.245],[31.56,78.33],[31.6,78.38],[31.638,78.43],[31.662,78.483],[31.71,78.54],[31.764,78.592],[31.79,78.71],[31.8797,78.6297],[31.934,78.636],[31.99,78.555],[32.03,78.48],[32.0935,78.3829]]},{"day": 5,"from": "Tabo","to": "Mudh","coords": [[32.0935,78.3829],[32.08,78.24],[32.06,78.145],[32.025,78.1],[32.0,78.07],[31.98,78.05],[31.9559,78.0363]]},{"day": 6,"from": "Mudh","to": "Kaza","coords": [[31.9559,78.0363],[31.98,78.05],[32.025,78.1],[32.06,78.145],[32.12,78.11],[32.18,78.1],[32.2276,78.071]]},{"day": 7,"from": "Kaza","to": "Losar","coords": [[32.2276,78.071],[32.26,78.04],[32.298,78.012],[32.3327,78.0103],[32.3432,77.9971],[32.37,77.93],[32.39,77.87],[32.42,77.81],[32.4383,77.7552]]},{"day": 8,"from": "Losar","to": "Chandratal","coords": [[32.4383,77.7552],[32.43,77.7],[32.415,77.66],[32.3989,77.6356],[32.415,77.615],[32.445,77.605],[32.47,77.61],[32.4824,77.6157]]},{"day": 9,"from": "Chandratal","to": "Manali","coords": [[32.4824,77.6157],[32.47,77.61],[32.445,77.605],[32.415,77.615],[32.3989,77.6356],[32.38,77.6],[32.3617,77.5644],[32.39,77.5],[32.42,77.41],[32.445,77.33],[32.43,77.26],[32.415,77.21],[32.453,77.147],[32.366,77.2],[32.317,77.173],[32.2432,77.1892]]}],"spurs": [{"day": 6,"label": "Langza, Hikkim and Komic","coords": [[32.2276,78.071],[32.25,78.08],[32.2738,78.0816],[32.29,78.068],[32.2331,78.1087],[32.2276,78.071]]}]};
+
+const LABEL_DIR = {shimla:"bottom",sarahan:"left",chitkul:"bottom",kalpa:"top",tabo:"right",
+  mudh:"left",kaza:"left",losar:"top",chandratal:"left",manali:"bottom"};
+
+const BASES = {
+  street:{   /* OpenStreetMap's own tiles: no key needed (CARTO's now show "API key required") */
+    url:"https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    sub:"", max:19,
+    attr:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'},
+  terrain:{
+    url:"https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png",
+    sub:"abc", max:17,
+    attr:'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="https://viewfinderpanoramas.org">SRTM</a> · Style &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'},
+  satellite:{
+    url:"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+    sub:"abc", max:18,
+    attr:'Tiles &copy; Esri &mdash; Source: Esri, Maxar, Earthstar Geographics and the GIS user community'}
+};
+
+const map = L.map("map",{zoomControl:false});
+L.control.zoom({position:"topleft"}).addTo(map);
+
+let baseLayer = null;
+function setBase(key){
+  const b = BASES[key];
+  if (baseLayer) map.removeLayer(baseLayer);
+  baseLayer = L.tileLayer(b.url,{subdomains:b.sub,maxZoom:b.max,attribution:b.attr});
+  baseLayer.addTo(map);
+  baseLayer.bringToBack();
+  document.querySelectorAll(".basemaps button").forEach(btn=>
+    btn.setAttribute("aria-pressed", String(btn.dataset.base === key)));
+}
+document.querySelectorAll(".basemaps button").forEach(btn=>
+  btn.addEventListener("click", ()=>setBase(btn.dataset.base)));
+setBase("street");
+
+/* ---------- route: all casings first, then all lines ---------- */
+DATA.legs.forEach(leg=>{
+  L.polyline(leg.coords,{className:"route-casing",interactive:false}).addTo(map);
+});
+const lines = DATA.legs.map(leg=>
+  L.polyline(leg.coords,{className:"route-line"})
+    .bindTooltip("Day "+leg.day+" · "+leg.from+" to "+leg.to,{sticky:true})
+    .addTo(map));
+DATA.spurs.forEach(sp=>{
+  L.polyline(sp.coords,{className:"route-spur"})
+    .bindTooltip("Day "+sp.day+" · "+sp.label,{sticky:true})
+    .addTo(map);
+});
+
+const allBounds = L.latLngBounds(DATA.legs.flatMap(l=>l.coords));
+/* keep the whole route clear of the panel: above it on phones, to its right on wide screens */
+function fitPadding(){
+  const panel = document.querySelector(".panel");
+  if (innerWidth <= 640)
+    return {paddingTopLeft:[24,56], paddingBottomRight:[24, (panel ? panel.offsetHeight : 0) + 44]};
+  return {paddingTopLeft:[Math.min((panel ? panel.offsetWidth : 0) + 48, innerWidth * 0.4), 56], paddingBottomRight:[56,56]};
+}
+const lineEl = i => lines[i]._path;
+
+/* ---------- altitude colour ---------- */
+function mix(a,b,t){
+  const h = s => [1,3,5].map(i=>parseInt(s.substr(i,2),16));
+  const [r1,g1,b1] = h(a), [r2,g2,b2] = h(b);
+  const c = (x,y) => Math.round(x + (y-x)*t).toString(16).padStart(2,"0");
+  return "#"+c(r1,r2)+c(g1,g2)+c(b1,b2);
+}
+const cssVar = (n,fallback) =>
+  (getComputedStyle(document.documentElement).getPropertyValue(n) || "").trim() || fallback;
+const WARM = cssVar("--warm","#e9e2d3"), COLD = cssVar("--cold","#26364f");
+const altColour = alt => mix(WARM, COLD, Math.max(0, Math.min(1, (alt-2000)/2400)));
+const metres = n => n.toLocaleString("en-IN") + " m";
+
+/* ---------- markers ---------- */
+function offsetFor(dir){
+  if (dir === "left")  return [-15,0];
+  if (dir === "right") return [15,0];
+  if (dir === "top")   return [0,-15];
+  return [0,15];
+}
+
+const markers = {};
+DATA.stops.forEach(s=>{
+  const night = s.kind === "night";
+  const size = night ? 28 : 16;
+  const html = night
+    ? '<div class="pin pin-night" style="background:'+altColour(s.alt)+
+      ';color:'+(s.alt > 3300 ? "#f2efe9" : "#201f1d")+'">'+s.num+'</div>'
+    : '<div class="pin pin-end"></div>';
+  const m = L.marker([s.lat,s.lon],{
+    icon: L.divIcon({html, className:"", iconSize:[size,size], iconAnchor:[size/2,size/2]}),
+    keyboard:true, title:s.label, riseOnHover:true
+  }).addTo(map);
+  const dir = LABEL_DIR[s.id] || "right";
+  m.bindTooltip(s.label,{permanent:true, direction:dir, className:"stop-label", offset:offsetFor(dir)});
+  m.on("click", ()=>select(s.id, true));
+  markers[s.id] = m;
+});
+
+const highLayer = L.layerGroup();
+DATA.highpoints.forEach(h=>{
+  const m = L.marker([h.lat,h.lon],{
+    icon: L.divIcon({html:'<div class="pin pin-high"></div>', className:"",
+      iconSize:[11,11], iconAnchor:[5.5,5.5]})
+  });
+  m.bindTooltip(h.label+" · "+metres(h.alt),
+    {permanent:true, direction:"right", className:"stop-label high", offset:[8,0]});
+  highLayer.addLayer(m);
+});
+function syncHighpoints(){
+  const show = map.getZoom() >= 10;
+  if (show && !map.hasLayer(highLayer)) highLayer.addTo(map);
+  else if (!show && map.hasLayer(highLayer)) map.removeLayer(highLayer);
+}
+map.on("zoomend", syncHighpoints);
+
+/* ---------- altitude profile ---------- */
+const svg = document.querySelector(".profile");
+const NS = "http://www.w3.org/2000/svg";
+const W = 300, PADX = 8, TOP = 9, BASE = 56;
+const alts = DATA.stops.map(s=>s.alt);
+const lo = Math.min(...alts), hi = Math.max(...alts);
+const px = i => PADX + i*(W - 2*PADX)/(DATA.stops.length - 1);
+const py = a => BASE - (a - lo)/(hi - lo)*(BASE - TOP);
+
+function el(tag, attrs, txt){
+  const n = document.createElementNS(NS, tag);
+  for (const k in attrs) n.setAttribute(k, attrs[k]);
+  if (txt != null) n.textContent = txt;
+  return n;
+}
+
+(function drawProfile(){
+  const pts = DATA.stops.map((s,i)=>[px(i), py(s.alt)]);
+  const spine = "M" + pts.map(p=>p.join(" ")).join(" L");
+  svg.appendChild(el("path",{d: spine+" L"+px(pts.length-1)+" 61 L"+PADX+" 61 Z",
+    fill:"var(--route)", "fill-opacity":".10", stroke:"none"}));
+  svg.appendChild(el("path",{d: spine, fill:"none", stroke:"var(--route)",
+    "stroke-width":"1.5", "stroke-linejoin":"round"}));
+
+  DATA.stops.forEach((s,i)=>{
+    const g = el("g",{class:"notch", tabindex:"0", role:"button",
+      "aria-label": s.label + ", " + metres(s.alt)});
+    g.appendChild(el("circle",{cx:px(i), cy:py(s.alt), r:11, fill:"transparent"}));
+    g.appendChild(el("circle",{cx:px(i), cy:py(s.alt), r: s.kind==="night" ? 4.5 : 3,
+      fill: altColour(s.alt), stroke:"var(--casing)", "stroke-width":"1.5",
+      class:"dot", "data-id": s.id}));
+    if (s.kind === "night")
+      g.appendChild(el("text",{x:px(i), y:71, "text-anchor":"middle"}, s.num));
+    g.addEventListener("click", ()=>select(s.id, true));
+    g.addEventListener("keydown", e=>{
+      if (e.key === "Enter" || e.key === " "){ e.preventDefault(); select(s.id, true); }
+    });
+    svg.appendChild(g);
+  });
+})();
+
+/* ---------- selection ---------- */
+const detail = document.querySelector(".detail");
+
+function select(id, fly){
+  const s = DATA.stops.find(x=>x.id === id);
+  if (!s) return;
+  const when = s.night
+    ? s.date + " · night halt · " + s.night
+    : s.date + " · start and end of the drive";
+  detail.innerHTML =
+    '<div class="row"><span class="name">'+s.label+'</span>'+
+    '<span class="alt">'+metres(s.alt)+'</span></div>'+
+    '<p class="when">'+when+'</p>'+
+    '<p class="note">'+s.note+'</p>'+
+    '<button class="reset" type="button">Show whole route</button>';
+  detail.querySelector(".reset").addEventListener("click", showAll);
+
+  document.querySelectorAll(".pin").forEach(p=>p.classList.remove("on"));
+  const iconEl = markers[id] && markers[id].getElement();
+  if (iconEl){ const p = iconEl.querySelector(".pin"); if (p) p.classList.add("on"); }
+  svg.querySelectorAll(".dot").forEach(d=>
+    d.setAttribute("stroke", d.getAttribute("data-id") === id ? "var(--route)" : "var(--casing)"));
+
+  const idx = DATA.stops.findIndex(x=>x.id === id);
+  lines.forEach((_,i)=>{
+    const p = lineEl(i);
+    if (p) p.classList.toggle("lit", i === idx-1 || i === idx);
+  });
+
+  if (fly) map.flyTo([s.lat, s.lon], Math.max(map.getZoom(), 10), {duration:.8});
+}
+
+function showAll(animate){
+  detail.innerHTML = '<p class="note" style="margin:0">Tap a numbered stop on the map, '+
+    'or a point on the altitude profile, for the detail of that night.</p>';
+  document.querySelectorAll(".pin").forEach(p=>p.classList.remove("on"));
+  svg.querySelectorAll(".dot").forEach(d=>d.setAttribute("stroke","var(--casing)"));
+  lines.forEach((_,i)=>{ const p = lineEl(i); if (p) p.classList.remove("lit"); });
+  if (animate !== false && map._loaded) map.flyToBounds(allBounds,Object.assign(fitPadding(),{duration:.8}));
+}
+
+document.addEventListener("keydown", e=>{ if (e.key === "Escape") showAll(); });
+
+showAll(false);   /* fills the panel first, so its height is known when fitting */
+map.fitBounds(allBounds,fitPadding());
+syncHighpoints();
+
+/* one orchestrated reveal, then hand the paths back to Leaflet */
+if (!window.matchMedia || !window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+  requestAnimationFrame(()=>{
+    lines.forEach((_,i)=>{
+      const p = lineEl(i);
+      if (!p || typeof p.getTotalLength !== "function") return;
+      let len = 0;
+      try { len = p.getTotalLength(); } catch (e) { return; }
+      if (!len) return;
+      p.style.setProperty("--len", len);
+      p.style.strokeDasharray = len;
+      p.style.animationDelay = (i * 0.1) + "s";
+      p.classList.add("draw");
+      p.addEventListener("animationend", ()=>{
+        p.style.strokeDasharray = "";
+        p.style.animationDelay = "";
+        p.classList.remove("draw");
+      }, {once:true});
+    });
+  });
+}
+</script>
+</body>
+</html>
