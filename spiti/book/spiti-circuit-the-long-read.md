@@ -61,8 +61,10 @@ One request before you start. In Chapter 11 you will read about the fossils of L
 | 10 | Pin Valley | Night 5 · 20 Sep, Mud |
 | 11 | Kaza and Ki | Night 6 · 21 Sep |
 | VIII | **How a Spiti Village Works** | the house, the year, the peas |
+| IX | **Birth, Marriage, Death** | names, weddings, and what happens when someone dies |
+| — | *Sidebar: Manners* | the small things that are noticed |
 | 12 | The High Villages | Days 6–7 · 21–22 Sep |
-| IX | **The Passes** | the map under the road map, and Shilla |
+| X | **The Passes** | the map under the road map, and Shilla |
 | 13 | Losar and Kunzum La | Night 7 · 22 Sep |
 | 14 | Chandratal | Night 8 · 23 Sep |
 
@@ -76,9 +78,9 @@ One request before you start. In Chapter 11 you will read about the fossils of L
 | 18 | What Is Happening Now | climate, water, tourism |
 | — | Coda, and The Shelf | on the way home |
 
-**Back matter** — Appendix A: Timeline · Appendix B: What Is Alive Out There · Appendix C: Words
+**Back matter** — A: Timeline · B: The Festival Year · C: What Is Alive Out There · D: Words
 
-The nine **Interludes** are the thematic chapters. If you only read two, read **I** (the people) and **VII** (how to read a monastery). Interlude VII in particular will change what you see at Tabo, Dhankar, Ki and Komic, and it is wasted if you read it afterwards.
+The ten **Interludes** are the thematic chapters. If you only read two, read **I** (the people) and **VII** (how to read a monastery). Interlude VII in particular will change what you see at Tabo, Dhankar, Ki and Komic, and it is wasted if you read it afterwards.
 
 ---
 
@@ -286,7 +288,7 @@ Nobody expects you to speak Kinnauri or Bhoti. But a couple of words used correc
 - **Namaste** works. Elders may be greeted with a slight bow.
 
 **Everywhere:**
-- **Gompa** — monastery. **Lama** — monk or teacher. **Chorten** — stupa. **Mani** wall — a wall of carved prayer stones. **La** — a pass (so "Kunzum La" already means "Kunzum Pass"; "Kunzum La Pass" is saying it twice).
+- **Gompa** — monastery. **Lama** — monk or teacher. **Chorten** — stupa. **Khata** — ceremonial scarf. **Cham** — masked ritual dance. **Bardo** — the intermediate state after death. **Tsa-tsa** — small clay votive object. **Jhator** — sky burial. **Mani** wall — a wall of carved prayer stones. **La** — a pass (so "Kunzum La" already means "Kunzum Pass"; "Kunzum La Pass" is saying it twice).
 - **Nono** — the hereditary ruler of Spiti. **Gur** — an oracle. **Rath** — a deity's palanquin.
 - **Chhang** — barley beer. **Arak** — the distilled version. **Tsampa** — roasted barley flour, the staple.
 
@@ -564,6 +566,36 @@ The nuts went down to the **Lavi fair** at Rampur for centuries. They are now wo
 At weddings, garlands of chilgoza are given to the hosts.
 
 **Also:** apricots, walnuts, buckwheat, barley, rajma, and at **Ribba**, grapes — which are turned into a local wine and, more famously, into **angoori** and **arak**, the Kinnauri spirits. Kinnaur has a drinking culture that would surprise anyone who assumes rural India is dry.
+
+## What is made here
+
+**The Kinnauri shawl.** The best-known craft of the region and genuinely worth understanding before you buy one.
+
+It is woven on a **khaddi**, a simple pit loom: the warp beam tied high to a wall or roof beam at one end, the yarns drawn down and tied in front of the seated weaver at the other, the frame made of fir and deodar by a local carpenter, the reed made from thin bamboo strips nailed between two planks like a comb. The weaver ties the heddles themselves, one at a time, by hand.
+
+The cloth is a **twill** ground — plain, pointed, herringbone or basket — in undyed natural wool: black, white, cream, grey, brown or a blend. The patterning is **extra-weft**: additional coloured threads inserted during weaving purely to form the design, knotted and lifted individually. It is slow. A detailed shawl takes weeks; an intricate one can take months.
+
+The designs are **narrow horizontal bands of geometric motifs** — squares, crosses, stepped forms, interlocking loops — concentrated at the two ends and running some way into the body. The visual language is recognisably Central Asian and Tibetan rather than Indian.
+
+And the colours are not arbitrary. The traditional set maps to the **five elements**: white for water, yellow for earth, red for fire, green for air, blue for ether.
+
+**Stop and look at that.** Those are the same five colours, carrying the same five elements, as the prayer flags strung across every pass you will cross. A Hindu-majority district weaves the Buddhist five-element colour system into its shawls, and nobody in Kinnaur finds this remarkable. It is the single best material illustration of the argument this whole book has been making about the frontier being a gradient rather than a line.
+
+Denser and finer patterning historically indicated a wealthier family — which is why, as in the marriage section above, a family's shawls were shown to prospective in-laws.
+
+**Where to buy well.** Weaving in Kinnaur is now largely done by women, often organised into self-help groups and village collectives — there is one at Kalpa, on your Day 3 — making shawls (*chaanli*, *lingchey*) and mufflers (*golband*). Buying directly from a collective or a weaver puts the money where the work was. Expect real merino shawls to cost thousands of rupees and be suspicious of anything cheap; much of what is sold as Kinnauri in tourist markets is mill-made elsewhere.
+
+**Sheep and the supply chain.** Worth knowing: sheep rearing was once the mainstay of Kalpa's economy and has been largely displaced by apples. Many weavers now buy their wool in the market rather than shearing it. The craft has outlived the flock.
+
+**Other things.**
+- **Kinnauri caps**, woven and tailored locally.
+- **Woodcarving** — the tradition that produced Bhimakali and every village temple. Look at door frames and window screens as much as at temples.
+- **Silver jewellery**, often old and heavy, and in Lahaul, seed-pearl necklaces and coral-and-turquoise-inlaid silver plaques bought with kuth and potato money.
+- **Thangka painting**, in Spiti, on cloth with mineral pigments, following strict iconometric proportion — a thangka painter works to a grid, because the proportions of a Buddha figure are prescribed, not invented.
+- **Butter sculpture**, made for festivals and deliberately impermanent.
+- **Seabuckthorn juice**, from local cooperatives in Spiti: not a craft, but the single best thing you can buy that puts money directly into the valley.
+
+---
 
 ## Water: the kuhl
 
@@ -1210,6 +1242,22 @@ Sit with it for ten minutes at Tabo or Ki. It is one of the great pieces of visu
 
 ---
 
+## Cham: the masked dance
+
+If your timing is ever right, the thing to see in a Spiti monastery is **cham**.
+
+**What it is.** A masked, costumed ritual dance performed by monks in the monastery courtyard, in heavy brocade robes and large papier-mâché masks, to the ensemble described in the Sidebar on music — long horns, shawms, cymbals and drums. It is slow, deliberate and circular, with a great deal of stamping and turning, and it is not a performance in the sense of entertainment. It is a **ritual being carried out in public**, and the dancers are understood to be embodying the deities whose masks they wear.
+
+**What it does.** Most cham cycles enact the subjugation of hostile forces and the destruction of obstacles. The recurring structure is: the wrathful protectors appear, evil is confronted in some symbolic form, and at the climax an effigy or ritual object representing the accumulated negativity of the year is destroyed — commonly cut apart or thrown into a fire. The valley is cleaned out. Then the new year, or the new season, can begin.
+
+**Some masks to look for.** The skeletal **Citipati**, lords of the charnel ground, in white skull masks, who are among the most striking figures in the cycle. The **stag** and **bull**-headed dancers. **Black Hat** dancers, in wide-brimmed hats and voluminous robes, whose dance recalls the assassination of the ninth-century anti-Buddhist Tibetan king Langdarma by a monk who concealed a bow under his cloak. Wrathful protectors with bulging eyes and fangs. And, usually, a clown or trickster figure who breaks the tension, teases the crowd, and manages the audience.
+
+**Where and when on your route.** The **Ki Chham** or Tsheshu festival at Ki, usually June or early July. The **Kungri** festival in Pin, around June or July. Losar in February in every monastery. And the **Gataur** and **Chakhar** fairs in the fourth week of September — the second of which happens **only once every three years** and could conceivably fall close to your dates. Worth asking about locally; if one is on within reach, change your plans.
+
+**How to watch.** Sit or stand where you are put, at the edge. Do not walk into the dancing ground. Do not use flash. Do not film the whole thing on a phone held above your head, blocking the person behind you — this is the single most common complaint monks and villagers make about visitors at cham. Watch it with your eyes for a while first.
+
+---
+
 ## The other things in the room
 
 **Thangkas** — painted scroll paintings on cloth with brocade borders, hung or rolled. Portable, used in teaching and in the buchen's storytelling.
@@ -1606,6 +1654,157 @@ This is neither a tragedy nor progress. It is what happens when a road reaches a
 
 ---
 
+# Interlude Nine · Birth, Marriage, Death
+
+*The part of a culture you cannot see from a car. Read it anyway.*
+
+Everything so far has described systems: land tenure, trade, monastic orders, irrigation. This chapter is about the three moments those systems exist to manage.
+
+---
+
+## Names
+
+Start here, because you will be introduced to people.
+
+**In Kinnaur**, the surname you will meet again and again is **Negi**. It is not a family name in the plains sense; it derives from an old administrative title — a village headman or revenue official under the hill states — and it spread until it became the default surname of the dominant Kanet community across Kinnaur and much of the upper Sutlej. Half the people you deal with will be a Negi, and they are not related.
+
+**In Spiti**, names are Tibetan and they work differently from Indian names in three ways that matter.
+
+**They are not family names.** A Spitian's name is usually two given elements — **Tenzin Dorje**, **Chhering Angmo**, **Sonam Palmo**, **Lobsang Tsering** — and does not indicate lineage. Brothers may share neither element. Officially, many Spitians now also carry a surname for bureaucratic purposes, sometimes **Negi**, borrowed from the Kinnauri usage, which is why you will meet Tenzin Negi.
+
+**They are mostly religious vocabulary.** *Tenzin* is "holder of the teaching". *Dorje* is the vajra, the thunderbolt. *Chhering* is long life. *Sonam* is merit. *Palmo*, *Angmo*, *Dolma* are feminine. *Dolma* is Tara. A Tibetan name is a small blessing, not a genealogy.
+
+**They are often given by a lama.** A child may be named after consultation, sometimes on the basis of the day of birth, and the name can carry the syllable of a teacher who named it.
+
+**Most names are not gendered** in an obvious way, with some exceptions. Don't guess.
+
+**The house has a name too.** In Spiti, as across the Tibetan world, the **household** is the durable unit — it has a name, land, obligations and a continuous identity — and people are often identified by house rather than by patronym. The house outlives the people in it, which is exactly what you would expect from Interlude One: the whole social system exists to keep the house undivided.
+
+---
+
+## Birth
+
+Both worlds treat birth as a period of ritual vulnerability requiring seclusion and then reintegration.
+
+In **Kinnaur**, a household is considered ritually impure for a set period after a birth, during which contact with the village deity and its shrine is restricted. At the end of it there is a purification, a naming, and the family rejoins the ritual life of the village. The deity, as usual, has to be satisfied before anything is settled.
+
+In **Spiti**, the child is presented to the monastery, given a name with religious content as above, and protected — an amulet, a knotted cord blessed by a lama, sometimes a smudge of soot on the face of a small child to make it less attractive to whatever might take an interest. Butter marks on the forehead and on doorframes appear at most auspicious moments.
+
+In **Lahaul**, the **Gochi** (or Gotsi) festival in February is specifically a celebration for **boys born in the preceding year** — the families of newborn sons host the village, and there is archery. It is a good example of how visible the preference for sons has been. There is no equivalent festival for daughters.
+
+---
+
+## Marriage
+
+### In Kinnaur
+
+Kinnauri weddings do not follow the Hindu *saat phere*. The ritual is known as **Ranekang**, and the decisive authority is not the two families. It is the **deity**.
+
+The god is consulted. The god approves or does not. A match the deity has refused does not happen, and the deity's opinion is delivered through the oracle in front of the village. This is the marriage equivalent of the veto power described in Interlude One, and it is still operative.
+
+The visual signature of a Kinnauri wedding is the **garland of dry fruit** — chilgoza, walnuts and apricots strung and hung on the groom — rather than flowers. Chilgoza garlands, called *ri-u*, are given to hosts at festive occasions generally. It is a startlingly good idea: a garland you can eat, in a valley where flowers are seasonal and pine nuts are the wealth of the district.
+
+There is also a detail from the weaving tradition that tells you a great deal about what was being assessed. **When a marriage was being negotiated, the bride's family was shown the entire range of shawls the groom's family had woven.** The finer and denser the extra-weft patterning, the better the family's standing — because fine weaving meant wool, time, skill and the leisure to do it. The textiles were the credit rating.
+
+**Polyandry**, historically fraternal, is declining but has not vanished from the Himalayan belt: a widely covered wedding in the Trans-Giri region of Sirmaur in July 2026, in which a woman married two brothers under the local custom, put it back in national conversation and produced a great deal of commentary from people who had not previously known it existed. In Kinnaur it is now rare and mostly among older couples.
+
+**Reet**, the customary transfer of a woman for payment with a state fee attached, was banned after 1948. See Interlude One.
+
+### In Spiti
+
+A Spiti wedding — **bagston** — is a multi-day household event, negotiated between houses, with a go-between, formal speech-making, enormous quantities of **chhang**, and songs that are sung only at weddings and known mainly by older people.
+
+The structural logic is the one from Interlude Eight: the marriage is between **households**, not merely individuals, and its purpose includes keeping the land and the house intact. Which son marries, whether a younger brother joins the marriage, and which child goes to the monastery are decisions about the estate.
+
+The **khata** — a white or cream ceremonial scarf — is central. It is offered at every threshold moment: arrivals, departures, weddings, births, blessings, funerals. See "Manners" below.
+
+---
+
+## Death
+
+This is the biggest omission a book like this can have, so here it is properly.
+
+### What Spitians believe is happening
+
+In Tibetan Buddhism, death is not an event but a **process**, and the dead person is understood to be going somewhere, not stopping.
+
+The intermediate state is the **bardo**, and the tradition holds it lasts up to **forty-nine days**, during which the consciousness of the dead person passes through a sequence of experiences before taking rebirth. The text that maps this is the *Bardo Thodol* — known in English, misleadingly, as the **Tibetan Book of the Dead** — and its actual function is instructional: it is read **aloud to the dead person**, to tell them where they are and what to do.
+
+Which means the ritual work after a death is not memorial. It is **navigational**. The lamas are giving directions to someone they believe is still travelling.
+
+### What is actually done
+
+The practice across the Tibetan cultural world, including Spiti, works roughly like this, with local variation and astrological consultation at every step.
+
+The body is kept for some days while lamas read. The family suspends normal activity. Offerings are made at the monastery. The method of disposal, the timing and the direction the body faces are determined by astrological calculation and the advice of a lama, not by preference.
+
+**Cremation** is the most common method in Spiti and Lahaul, usually at a designated site outside the village, with the ashes scattered or, for important lamas, worked into small clay votive objects called **tsa-tsa**.
+
+**Sky burial** — *jhator*, "giving alms to the birds", in which the body is dismembered on a high platform and given to vultures — is the practice most associated with Tibet, and it exists in the Tibetan cultural sphere for two reasons. Above the treeline there is little wood for a pyre and the ground is frozen. And theologically the body, once vacated, is simply matter, and the last useful thing it can do is feed something. It is an act of generosity, not disposal. Whether and where it is still practised in Spiti is not something to go asking casually, and it is emphatically not something to go looking for.
+
+**Water burial** exists in some Himalayan areas, particularly for infants and for the poor.
+
+Then the marking of the days: rituals at intervals through the forty-nine, prayer flags raised, butter lamps lit, lamas fed, and the household slowly returning to ordinary life.
+
+### In Kinnaur
+
+Cremation, with Hindu rites in the lower valleys, and a mixture in the upper ones, where a family may call both a Hindu priest and a lama. Death, like birth, brings a period of ritual impurity for the household and exclusion from the deity's shrine until purification.
+
+And there is a connection worth making. The **Phulaich** festival of late summer, in which villagers climb to the high meadows to gather flowers, is among other things a **festival of the dead**: flowers are offered for those who died in the past year, and it is a time for remembering them. A flower festival is not a frivolous thing here. It is what you do for people who are gone.
+
+### If a death happens while you are there
+
+It is not unlikely. Villages are small and you are there for nine days.
+
+You will know, because prayer flags will go up, there will be lamas at a house, there will be smoke, and the ordinary noise of a village will stop.
+
+**Do not photograph anything.** Do not approach the house unless invited. Do not ask what happened. If you are staying with the family, offer to leave, and take the answer you are given. If you are invited to sit, sit at the back and be quiet, and if you are given butter tea, drink it.
+
+There is no version of this where curiosity is appropriate.
+
+
+
+---
+
+
+# Sidebar · Manners
+
+Small things that cost nothing and are noticed.
+
+**The khata.** The ceremonial scarf, white or pale cream, is the universal Tibetan courtesy object. It is offered at greetings, farewells, weddings, blessings and departures. If you are given one, receive it with **both hands**, and if it is placed around your neck, leave it there — do not immediately take it off and fold it away. Offering one back, if you have been given one, is gracious. They are cheap and sold everywhere in Kaza. Buying a few and giving them where appropriate is a good way to say thank you to a homestay.
+
+**Both hands.** Give and receive anything — money, a cup, a gift, a photograph, a card — with both hands, or with the right hand supported at the wrist by the left. One-handed, especially left-handed, reads as careless.
+
+**Chhang.** The barley beer. The widespread Tibetan custom is that the host fills your cup, you dip the ring finger of your right hand and flick a little into the air three times as an offering, then drink. The cup is refilled as you drink from it. It is normal to be pressed to drink three cupfuls; it is also normal to decline politely, and "I'll take a sip but I can't drink at this altitude" is understood everywhere and is medically true.
+
+**Refusal.** Food and drink are offered repeatedly and a single refusal is usually treated as politeness rather than a decision. Refuse twice, gently, if you mean it. Accepting a little is easier than refusing a lot.
+
+**Elders.** Greeted first, served first, and spoken to before anyone else in the room.
+
+**Shoes.** Off at the threshold of a home and always at a shrine. Watch what is at the door and copy it.
+
+**Feet and heads.** Do not point the soles of your feet at a person, an altar, an image or a book. Do not step over anyone's outstretched legs. Do not touch an adult's head, and be a bit careful with children's too.
+
+**Photographing people.** Ask. "Juley, photo?" with a gesture is enough and works. Take no for an answer, and if you say you will send a picture, actually send it — people give out phone numbers for exactly this and are often disappointed. Do not photograph people praying, prostrating or grieving. Do not photograph inside old shrine rooms. Do not fly a drone over a village or a monastery.
+
+**Money.** Haggling hard over a few rupees with someone who has carried goods over a pass is not a good look. Pay the asking price for handicrafts.
+
+**Water and taps.** Interlude Eight, again. Short showers, and turn the tap off.
+
+**Taboos worth knowing.**
+- **Nako lake**: no swimming, no bathing, no putting your feet in. It is sacred and the rule is absolute.
+- **Sacred groves** exist across Kinnaur — stands of deodar or juniper belonging to a deity, in which nothing may be cut, taken or damaged. If a grove looks unusually untouched near a temple, that is what it is.
+- **Juniper** is incense, not firewood.
+- **Prayer flags** are not souvenirs. Never take one, never burn one, never put one in a bin.
+- **Mani stones** stay where they are.
+- **Always clockwise** around chortens, mani walls, monasteries and the Kunzum temple.
+- **Fossils** stay in the ground. Chapter 12.
+- **The Kunzum circuit** — go round the temple once by vehicle if your driver does. Everyone does it, including people who would say they do not believe in it.
+
+**And the most useful word.** *Juley.* Use it constantly, to everyone, for everything. It works as hello, goodbye, thank you, excuse me and sorry, and using it marks you as someone who bothered.
+
+---
+
 # Chapter 12 · The High Villages
 
 **Day 6 · 21 September · Langza, Hikkim, Komic**
@@ -1687,7 +1886,7 @@ Water is the single most useful intervention. Three to four litres a day, more t
 
 ---
 
-# Interlude Nine · The Passes
+# Interlude Ten · The Passes
 
 *Read at Kaza or Kibber. This is the map underneath the road map.*
 
@@ -1745,7 +1944,7 @@ What the road did was replace five directions with one. Everything now comes fro
 
 ## The mountains, and the best story in Spiti
 
-Spiti's peaks are not famous. The highest is **Gya** (6,794 m), on the border with Ladakh and Tibet, and it resisted attempts through the 1990s before being climbed in 1999, with an earlier claimed ascent in 1998 that was never fully substantiated. **Chau Chau Kang Nilda** (6,303 m), visible from around Kaza, was climbed in 1939 by **J. O. M. Roberts** — later one of the founders of Himalayan trekking as an industry.
+Spiti's peaks are not famous. The highest is **Gya** (6,794 m), on the border with Ladakh and Tibet, and it resisted attempts through the 1990s before being climbed in 1999, with an earlier claimed ascent in 1998 that was never fully substantiated. **Chau Chau Kang Nilda** (6,303 m), visible from around Kaza, was climbed in 1939 by **J. O. M. Roberts** — later one of the founders of Himalayan trekking as an industry, and the man who wrote the foreword to Kapadia's book on Spiti.
 
 But the story worth carrying is **Shilla**.
 
@@ -2376,7 +2575,46 @@ Books, if you want to go further.
 
 ---
 
-# Appendix B · What Is Alive Out There
+# Appendix B · The Festival Year
+
+You are travelling in September, which is a quiet month for festivals and a busy one for harvest. But the calendar is the real structure of the year here, and two of these fall close enough to your dates to be worth asking about.
+
+Most of these follow the **Tibetan lunar calendar** or a local deity's calendar and move from year to year. Dates below are indicative. Ask locally.
+
+## Kinnaur
+
+| Festival | When | What |
+|---|---|---|
+| **Beesh / Bishu** | mid-April | New year at the spring equinox reckoning; the deities come out of their temples |
+| **Fulaich / Phulaich** | late summer | The flower festival: villagers climb to high meadows for flowers, which are offered and worn. Also a **festival of the dead**, remembering those who died in the year. Feasting, archery |
+| **Sazo / Sazi** | around September | The deities ritually withdraw to the heavens for the winter and are seen off |
+| **Dakhrain** | October | Post-harvest; wrestling, handicrafts |
+| **Kinnaur Tribal Festival** | late Oct–early Nov, Reckong Peo | The district's formal cultural gathering |
+| **Lavi Fair** | from 11 November, Rampur | Three days, three centuries old. Wool, chilgoza, horses, metalware |
+
+## Spiti and Lahaul
+
+| Festival | When | What |
+|---|---|---|
+| **Khogla / Halda** | January, Lahaul | The festival of light. Date set by the lamas. Torches, fire, communal feasting |
+| **Dechhang** | Dec–Jan in Spiti, April in Lahaul | Midwinter bonfires, songs and dancing at the worst time of year |
+| **Losar** | February | Tibetan new year. The big one. Cham dances in every monastery, house-cleaning, offerings, visiting, feasting, the ritual expulsion of the past year |
+| **Gochi / Gotsi** | February, Bhaga valley, Lahaul | A festival for **boys born in the past year**, hosted by their families. Archery |
+| **Fagli / Kus** | February, Pattan valley, Lahaul | Masked festival marking the end of winter, on a no-moon night, with lamps |
+| **Tsheshu Fair** | June, at Ki, Tabo, Kardang, Shashur, Gemur, Mane | Monastic festival with **cham** |
+| **Ki Chham** | June–July, Ki Monastery | The cham festival at Ki. The best one on your route, wrong season |
+| **Kungri Festival** | June–July, Pin Valley | Nyingma cham at Kungri |
+| **Tribal Fair** | 14–16 August, Keylong | Lahaul's main public fair |
+| **Ladarcha** | third week of August, Kaza | The old Spiti–Ladakh–Kinnaur trade fair, originally at Kibber |
+| **Pauri / Pori** | third week of August, Triloknath | Procession led by the Thakur of Triloknath to a sacred spring |
+| **Gataur Mela** | fourth week of September | Annual monastic fair; lamas worship over several days, ending with cham and a fire offering |
+| **Chakhar Mela** | fourth week of September, **once every three years** | The rarer version of the same, over seven days |
+
+**Two notes for your dates.** **Gataur** falls in the fourth week of September, so possibly a few days after you leave Spiti on the 23rd. **Chakhar**, which runs only every third year, falls in the same window. Ask your operator and ask at Kaza. If either is happening while you are within reach, it is worth rearranging a day for.
+
+---
+
+# Appendix C · What Is Alive Out There
 
 A quick field list, because nine days is long enough to see most of this if you are looking.
 
@@ -2411,19 +2649,19 @@ A quick field list, because nine days is long enough to see most of this if you 
 
 ---
 
-# Appendix C · Words
+# Appendix D · Words
 
 **Places and landscape**
 - **La** — pass. **Tso / Taal** — lake. **Nala** — stream or gully. **Khar** — fort. **Dhang** — cliff. **Gonpa / Gompa** — monastery. **Shigri** — glacier (Lahauli). **Kuhl / Kul** — irrigation channel. **Ul-tak** — threshing floor.
 
 **Religion**
-- **Chorten** — stupa. **Mani** — prayer stone or wall. **Lha** — god. **Gonkhang** — protector chapel. **Dukhang** — assembly hall. **Tsuglakhang** — main temple. **Lhakhang** — shrine room. **Thangka** — scroll painting. **Lotsawa** — translator. **Rinpoche** — "precious one", an honorific for a senior or reincarnate lama. **Geshe** — a Gelug doctorate. **Chomo** — a nun. **Gur** — an oracle. **Rath** — a deity's palanquin. **Deota / Devta** — a village god. **Losar** — new year.
+- **Chorten** — stupa. **Khata** — ceremonial scarf. **Cham** — masked ritual dance. **Bardo** — the intermediate state after death. **Tsa-tsa** — small clay votive object. **Jhator** — sky burial. **Mani** — prayer stone or wall. **Lha** — god. **Gonkhang** — protector chapel. **Dukhang** — assembly hall. **Tsuglakhang** — main temple. **Lhakhang** — shrine room. **Thangka** — scroll painting. **Lotsawa** — translator. **Rinpoche** — "precious one", an honorific for a senior or reincarnate lama. **Geshe** — a Gelug doctorate. **Chomo** — a nun. **Gur** — an oracle. **Rath** — a deity's palanquin. **Deota / Devta** — a village god. **Losar** — new year.
 
 **Food and household**
 - **Tsampa** — roasted barley flour. **Po cha** — butter tea. **Chhang** — barley beer. **Arak** — distilled spirit. **Thukpa / Thenthuk** — noodle soup. **Chhurpi** — dried cheese. **Chak-sa** — dry composting toilet. **Bukhari** — a stove. **Chuba** — Tibetan robe. **Siddu** — Himachali steamed bread.
 
 **Society and history**
-- **Nono** — hereditary ruler of Spiti. **Begar** — forced unpaid labour. **Bethu** — bonded service for a homestead. **Reet** — the customary purchase of a bride, banned after 1948. **Kanet** — the dominant landholding community of the hill states. **Praja Mandal** — people's association, the vehicle of the hill freedom movement. **Kath-kuni** — timber-and-stone construction. **Jhatpo** — snow leopard (Spiti). **Tangrol** — ibex (Spiti). **Neoza / Ri** — chilgoza pine nut (Kinnauri).
+- **Nono** — hereditary ruler of Spiti. **Begar** — forced unpaid labour. **Bethu** — bonded service for a homestead. **Reet** — the customary purchase of a bride, banned after 1948. **Kanet** — the dominant landholding community of the hill states. **Praja Mandal** — people's association, the vehicle of the hill freedom movement. **Kath-kuni** — timber-and-stone construction. **Khaddi** — the Kinnauri pit loom. **Ranekang** — the Kinnauri wedding rite. **Bagston** — a Spiti wedding. **Negi** — the commonest Kinnauri surname, from an old administrative title. **Jhatpo** — snow leopard (Spiti). **Tangrol** — ibex (Spiti). **Neoza / Ri** — chilgoza pine nut (Kinnauri).
 
 **Courtesy**
 - **Juley** — hello / thank you / goodbye. **Tashi delek** — greetings and good fortune. **Thugje che** — thank you.

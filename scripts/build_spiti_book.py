@@ -287,7 +287,7 @@ def main():
                         target = f"appendix-{m[1].lower()}"
                         group_of.setdefault(target, group)
                         return f"[{m[0].strip()}](#{target})" if target in ids else m[0]
-                    l = f"**{group}**" + re.sub(r"Appendix ([A-Z]): [^·]+?(?=\s*·|\s*$)", appendix, g[2])
+                    l = f"**{group}**" + re.sub(r"(?:Appendix )?\b([A-Z]): [^·]+?(?=\s*·|\s*$)", appendix, g[2])
                 elif row and row[2] and not re.fullmatch(r"[-: ]+", row[2]):
                     target = row_target(row[1], row[2])
                     if target in ids:
