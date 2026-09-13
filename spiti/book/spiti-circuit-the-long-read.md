@@ -46,33 +46,39 @@ One request before you start. In Chapter 11 you will read about the fossils of L
 | 5 | Kalpa, and the Mountain That Is a God | Night 3 · 18 Sep |
 | III | **Who Came Through Here** | the surveyors, spies and scholars |
 | 6 | The Road Itself | Day 4 · 19 Sep, the long drive |
-| IV | **The Frontier, 1850 to Now** | the Great Game, 1962, and why there are soldiers |
-| V | **What Moved Over the Passes** | the trade, and what killed it |
+| IV | **A Biography of the Sutlej** | where it comes from, and what comes down it |
+| 7 | The Dams | the live argument in Kinnaur |
+| V | **The Frontier, 1850 to Now** | the Great Game, 1962, and why there are soldiers |
+| VI | **What Moved Over the Passes** | the trade, and what killed it |
 
 **Spiti · Days 4–8**
 
 | | | |
 |---|---|---|
-| VI | **How to Read a Monastery** | *read the night before Tabo* |
-| 7 | Tabo | Night 4 · 19 Sep |
-| 8 | Dhankar and Lalung | Day 5 · 20 Sep |
-| 9 | Pin Valley | Night 5 · 20 Sep, Mud |
-| 10 | Kaza and Ki | Night 6 · 21 Sep |
-| VII | **How a Spiti Village Works** | the house, the year, the peas |
-| 11 | The High Villages | Days 6–7 · 21–22 Sep |
-| 12 | Losar and Kunzum La | Night 7 · 22 Sep |
-| 13 | Chandratal | Night 8 · 23 Sep |
+| VII | **How to Read a Monastery** | *read the night before Tabo* |
+| 8 | Tabo | Night 4 · 19 Sep |
+| 9 | Dhankar and Lalung | Day 5 · 20 Sep |
+| 10 | Pin Valley | Night 5 · 20 Sep, Mud |
+| 11 | Kaza and Ki | Night 6 · 21 Sep |
+| VIII | **How a Spiti Village Works** | the house, the year, the peas |
+| 12 | The High Villages | Days 6–7 · 21–22 Sep |
+| IX | **The Passes** | the map under the road map, and Shilla |
+| 13 | Losar and Kunzum La | Night 7 · 22 Sep |
+| 14 | Chandratal | Night 8 · 23 Sep |
 
 **Out · Day 9**
 
 | | | |
 |---|---|---|
-| 14 | The Chandra Valley | Day 9 · 24 Sep |
-| 15 | Manali | arrival |
-| 16 | What Is Happening Now | climate, water, tourism |
+| 15 | The Chandra Valley | Day 9 morning |
+| 16 | Lahaul | the valley you cross in two hours |
+| 17 | Manali | arrival |
+| 18 | What Is Happening Now | climate, water, tourism |
 | — | Coda, and The Shelf | on the way home |
 
 **Back matter** — Appendix A: Timeline · Appendix B: What Is Alive Out There · Appendix C: Words
+
+The nine **Interludes** are the thematic chapters. If you only read two, read **I** (the people) and **VII** (how to read a monastery). Interlude VII in particular will change what you see at Tabo, Dhankar, Ki and Komic, and it is wasted if you read it afterwards.
 
 ---
 
@@ -98,7 +104,7 @@ If you read nothing else, carry these.
 
 **Day 9 · → Manali.** Three thousand metres down in a day. Watch for the exact point where the trees come back.
 
-The seven **Interludes** are the thematic chapters. If you only read two, read **I** (the people) and **VI** (how to read a monastery). Interlude VI in particular will change what you see at Tabo, Dhankar, Ki and Komic, and it is wasted if you read it afterwards.
+The seven **Interludes** are the thematic chapters. If you only read two, read **I** (the people) and **VII** (how to read a monastery). Interlude VII in particular will change what you see at Tabo, Dhankar, Ki and Komic, and it is wasted if you read it afterwards.
 
 
 ---
@@ -866,7 +872,130 @@ The local account is not medical. Gue, they say, was suffering a plague of scorp
 
 ---
 
-# Interlude Four · The Frontier, 1850 to Now
+# Interlude Four · A Biography of the Sutlej
+
+*Read on Day 4, somewhere between Reckong Peo and Khab.*
+
+You will spend four days beside this river. It deserves a chapter.
+
+## Where it comes from
+
+The Sutlej — **Satadru** in Sanskrit, the hundred-channelled; **Langqên Zangbo**, the Elephant River, in Tibetan — does not rise in India. It rises on the Tibetan plateau near **Rakshastal**, the dark twin of Lake Manasarovar, in the shadow of **Mount Kailash**.
+
+That single fact is the key to the entire region. Four of the great rivers of South Asia rise within a hundred kilometres of Kailash and run to four different compass points: the **Indus** north, the **Brahmaputra** east, the **Karnali** (feeding the Ganges) south, and the **Sutlej** west. Which is why Kailash is the axis of the world in Hindu, Buddhist, Jain and Bon cosmology. It is not an arbitrary sacred mountain. It is the hydrological hub of half a subcontinent, and people who walked these valleys worked that out long before anyone had a map.
+
+## The impossible thing it does
+
+The Sutlej rises **behind** the Himalaya and reaches the plains **in front** of it. To do that it has to cut clean through the highest mountain range on earth.
+
+A river cannot ordinarily do this. Rivers go around mountains. The only way the Sutlej gets through is if it was **already flowing there before the mountains rose**, and then sawed downwards at least as fast as the range lifted beneath it. Geologists call such a river **antecedent**: older than the topography it crosses.
+
+So when you are driving the gorge between Reckong Peo and Khab, walls rising thousands of metres on both sides, understand what you are in. That slot is the record of a race between a river cutting down and a mountain range pushing up, run continuously for tens of millions of years, with the river winning by a nose.
+
+It is also why the road is so bad. The gorge walls are over-steep because the river has undercut them faster than they can settle, and they are in crushed, sheared rock. The slopes have never reached equilibrium and never will. Nigulsari is not an accident, it is the arithmetic.
+
+## What comes down it, unannounced
+
+Here is the thing that is not in most accounts of Kinnaur, and it is the most consequential fact about living beside this river: **the Sutlej's upper catchment is in another country, and India gets very little warning about what is happening up there.**
+
+**August 2000.** A flash flood came down the Sutlej into Kinnaur with no warning. It lasted about four hours and permanently changed the banks over a two-hundred-kilometre stretch from Namgia in Kinnaur down to Tatapani in Mandi. Around 150 people were feared dead, some 250 houses and 20 bridges were destroyed, and damage ran into the thousands of crores. At the time it was attributed to a cloudburst in Tibet. Years later, researchers reconstructing the event from satellite imagery traced it to the **outburst of an unnamed lake on the Tibetan plateau** — a lake that had formed behind a landslide dam in the early 1990s, that nobody had named, that nobody was monitoring, and that failed after intense rain.
+
+**2004–2005: the Pareechu.** The **Pare Chu** is a strange river and it matters to you directly. It rises in India, at **Parang La** north of Kibber. It flows into **Tibet**. And it comes back into India to join the **Spiti river at Sumdo** — the check post where you formally enter Spiti on Day 4. It is the only river of its kind.
+
+In the summer of 2004, a landslide in the Zanskar range blocked the Pare Chu inside Tibet. A lake built up behind the debris. By mid-August it covered something like 188 hectares at a depth of around 35 metres, and it was still filling. Himachal spent three months on high alert, watching a lake it could not reach, in a country that was not sharing data, above a valley full of people.
+
+On **26 June 2005** the dam gave way. The flood came down the Pare Chu, into the Spiti, past Sumdo, down to Khab and into the Sutlej. It tore out stretches of the Hindustan–Tibet road, took **ten bridges and eleven ropeways**, and damaged fifteen more structures on a single ten-kilometre reach between Wangtoo and Sumdo. Losses were put at around ₹800 crore.
+
+**Nobody died**, because five thousand people had been evacuated in advance. That is the one genuinely good outcome in this chapter, and it happened because satellite monitoring had spotted the lake and the state acted on it.
+
+Indian bodies still monitor the Pare Chu by satellite, with gauging stations at Sumdo and at Chumar near Leh, and requests for flow data from the Chinese side have been a recurring diplomatic issue.
+
+## What this means when you are standing at Khab
+
+At Khab you look down on the confluence of the Sutlej and the Spiti. Both of them have upper catchments outside Indian control. Both have delivered lethal floods from unmonitored lakes within the last twenty-six years.
+
+And the whole of Kinnaur's hydropower infrastructure, and the highway, and most of its villages, are built in the bottom of the trough those rivers occupy.
+
+That is the context for the next chapter.
+
+
+
+---
+
+
+# Chapter 7 · The Dams
+
+*Read between Wangtu and Reckong Peo, where you can see them.*
+
+The Sutlej basin in Himachal has been described as the most intensively dammed river basin in the Indian Himalaya. Driving up it, you will see the evidence without recognising most of it, because the largest projects are almost entirely underground.
+
+This chapter tries to give both sides properly, because the argument is live, it is being had by people in the villages you are driving through, and the visitor's instinct — to be reflexively against dams in a beautiful place — is not automatically the right one.
+
+## What is actually there
+
+Coming up the valley you pass, in sequence, a chain that includes **Bhakra** far below, **Kol Dam**, **Rampur**, **Nathpa Jhakri**, **Karcham Wangtoo**, **Baspa II** up the Sangla valley, **Shongtong Karcham**, and **Kashang**, with more proposed. The two that dominate Kinnaur are:
+
+**Nathpa Jhakri, 1,500 MW.** Commissioned in the early 2000s and run by SJVN. Water is taken from a barrage at Nathpa and carried roughly 27 kilometres through a **headrace tunnel** inside the mountain to a powerhouse at Jhakri, where it drops through turbines. The village of Nathpa itself was displaced.
+
+**Karcham Wangtoo, 1,000 MW.** Completed around 2011, built by the Jaypee group, the largest private-sector hydro project in India at the time. Again run-of-the-river: a barrage at Karcham, a tunnel of about 17 kilometres, a powerhouse at Wangtoo.
+
+**"Run-of-the-river" is the phrase you will hear, and it needs unpacking.** It is used to mean "no big reservoir, therefore no big impact", and the first half is true. There is no drowned valley here. But the water is still removed from the river, for tens of kilometres at a time, and returned lower down. For long stretches of the Sutlej, what you see in the bed is the residual flow, not the river. The river is inside the mountain, beside you, in the dark.
+
+## The case for
+
+It is a real case and deserves stating without sneering.
+
+**Himachal has very little else.** No industry to speak of, no minerals, limited agriculture, a small population spread over difficult terrain. Hydropower is the state's main natural endowment and a major source of its revenue, and free power allocations from projects fund state budgets.
+
+**The power is low-carbon**, at a moment when India needs a great deal of electricity and the alternative at the margin is coal.
+
+**The projects paid for things.** Roads, bridges, schools, dispensaries, employment during construction, and local contracts. Some of the infrastructure that makes your trip possible exists because a power company needed to move turbines up this valley.
+
+**Nobody was drowned out.** Displacement from run-of-the-river projects is in the dozens of families rather than the tens of thousands of a classic reservoir scheme.
+
+## The case against
+
+Also real, and made most forcefully by the people who live above the tunnels.
+
+**Blasting and tunnelling.** This is the central complaint and the most documented. Villages sitting above headrace tunnels — **Urni** is the most cited example — report cracks in houses and fields, subsidence, and newly active landslides that they date to the construction period. In some cases new water sources have appeared where none were, which is a classic sign of a disturbed aquifer, while old springs have gone dry.
+
+**And those villages were not counted as affected.** Because compensation criteria were built around **submergence**, a village on the mountainside above a tunnel was, administratively, not impacted by the project at all. It got nothing, and it has the cracks.
+
+**Muck dumping.** The spoil from tens of kilometres of tunnel has to go somewhere, and a great deal of it went onto the riverbanks. It washes into the bed, raises it, and narrows the channel — which matters enormously in a valley that periodically receives an unannounced flood from Tibet.
+
+**Dust.** Apple orchards and chilgoza forests near excavation sites have been damaged by dust from blasting and dumping, which hits the two things Kinnaur's economy actually runs on.
+
+**Springs and grasslands.** Villagers report grazing land drying out and springs failing. Whether tunnelling is the cause is contested; the villagers are in no doubt.
+
+**Cumulative impact.** Individually each project is assessed as acceptable. There are now enough of them in one basin that the basin-scale effect is the real question, and a Cumulative Environmental Impact Assessment for the Sutlej basin, presented to Kinnauri communities in December 2014, was heavily criticised by them when it arrived.
+
+**Process.** Environment clearance hearings for Karcham Wangtoo in 2003 had to be repeatedly postponed because the impact assessment had not been made available in a language local people could read. In a Scheduled Tribe district with constitutional protections, that is not a small procedural point.
+
+## What happened next
+
+Kinnaur did not accept this quietly.
+
+There have been protest rallies at Wangtoo since the mid-2000s, and the company at one point sued the local resistance committee. After the **2021 monsoon**, when landslides at Nigulsari and near Batseri killed people, opposition consolidated into a sustained campaign under the slogan **"No Means No"** — a direct invocation of the consent provisions that are supposed to apply in tribal areas. The proposed **Jangi Thopan Powari** project in the Jangram valley has been stalled by it.
+
+And here is the detail that ties this chapter back to Interlude One.
+
+At the Wangtoo protests, thousands of people assembled **led by their village deity** — Maheshwar Devta of Chagaon, carried in his palanquin to the demonstration. The god came to the protest. The deity system is not a heritage attraction; it is the institution through which these valleys organise politically, and it was deployed against a power company.
+
+## Where this leaves you
+
+Three honest observations.
+
+**One.** The attribution question is genuinely hard. Kinnaur is in Seismic Zone V with over-steep slopes in sheared rock, and it slid before anyone built anything. The monsoon is also intensifying. Separating the contribution of tunnelling from the contribution of geology and climate requires evidence that has largely not been collected, partly because collecting it was nobody's job.
+
+**Two.** The distribution of benefit and cost is not symmetrical. The power goes to the northern grid. The revenue goes to the state. The cracks are in Urni.
+
+**Three.** Being a visitor who is charmed by a valley and opposed to its electricity, while flying home to an air-conditioned city, is not a strong position either. The useful thing is not to have a view. It is to know that the argument exists, that it is being had by people with far more at stake than you, and that it is unresolved.
+
+You will see the substations, the transmission towers marching over ridges, the tunnel portals, the muck on the banks, and the river running low. Now you know what you are looking at.
+
+---
+
+# Interlude Five · The Frontier, 1850 to Now
 
 *Read on the Kinnaur leg, or at the Sumdo check post.*
 
@@ -912,7 +1041,7 @@ Be polite at check posts, carry your ID, and don't photograph military installat
 
 ---
 
-# Interlude Five · What Moved Over the Passes
+# Interlude Six · What Moved Over the Passes
 
 *The economic history in one page. Read at Khab or Kaza.*
 
@@ -943,7 +1072,7 @@ The Lavi fair still sells Kinnauri woollens, chilgoza, apricots, horses and meta
 
 ---
 
-# Interlude Six · How to Read a Monastery
+# Interlude Seven · How to Read a Monastery
 
 *Read this the night before Tabo. It will change what you see for the next four days.*
 
@@ -1070,7 +1199,7 @@ Sit with it for ten minutes at Tabo or Ki. It is one of the great pieces of visu
 **Tsampa and butter tea** — if they are offered to you, take them. Butter tea (*po cha*) is salty, greasy and, at 4,000 metres in a cold room, exactly correct. Think of it as soup and you will get on with it much better.
 
 ---
-# Chapter 7 · Tabo
+# Chapter 8 · Tabo
 
 **Night 4 · 19 September · 3,280 m**
 
@@ -1127,7 +1256,7 @@ Keep both. One is what happened. The other is what the tradition decided the man
 
 ---
 
-# Chapter 8 · Dhankar and Lalung
+# Chapter 9 · Dhankar and Lalung
 
 **Day 5 · 20 September · Tabo → Mud, via the Dhankar turn-off**
 
@@ -1181,7 +1310,7 @@ The village name means "land of the gods". There is a sacred juniper grove and a
 
 ---
 
-# Chapter 9 · Pin Valley
+# Chapter 10 · Pin Valley
 
 **Night 5 · 20 September · Mud, 3,800 m**
 
@@ -1249,7 +1378,7 @@ It is an unglamorous conservation issue with an obvious cause: rubbish. It ties 
 
 ---
 
-# Chapter 10 · Kaza and Ki
+# Chapter 11 · Kaza and Ki
 
 **Night 6 · 21 September · Kaza, 3,650 m**
 
@@ -1311,7 +1440,7 @@ This war is the reason your itinerary looks the way it does. Two of its settleme
 ---
 
 
-# Interlude Seven · How a Spiti Village Works
+# Interlude Eight · How a Spiti Village Works
 
 *Read at Kaza, or at Mud the night before.*
 
@@ -1421,7 +1550,7 @@ This is neither a tragedy nor progress. It is what happens when a road reaches a
 
 ---
 
-# Chapter 11 · The High Villages
+# Chapter 12 · The High Villages
 
 **Day 6 · 21 September · Langza, Hikkim, Komic**
 **Day 7 · 22 September · Kibber, Chicham**
@@ -1494,7 +1623,95 @@ Water is the single most useful intervention. Three to four litres a day, more t
 
 ---
 
-# Chapter 12 · Losar and Kunzum La
+# Interlude Nine · The Passes
+
+*Read at Kaza or Kibber. This is the map underneath the road map.*
+
+Before 1962 and the road, Spiti was not isolated. It was a **junction**. Everything went by foot and pony over passes, and the pass network is the real transport system of this region — older than the highway, still there, still walkable, and the reason every place on your itinerary is where it is.
+
+Here they are, roughly clockwise.
+
+## Parang La (about 5,580 m) — north, to Ladakh
+
+From **Kibber**, which you visit on Day 7, a trail climbs the gorge and crosses **Parang La** into the Rupshu plains of Changthang, ending at **Korzok** on **Tso Moriri**.
+
+This was the Spiti–Ladakh trade route, and what moved on it was specific: **Spitian horses and barley went north, salt and pashmina wool came south**. The Changpa nomads of Changthang crossed it in summer to reach the **Ladarcha fair**, which is precisely why that fair was originally held on the maidan at Kibber before it moved to Kaza. Kibber is not a scenic village that happens to be high. It is the Spiti end of a trans-Himalayan trade road.
+
+Parang La is also the source of the **Pare Chu** — the river that flows into Tibet and comes back at Sumdo, and the one that burst its landslide dam in 2005. Everything in this book eventually connects to everything else.
+
+It remains one of the great treks in India: nine or ten days, consistently above 4,000 m, finishing at a lake 26 kilometres long.
+
+## Manirang La (about 5,550 m) — south, to Kinnaur
+
+Before the road, this was **the** route between Spiti and Kinnaur, crossing beneath **Manirang** peak (6,593 m) from the Mane valley to Ropa in Kinnaur. Everything that went between the Sutlej valley and Spiti went over it, including the goods that eventually reached the **Lavi fair** at Rampur.
+
+Manirang the mountain was first climbed in 1952 by a South African party under Dr J. de V. Graaff. For a while it was thought to be one of the highest peaks in Himachal.
+
+The pass fell out of use the moment a road existed, which tells you exactly what a road does.
+
+## Pin–Parvati (about 5,300 m) — west, to Kullu
+
+From **Mud**, where you sleep on Day 5, over the main Himalayan divide and down the Parvati valley into Kullu. This is the crossing from cold desert to monsoon forest in a single pass, and the contrast on the two sides is as extreme as anywhere in the Himalaya.
+
+It carries a colonial name: it was crossed in 1884 by **Sir Louis Dane**, later Lieutenant-Governor of Punjab, and is sometimes called Dane's Pass. It is now a serious and popular trek, with glacier crossings and genuine objective danger, and people get into trouble on it most seasons.
+
+## Pin–Bhaba (about 4,900 m) — south-west, to Kinnaur
+
+Also from the Pin valley, over to the **Bhaba** valley and down to **Kafnu** in Kinnaur. The gentler of the two Pin crossings and, again, a working route before it was a trek: grazing, trade and movement between the Kinnauri and Spitian worlds.
+
+## Kunzum La (4,590 m) — west, to Lahaul
+
+Your Day 8. The only one of these you will cross, and the only one with a road. See Chapter 13.
+
+## Lamkhaga La (about 5,280 m) — from the Baspa to Garhwal
+
+From **Chitkul**, where you sleep on Day 2, over to Harsil in Garhwal on the Bhagirathi. Another reason Chitkul is not a dead end in the old geography.
+
+## Shipki La (about 4,600 m) — east, to Tibet
+
+The one Dalhousie's road was pointed at. Closed 1962, briefly and partially reopened 1994, repeatedly suspended since. See Interlude Five.
+
+## Why this matters
+
+Look at that list and Spiti stops being remote. From Kaza you could walk to Ladakh, to Tibet, to Kinnaur by two routes, to Kullu, and to Lahaul. Five directions. It was a crossroads with passes in every direction, which is exactly why so many armies bothered to come here for a place with a revenue of seven hundred rupees.
+
+What the road did was replace five directions with one. Everything now comes from Manali or from Shimla. The other four routes still exist, but as recreation.
+
+---
+
+## The mountains, and the best story in Spiti
+
+Spiti's peaks are not famous. The highest is **Gya** (6,794 m), on the border with Ladakh and Tibet, and it resisted attempts through the 1990s before being climbed in 1999, with an earlier claimed ascent in 1998 that was never fully substantiated. **Chau Chau Kang Nilda** (6,303 m), visible from around Kaza, was climbed in 1939 by **J. O. M. Roberts** — later one of the founders of Himalayan trekking as an industry, and the man who wrote the foreword to Kapadia's book on Spiti.
+
+But the story worth carrying is **Shilla**.
+
+In **1860**, a **khalasi** of the Survey of India climbed a peak in eastern Spiti. Khalasis were the local assistants attached to survey parties — the men who carried the instruments and, crucially, who climbed the high points to erect the poles and cairns that the theodolites were then sighted on. It was skilled, dangerous, entirely uncelebrated work.
+
+The peak was recorded as "Parang La No. 2 South". Its height was computed at **7,029 metres — 23,064 feet**. The ascent was published in the Synoptical Volumes of the Trigonometrical Survey.
+
+Which meant that for nearly half a century, **the highest summit ever climbed by a human being had been climbed by an anonymous Indian labourer in Spiti**, as a routine part of his job, in 1860.
+
+It was wrong. In 1939 Roberts, looking across at Shilla from Chau Chau Kang Nilda, thought the height looked suspect. Modern survey put Shilla at **6,132 metres** — twenty thousand feet, not twenty-three. The record dissolved.
+
+The mountain is still there, still remote, still rarely visited, and the climb was still real. What was lost was only a number that had been miscalculated by people sitting somewhere else.
+
+The historian of Himalayan mountaineering **Kenneth Mason** wrote the line that has stuck to the story ever since: <cite index="257-1">he did not know its height and we do not know his name</cite>.
+
+Hold that against the roll-call in Interlude Three — Moorcroft, the Gerards, Csoma, the Schlagintweits, Stoliczka — all named, all commemorated. And then the khalasi, who went higher than any of them.
+
+## One more, and it is grim
+
+A footnote that belongs on your Day 4.
+
+In 1944, several Austrian and German internees escaped from the British camp at Dehradun and crossed into Tibet. Two of them were **Heinrich Harrer** and **Peter Aufschnaiter**, who reached Lhasa and became the subject of *Seven Years in Tibet*.
+
+Another was **Ludwig Schmaderer**, a serious mountaineer who had made a first ascent in Sikkim before the war. In **July 1945**, still wandering and apparently not knowing the war had ended, he was **robbed and murdered at or near Tabo**. His companion **Herbert Paidar** walked down the Spiti and the Sutlej to Pooh and on to Sarahan, gave himself up, and reported it. Arrests followed.
+
+You are sleeping at Tabo on Night 4.
+
+---
+
+# Chapter 13 · Losar and Kunzum La
 
 **Night 7 · 22 September · Losar, 4,085 m**
 **Day 8 · 23 September · Kunzum La, 4,590 m**
@@ -1555,7 +1772,7 @@ Losar as a festival falls in February or in some Spiti traditions earlier, and i
 
 ---
 
-# Chapter 13 · Chandratal
+# Chapter 14 · Chandratal
 
 **Night 8 · 23 September · 4,337 m · the night everything is packed for**
 
@@ -1639,7 +1856,7 @@ By common agreement of everyone who has done this route, this is the best night 
 
 ---
 
-# Chapter 14 · The Chandra Valley
+# Chapter 15 · The Chandra Valley
 
 **Day 9 · 24 September · Chandratal → Batal → Gramphu → Manali**
 
@@ -1697,7 +1914,91 @@ Either way, watch what happens at **Koksar** and below: the first green in five 
 
 ---
 
-# Chapter 15 · Manali
+# Chapter 16 · Lahaul
+
+*Day 9. You cross it in about two hours. Here is what you are crossing.*
+
+Most people on the Spiti circuit treat Lahaul as the bit between Kunzum La and the tunnel. That is a mistake, and if you ever come back, Lahaul deserves its own week. Here at least is what it is.
+
+## Two valleys and a confluence
+
+Lahaul is built around two rivers and the place they meet.
+
+The **Chandra** rises at Baralacha La, loops east and then south around the Chandrabhaga massif, and comes down past Chandratal and Batal — the valley you drive on Day 9.
+
+The **Bhaga** rises on the other side of the same Baralacha La and comes down past Keylong.
+
+They meet at **Tandi**, and from there the combined river is the **Chandrabhaga**, which becomes the **Chenab**, which becomes one of the great rivers of Punjab and Pakistan.
+
+Tandi is sacred to Lahaulis in roughly the way Haridwar is to Hindus of the plains — a confluence where ashes are immersed. And the folk explanation of the geography is the one you met at Chandratal: **Chandra**, daughter of the moon, and **Bhaga**, son of the sun, fell in love; to sanctify the marriage they each circled the whole of Lahaul in opposite directions and met at Tandi. The two rivers really do run away from each other from the same pass and come back together a hundred kilometres later. The myth is a perfectly accurate description of a drainage pattern.
+
+Below Tandi is the **Pattan valley**, the most fertile and populous part of Lahaul, running down towards Udaipur.
+
+## Gyephang
+
+Lahaul's presiding deity is **Gyephang** (also Ghepan), and his mountain is the peak of the same name, around 6,400 m, which you can see from Sissu on the north side of the tunnel.
+
+Gyephang is a protector, and in the old days the people of Lahaul are said to have gone to war under his banner. His shrine is at **Shashin** on the right bank of the Chandra, where he is believed to have been born, and he is brought out in procession only once every two or three years. The temple is not open to outsiders, and you should not press on this.
+
+What is striking about Gyephang is how comfortably he sits across categories: a mountain god, older than the Buddhism that now surrounds him, absorbed into it without being replaced. The same pattern as Kunzum Devi on the pass, and the same as the deota system in Kinnaur.
+
+## Triloknath, and a temple that is two religions at once
+
+In the Pattan valley, at **Triloknath**, there is a shrine that is one of the most genuinely remarkable religious sites in the western Himalaya, and almost nobody on the Spiti circuit sees it.
+
+Hindus worship there as **Shiva**, lord of the three worlds. Buddhists worship the same image as **Avalokiteshvara**, the bodhisattva of compassion. Not two shrines side by side. **The same image, in the same temple, with both traditions' rituals performed on it.**
+
+Tradition associates its founding, and that of **Guru Ghantal** at Gondhla, with Padmasambhava's passage through the region in the eighth century, and holds that Triloknath was a Shiva temple before that. Whatever the history, the present situation is the point: in a subcontinent where shared shrines have often become flashpoints, here is one that has simply carried on.
+
+Nearby, at **Udaipur**, the **Mrikula Devi** temple has woodcarving of extraordinary quality and antiquity, in a small unassuming building.
+
+## Gondhla and Kardang
+
+**Gondhla**, on the road between the tunnel and Keylong, has an eight-storeyed **timber-and-stone castle** of the Thakurs of Gondhla, who ruled the Chandra valley on behalf of the Rajas of Kullu. It is the same structural idea as Kamru in Kinnaur — a tower house of stacked timber and stone — at the far end of the same cultural corridor.
+
+**Kardang**, across the Bhaga from Keylong, is the main Drukpa Kagyu monastery of Lahaul, founded in its present form in the early seventeenth century.
+
+## The Moravians, and the potato
+
+Here is a story to set beside Stokes and the apple, because it is the same story with different actors.
+
+In the nineteenth century the **Moravian Church** — German in origin, internationally staffed, funded largely from England — established a mission at **Keylong**. They arrived intending to reach Tibet, could not get in, and settled for the next valley along.
+
+Almost nobody converted. What they did instead was:
+
+**They introduced the potato**, at Keylong, in **1857**. Lahaul now has among the highest per-hectare seed-potato yields anywhere, and potato is the backbone of the valley economy.
+
+**They introduced pollarded willows**, planted in dense rows to stabilise eroded slopes. The willows are now central to Lahauli village life: roofing material for flat-roofed houses, winter fodder for cattle, and summer shade. You will see them everywhere in the Pattan valley, heads cut back hard, a completely artificial landscape that is now the natural-looking one.
+
+**And they did the scholarship.** **A. H. Francke**, the Moravian missionary-scholar, produced *Antiquities of Indian Tibet* and foundational work on the languages and history of Lahaul and Ladakh, much of it still cited.
+
+Later came **kuth** (*Saussurea costus*), a medicinal root introduced as a cash crop around **1925** and exported, at one point, in enough quantity to make Lahaul unusually prosperous. Today the valley is **the main supplier of hops to Indian breweries**, along with seed potato, peas and medicinal herbs.
+
+So Lahaul's agricultural economy is: a tuber from South America introduced by German missionaries, a Central Asian medicinal root introduced by the British, and hops for beer. Almost nothing the valley grows commercially is indigenous, and the whole thing runs on **glacier meltwater led along contour channels** that are much older than any of it.
+
+The Lahauli jewellery you may see — heavy seed-pearl necklaces, silver plaques inlaid with coral and turquoise, worn over long woollen dresses — was bought with kuth and potato money.
+
+## The languages
+
+Lahaul is linguistically extraordinary for its size. Alongside Bhoti (Tibetan) in the upper valleys there are several distinct languages of the West Himalayish group — **Manchad** (Pattani), **Tinan** (Gondhla), **Bunan** (Gahri), **Lahuli-Chitkuli** — several of them spoken by only a few thousand people, several unwritten, and several related to Kinnauri rather than to Tibetan. A valley about the size of a small English county holds four or five languages, and they are all vulnerable.
+
+## Sissu, and what the tunnel did
+
+The north portal of the Atal Tunnel comes out near **Sissu**, under the Gyephang peak, with a waterfall coming off the cliff opposite.
+
+Before **3 October 2020**, Sissu was a quiet village in a valley that was physically sealed for six months a year. Now it is fifteen minutes from Manali and receives day-trippers in numbers that the village has no infrastructure for. Snow tourism, paragliding, traffic, parking, waste, and land prices arrived within one season.
+
+You will drive past this. It is the compressed version of everything in Chapter 17: infrastructure that unambiguously saves lives, producing consequences nobody planned for, at a speed nobody could absorb.
+
+## If you ever come back
+
+Four or five days in Lahaul would give you Keylong, Kardang, Tandi, the Pattan valley, Triloknath, Udaipur and Mrikula Devi, and Gondhla — and almost no other tourists, because everyone is either racing to Leh or racing to Spiti.
+
+It is the most overlooked valley on this entire route.
+
+---
+
+# Chapter 17 · Manali
 
 **Arrival · 24 September · 2,050 m**
 
@@ -1789,7 +2090,7 @@ That compression is the reason this route is worth doing in this direction, and 
 
 ---
 
-# Chapter 16 · What Is Happening Now
+# Chapter 18 · What Is Happening Now
 
 *Read on the way home, or on the Chandratal night if you are awake anyway.*
 
@@ -1929,6 +2230,15 @@ Books, if you want to go further.
 - **Kipling, *Kim*** (1901). Shimla, the Great Game, and a lama from a Himalayan monastery. The best novel anyone has written about this part of the world, whatever you think of its politics.
 - **Peter Matthiessen, *The Snow Leopard*** (1978). Dolpo, not Spiti, but the right book for a cold night at altitude in a Buddhist landscape.
 
+**On Lahaul and the frontier**
+
+- **A. H. Francke, *Antiquities of Indian Tibet*.** The Moravian missionary-scholar's foundational work on Lahaul, Ladakh and their languages. Out of copyright and freely available.
+- **Alexander Cunningham, *Ladák*** (1854). The boundary commissioner's account, by the man who went on to found the Archaeological Survey of India.
+
+**On the mountains**
+
+- **The *Himalayan Journal*.** The Himalayan Club's annual, running since 1929, with a substantial archive online. The Spiti material — Roberts in 1939, the Shilla question, the Lingti and Gya expeditions — is there and free to read.
+
 **Comparative**
 
 - **Helena Norberg-Hodge, *Ancient Futures: Learning from Ladakh***. On what modernity does to a trans-Himalayan valley. Read it against what you saw of the road, the tunnel and the apple economy, and argue with it.
@@ -1970,6 +2280,8 @@ Books, if you want to go further.
 | 1846–48 | Cunningham, Strachey and Thomson survey the new boundary |
 | **1850** | **Dalhousie orders the Great Hindustan–Tibet Road** |
 | 1854–57 | The Schlagintweit brothers cross Kunzum; Adolf beheaded at Kashgar, 1857 |
+| 1857 | Moravian missionaries introduce the potato at Keylong |
+| 1860 | An unnamed Survey of India khalasi climbs Shilla. The height is miscalculated |
 | 1866 | Stoliczka publishes on the fossils of Spiti |
 | 1883 | Spiti Frontier Regulations confirm the Nono as hereditary wazir |
 | 1904 | Samuel Stokes arrives in India, aged 22 |
@@ -1977,7 +2289,10 @@ Books, if you want to go further.
 | 1906 | Walker and Pascoe first survey Bara Shigri |
 | mid-1910s | Stokes plants Stark Delicious apples at Kotgarh |
 | 1920 | Stokes and Kanshi Ram launch the movement against begar |
+| 1925 | Kuth introduced as a cash crop in Lahaul |
 | 1932 | George Roerich describes the buchen Breaking the Stone ceremony |
+| 1939 | J. O. M. Roberts climbs Chau Chau Kang Nilda and doubts Shilla's height |
+| 1945 | Ludwig Schmaderer, escaped internee, murdered near Tabo |
 | 1939 | Dhami firing: the first such tragedy in the hills |
 | 1947–48 | Suket Satyagraha; the princely states merge. **15 April 1948: Himachal Pradesh created.** Begar abolished |
 | 1951 | Harrer crosses into India over Shipki La |
@@ -1988,7 +2303,11 @@ Books, if you want to go further.
 | 1983 | Hikkim post office opens |
 | mid-1980s | Green peas arrive in Spiti. The cash economy begins |
 | 1994 | Limited border trade briefly reopens at Shipki La |
+| Aug 2000 | Flash flood down the Sutlej from an unnamed Tibetan lake; ~150 feared dead |
 | 2000 | The Dalai Lama holds the Kalachakra at Ki |
+| 2004–05 | The Pare Chu is dammed by a landslide in Tibet; the dam bursts 26 June 2005 |
+| 2011 | Karcham Wangtoo commissioned |
+| 2021 | Kinnaur landslides; the "No Means No" campaign against new hydro begins |
 | 2017 | Chicham bridge opens |
 | **2020** | **Atal Tunnel opens, 3 October.** Lahaul gets year-round access |
 | 2021 | Nigulsari landslide on NH-5 |
