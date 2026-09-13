@@ -1,0 +1,447 @@
+[
+ {
+  "file": "map-ch01-03-shimla-sarahan.svg",
+  "anchor": "Narkanda, Kotgarh, Rampur",
+  "title": "Day 1: Shimla to Sarahan",
+  "caption": "Day 1, Shimla to Sarahan: over the Narkanda ridge and down into the Sutlej valley.",
+  "places": [
+   {
+    "name": "Shimla",
+    "kind": "end",
+    "also": []
+   },
+   {
+    "name": "Fagu",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Theog",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Narkanda",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Hatu Peak",
+    "kind": "book",
+    "also": [],
+    "note": "Hatu Mata temple"
+   },
+   {
+    "name": "Kotgarh",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Nirath",
+    "kind": "book",
+    "also": [],
+    "note": "sun temple"
+   },
+   {
+    "name": "Rampur",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Jeori",
+    "kind": "book",
+    "also": [],
+    "note": "memorial to the 122 road-builders; drawn at the Sarahan turn-off, exact spot to confirm",
+    "approx": true
+   },
+   {
+    "name": "Sarahan",
+    "kind": "night",
+    "also": []
+   }
+  ]
+ },
+ {
+  "file": "map-ch04-baspa.svg",
+  "anchor": "The Baspa Valley — Sangla, Kamru, Rakcham, Chitkul",
+  "title": "Chapter 4: the Baspa valley",
+  "caption": "The Baspa valley: a side valley that ends at Chitkul. Beyond it there is only the footpath.",
+  "places": [
+   {
+    "name": "Karcham",
+    "kind": "stop",
+    "also": [],
+    "note": "turn-off from NH-5"
+   },
+   {
+    "name": "Sangla",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Kamru",
+    "kind": "book",
+    "also": [],
+    "note": "fort"
+   },
+   {
+    "name": "Batseri",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Rakcham",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Chitkul",
+    "kind": "night",
+    "also": []
+   },
+   {
+    "name": "Lamkhaga La (off the map, south-east)",
+    "kind": "pass",
+    "also": []
+   }
+  ]
+ },
+ {
+  "file": "map-ch05-kalpa.svg",
+  "anchor": "Kalpa, and the Mountain That Is a God",
+  "title": "Chapter 5: Kalpa and Reckong Peo",
+  "caption": "Kalpa sits above Reckong Peo, facing the Kinner Kailash range across the Sutlej.",
+  "places": [
+   {
+    "name": "Powari",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Reckong Peo",
+    "kind": "stop",
+    "also": [
+     "fuel"
+    ],
+    "note": "last reliable ATM, market and fuel"
+   },
+   {
+    "name": "Kalpa",
+    "kind": "night",
+    "also": []
+   },
+   {
+    "name": "Roghi",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Kinner Kailash (the shivling stands on its shoulder)",
+    "kind": "pass",
+    "also": []
+   }
+  ]
+ },
+ {
+  "file": "map-ch06-the-long-drive.svg",
+  "anchor": "The Road Itself",
+  "title": "Day 4: Kalpa to Tabo",
+  "caption": "Day 4, the long drive: the Sutlej gorge, the Khab confluence, the climb to Nako and into Spiti.",
+  "places": [
+   {
+    "name": "Karcham",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Wangtu",
+    "kind": "check",
+    "also": [],
+    "note": "check post"
+   },
+   {
+    "name": "Reckong Peo",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Spillow",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Pooh",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Khab",
+    "kind": "stop",
+    "also": [],
+    "note": "Spiti–Sutlej confluence"
+   },
+   {
+    "name": "Nako",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Chango",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Sumdo",
+    "kind": "check",
+    "also": [],
+    "note": "check post: register"
+   },
+   {
+    "name": "Gue",
+    "kind": "book",
+    "also": [],
+    "note": "detour to the mummy"
+   },
+   {
+    "name": "Tabo",
+    "kind": "night",
+    "also": []
+   }
+  ]
+ },
+ {
+  "file": "map-ch08-10-tabo-dhankar-pin.svg",
+  "anchor": "Dhankar and Lhalung",
+  "title": "Day 5: Tabo, Dhankar, Lhalung and the Pin valley",
+  "caption": "Day 5: Tabo to Mud by way of Dhankar, with the Lhalung side trip. The Dhankar close-up is below.",
+  "places": [
+   {
+    "name": "Tabo",
+    "kind": "night",
+    "also": []
+   },
+   {
+    "name": "Dhankar (village, old gompa and lake: see close-up)",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Shichilling",
+    "kind": "stop",
+    "also": [],
+    "note": "newer monastery below Dhankar"
+   },
+   {
+    "name": "Lhalung",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Attargo",
+    "kind": "stop",
+    "also": [],
+    "note": "bridge at the Pin confluence"
+   },
+   {
+    "name": "Sagnam",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Guling",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Kungri",
+    "kind": "book",
+    "also": [],
+    "note": "Nyingma gompa"
+   },
+   {
+    "name": "Mud",
+    "kind": "night",
+    "also": []
+   }
+  ]
+ },
+ {
+  "file": "map-ch09-dhankar-closeup.svg",
+  "anchor": "The fort on the cliff",
+  "title": "Dhankar close-up: village, old gompa and lake",
+  "caption": "Three places people run together: Dhankar village, the old gompa on its spur, and Dhankar Lake up the hill.",
+  "places": [
+   {
+    "name": "Dhankar village",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Dhankar old gompa (fort on the cliff)",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Dhankar Lake",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Shichilling",
+    "kind": "stop",
+    "also": [],
+    "note": "newer monastery"
+   }
+  ]
+ },
+ {
+  "file": "map-ch11-12-kaza-high-villages.svg",
+  "anchor": "The High Villages",
+  "title": "Days 6–7: Kaza and the high villages",
+  "caption": "Kaza, Ki and the high villages. The arrows show the Langza–Hikkim–Komic loop in the direction the plan drives it.",
+  "places": [
+   {
+    "name": "Kaza",
+    "kind": "night",
+    "also": [
+     "fuel"
+    ]
+   },
+   {
+    "name": "Ki",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Kibber",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Chicham",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Gette",
+    "kind": "stop",
+    "also": [],
+    "note": "chorten"
+   },
+   {
+    "name": "Tashigang",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Langza",
+    "kind": "book",
+    "also": []
+   },
+   {
+    "name": "Hikkim",
+    "kind": "book",
+    "also": [],
+    "note": "post office"
+   },
+   {
+    "name": "Komic",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Rangrik",
+    "kind": "stop",
+    "also": []
+   }
+  ]
+ },
+ {
+  "file": "map-ch13-14-losar-kunzum-chandratal.svg",
+  "anchor": "Losar and Kunzum La",
+  "title": "Day 8: Losar, Kunzum La and Chandratal",
+  "caption": "Day 8: up from Losar over Kunzum La, down to Batal, and back up to Chandratal. The last stretch is on foot.",
+  "places": [
+   {
+    "name": "Losar",
+    "kind": "night",
+    "also": [
+     "check"
+    ]
+   },
+   {
+    "name": "Kunzum La",
+    "kind": "pass",
+    "also": []
+   },
+   {
+    "name": "Batal",
+    "kind": "book",
+    "also": [],
+    "note": "Chandra Dhaba"
+   },
+   {
+    "name": "Chandratal parking and camps (the foot route starts here)",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Chandratal",
+    "kind": "night",
+    "also": []
+   }
+  ]
+ },
+ {
+  "file": "map-ch15-chandra-valley-manali.svg",
+  "anchor": "The Chandra Valley",
+  "title": "Day 9: down the Chandra valley to Manali",
+  "caption": "Day 9: Batal to Manali. Cross the streams early; at Gramphu choose the Atal Tunnel or Rohtang La.",
+  "places": [
+   {
+    "name": "Batal",
+    "kind": "book",
+    "also": [],
+    "note": "Chandra Dhaba"
+   },
+   {
+    "name": "Chhota Dara",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Bara Shigri",
+    "kind": "stop",
+    "also": [],
+    "note": "glacier snout; position approximate",
+    "approx": true
+   },
+   {
+    "name": "Gramphu",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Koksar",
+    "kind": "check",
+    "also": [],
+    "note": "check post"
+   },
+   {
+    "name": "Rohtang La",
+    "kind": "pass",
+    "also": []
+   },
+   {
+    "name": "Sissu",
+    "kind": "stop",
+    "also": []
+   },
+   {
+    "name": "Manali",
+    "kind": "end",
+    "also": []
+   }
+  ]
+ }
+]

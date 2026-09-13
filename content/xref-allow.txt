@@ -1,0 +1,9 @@
+# Cross-references the build check (scripts/build_spiti_book.py, check_reference_numbers) flags but
+# which are deliberate. One substring of the markdown line per line.
+
+# Interlude Ten, Spiti weddings: the household logic is set out in Interlude Nine's "The house"
+# (and also, more briefly, in Interlude One); the author's reference is to Interlude Nine.
+The structural logic is the one from Interlude Nine
+
+# Notes on contested claims: each bullet is short, so the check reads the previous bullet as context.
+**Rinchen Zangpo's 108 temples** (Chapter 8)

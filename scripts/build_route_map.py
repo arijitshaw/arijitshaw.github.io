@@ -15,6 +15,7 @@ transform on the town markers below; the small leftover error at each town is th
 smoothly (inverse-distance weighting) so every marker sits exactly on its town.
 """
 import argparse
+import json
 import math
 import re
 import time
@@ -74,6 +75,8 @@ def fetch_base(x0, y0, x1, y1, tiles_dir):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tiles-dir", type=Path, default=Path.home() / ".cache" / "spiti-osm-tiles")
+    ap.add_argument("--osm", type=Path, default=Path.home() / ".cache" / "spiti-osm",
+                    help="OSM extracts from build_chapter_maps.py --fetch (for the Kinnaur–Spiti boundary)")
     args = ap.parse_args()
 
     svg = re.sub(r"<metadata>.*?</metadata>", "", SRC.read_text(encoding="utf-8"), flags=re.S)
@@ -147,6 +150,42 @@ def main():
     body = re.sub(r'\sd="([^"]+)"', path_repl, body)
     body = re.sub(r"<(?:circle|text)\b[^>]*>", tag_repl, body)
 
+    # ---- T1.1 additions: Kinnaur–Spiti boundary, the watershed at Kunzum, and the dates of the night halts ----
+    extras = []
+    districts = args.osm / "districts.json"
+    if districts.exists():
+        rels = {e["tags"]["name"]: e for e in json.loads(districts.read_text())["elements"] if e.get("tags", {}).get("name")}
+        kin, spiti = rels.get("Kinnaur"), rels.get("Lahaul and Spiti")
+        if kin and spiti:
+            shared = {m["ref"] for m in spiti["members"] if m.get("type") == "way"}
+            runs = []
+            for m in kin["members"]:
+                if m.get("type") == "way" and m["ref"] in shared and m.get("geometry"):
+                    pts = [((wx - x0) / k, (wy - y0) / k) for wx, wy in (world_px(g["lat"], g["lon"]) for g in m["geometry"])]
+                    runs.append(pts)
+                    extras.append('<path class="boundary" d="M' + "L".join(f"{x:.1f} {y:.1f}" for x, y in pts) + '"/>')
+            if runs:
+                longest = max(runs, key=len)
+                (ax, ay), (bx, by) = longest[len(longest) // 2 - 1], longest[len(longest) // 2]
+                mx, my = (ax + bx) / 2, (ay + by) / 2
+                nx, ny = -(by - ay), bx - ax
+                L = math.hypot(nx, ny) or 1
+                nx, ny = nx / L * 13, ny / L * 13
+                north, south = ((mx + nx, my + ny), (mx - nx, my - ny)) if ny < 0 else ((mx - nx, my - ny), (mx + nx, my + ny))
+                extras.append(f'<text class="note" x="{north[0]:.1f}" y="{north[1]:.1f}" text-anchor="middle">SPITI</text>')
+                extras.append(f'<text class="note" x="{south[0]:.1f}" y="{south[1] + 9:.1f}" text-anchor="middle">KINNAUR</text>')
+    kx, ky = to_out(260, 103)
+    extras.append(f'<text class="note" x="{kx - 4:.1f}" y="{ky + 26:.1f}" text-anchor="end">watershed</text>')
+    nights = [("1", "Sarahan", "16 Sep"), ("2", "Chitkul", "17 Sep"), ("3", "Kalpa", "18 Sep"), ("4", "Tabo", "19 Sep"),
+              ("5", "Mud", "20 Sep"), ("6", "Kaza", "21 Sep"), ("7", "Losar", "22 Sep"), ("8", "Chandratal", "23 Sep")]
+    px, py, row = 10, Hu * 0.30, 17
+    extras.append(f'<rect x="{px}" y="{py:.1f}" width="150" height="{len(nights) * row + 26:.0f}" rx="8" fill="#f3f2f2" fill-opacity=".92"/>')
+    extras.append(f'<text class="panel-h" x="{px + 10}" y="{py + 17:.1f}">Nights</text>')
+    for i, (n, name, date) in enumerate(nights):
+        y = py + 36 + i * row
+        extras.append(f'<text class="panel-t" x="{px + 10}" y="{y:.1f}"><tspan font-weight="700">{n}</tspan>  {name}</text>'
+                      f'<text class="panel-t" x="{px + 140}" y="{y:.1f}" text-anchor="end">{date}</text>')
+
     casings = "".join(f'<path class="casing" d="{d}"/>' for d in
                       re.findall(r'<path[^>]*stroke="#378ADD"[^>]*\sd="([^"]+)"', body) +
                       re.findall(r'<path[^>]*\sd="([^"]+)"[^>]*stroke="#378ADD"', body))
@@ -156,10 +195,14 @@ def main():
            'text{paint-order:stroke fill;stroke:rgba(255,255,255,.9)!important;stroke-width:3.5px!important;'
            'stroke-linejoin:round!important}'
            '.casing{fill:none;stroke:#fff;stroke-opacity:.85;stroke-width:6.5px;stroke-linecap:round;stroke-linejoin:round}'
+           '.boundary{fill:none;stroke:#6b5a45;stroke-width:1.8;stroke-dasharray:7 3 1.5 3;opacity:.85}'
+           '.note{font:italic 600 11.5px Georgia,serif;fill:#4a4036;letter-spacing:.04em}'
+           '.panel-h{font:600 11px Georgia,serif;fill:#6b6661;letter-spacing:.12em;text-transform:uppercase}'
+           '.panel-t{font:13px system-ui,sans-serif;fill:#201f1d;stroke:none!important}'
            '</style>'
-           f'{casings}'
+           f'{"".join(e for e in extras if "boundary" in e)}{casings}'
            f'<rect x="8" y="{Hu - 46:.1f}" width="{Wu - 16:.1f}" height="38" rx="8" fill="#f3f2f2" fill-opacity=".92"/>'
-           f'{body}'
+           f'{body}{"".join(e for e in extras if "boundary" not in e)}'
            f'<text x="{Wu - 8:.1f}" y="14" text-anchor="end" font-size="10" fill="#555" '
            'font-family="system-ui, sans-serif">© OpenStreetMap contributors</text>'
            '</svg>')

@@ -1,0 +1,13 @@
+{
+ "_comment": "Trip date -> sections to read that day (T2.9). Ids are the book's section ids (ch-N, interlude-N, sidebar-...). The book shows a 'Today' line on these dates only.",
+ "2026-09-15": ["how-to-use", "ch-0", "interlude-1"],
+ "2026-09-16": ["ch-1", "ch-2", "ch-3", "interlude-3"],
+ "2026-09-17": ["interlude-2", "ch-4"],
+ "2026-09-18": ["ch-5", "interlude-4", "sidebar-your-body-on-this-road"],
+ "2026-09-19": ["ch-6", "interlude-8", "ch-8"],
+ "2026-09-20": ["ch-9", "ch-10"],
+ "2026-09-21": ["ch-11", "ch-12", "interlude-9"],
+ "2026-09-22": ["ch-12", "ch-13", "interlude-11"],
+ "2026-09-23": ["ch-14"],
+ "2026-09-24": ["ch-15", "ch-16", "ch-17"]
+}

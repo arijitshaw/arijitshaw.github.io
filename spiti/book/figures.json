@@ -1,0 +1,79 @@
+[
+ {
+  "file": "figures/04-elevation.svg",
+  "mode": "img",
+  "anchor": "How to use this",
+  "caption": "The nine nights against altitude, with the higher places you visit by day. The sawtooth is the acclimatisation plan.",
+  "credit": "Diagram drawn for this book; sleeping altitudes from the preparation page."
+ },
+ {
+  "file": "figures/04-elevation.svg",
+  "mode": "img",
+  "anchor": "Your Body on This Road",
+  "caption": "Where you sleep, and how high you go by day.",
+  "credit": "Diagram drawn for this book; sleeping altitudes from the preparation page."
+ },
+ {
+  "file": "figures/04-elevation.svg",
+  "mode": "img",
+  "anchor": "On altitude, honestly",
+  "caption": "Komic is 937 m above your bed in Kaza; that is why Day 6 is the physiological crux.",
+  "credit": "Diagram drawn for this book; sleeping altitudes from the preparation page."
+ },
+ {
+  "file": "figures/01-drainage.svg",
+  "mode": "img",
+  "anchor": "The rivers, which explain the whole route",
+  "caption": "One saddle, two rivers: Kunzum La sends water to the Chenab on one side and the Sutlej on the other.",
+  "credit": "Schematic, not to scale; drawn for this book."
+ },
+ {
+  "file": "figures/01-drainage.svg",
+  "mode": "img",
+  "anchor": "Kunzum La",
+  "caption": "The watershed you cross on Day 8.",
+  "credit": "Schematic, not to scale; drawn for this book."
+ },
+ {
+  "file": "figures/05-kailash.svg",
+  "mode": "img",
+  "anchor": "Where it comes from",
+  "caption": "Four rivers, four directions, one mountain: the Sutlej is the one that runs west.",
+  "credit": "Schematic, not to scale; drawn for this book."
+ },
+ {
+  "file": "figures/02-pare-chu.svg",
+  "mode": "img",
+  "anchor": "What comes down it, unannounced",
+  "caption": "The Pare Chu leaves India, loops through Tibet and comes back to join the Spiti at Sumdo; the 2004 landslide dam is marked.",
+  "credit": "Schematic, not to scale; drawn for this book."
+ },
+ {
+  "file": "figures/03-passes.svg",
+  "mode": "img",
+  "anchor": "The Passes",
+  "caption": "Spiti was a crossroads, not a cul-de-sac: five directions, six passes (Kinnaur is reached two ways), and the one modern road.",
+  "credit": "Schematic; distances deliberately not to scale. Drawn for this book."
+ },
+ {
+  "file": "figures/07-kath-kuni.svg",
+  "mode": "img",
+  "anchor": "The buildings: kath-kuni",
+  "caption": "Kath-kuni, a wall built to move: dry stone, paired deodar beams, interlocked corners, no mortar.",
+  "credit": "Diagram drawn for this book."
+ },
+ {
+  "file": "figures/06-tabo-plan.svg",
+  "mode": "img",
+  "anchor": "Entering: the etiquette that matters",
+  "caption": "How to walk Tabo's main temple in the dark: entry hall, assembly hall, then the cella with its circumambulation passage.",
+  "credit": "Sketch plan, not a survey; after Christian Luczanits' schematic of the Main Temple. Drawn for this book."
+ },
+ {
+  "file": "figures/08-wheel-of-life.svg",
+  "mode": "img",
+  "anchor": "The one image to actually stop and study: the Wheel of Life",
+  "caption": "The Wheel of Life, and where to find the pig, the snake and the bird.",
+  "credit": "Generic schematic, not a copy of any painting; drawn for this book."
+ }
+]

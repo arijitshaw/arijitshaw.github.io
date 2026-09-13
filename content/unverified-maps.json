@@ -1,0 +1,47 @@
+[
+ {
+  "map": "map-ch01-03",
+  "place": "Jeori",
+  "why": "memorial to the 122 road-builders; drawn at the Sarahan turn-off, exact spot to confirm"
+ },
+ {
+  "map": "map-ch05",
+  "place": "",
+  "why": "Chapter 5: the sightline is drawn to the Kinnaur Kailash summit in OSM; the shivling itself is on a shoulder of the massif, position not mapped"
+ },
+ {
+  "map": "map-ch06",
+  "place": "",
+  "why": "Chapter 6: the tree line and the monsoon edge are drawn where the text places them (above Khab, around Nako), not surveyed"
+ },
+ {
+  "map": "map-ch06",
+  "place": "",
+  "why": "Chapter 6: Nigulsari and Chaura slide zones are drawn as circles around the villages; the active stretches move"
+ },
+ {
+  "map": "map-ch09-dhankar",
+  "place": "",
+  "why": "Chapter 9: Dhankar Lake walk is drawn as a straight line; the path, its length and the climb need confirming (text gives a hard 45 minutes to 4,100 m)"
+ },
+ {
+  "map": "map-ch11-12",
+  "place": "",
+  "why": "Chapter 12: the loop direction follows the trip plan (Kaza → Langza → Hikkim → Komic → Kaza); confirm road condition and direction locally"
+ },
+ {
+  "map": "map-ch13-14",
+  "place": "",
+  "why": "Chapter 14: the walk from the Chandratal parking to the lake is drawn straight; distance and time to confirm"
+ },
+ {
+  "map": "map-ch15",
+  "place": "Bara Shigri",
+  "why": "glacier snout; position approximate"
+ },
+ {
+  "map": "map-ch15",
+  "place": "",
+  "why": "Chapter 15: stream crossings are shown as the Batal–Chhota Dara–Gramphu stretch, not individual crossings"
+ }
+]

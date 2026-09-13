@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="740" viewBox="0 0 900 740" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">Kath-kuni — a wall built to move</title>
+<desc id="dsc">Cutaway of a kath-kuni wall corner showing alternating courses of dry-laid stone and paired deodar beams, with an inset plan of one timber course showing the two beams, the rubble infill, the cross-tie and the interlocked corner.</desc>
+<style>
+  .ink   { stroke:#2f2b26; fill:none; stroke-linecap:round; stroke-linejoin:round }
+  .fine  { stroke:#2f2b26; fill:none; stroke-width:.9; stroke-linecap:round; opacity:.75 }
+  .water { stroke:#2d6f91; fill:none; stroke-linecap:round; stroke-linejoin:round }
+  .acc   { stroke:#b34a2c; fill:none; stroke-linecap:round; stroke-linejoin:round }
+  .wood  { stroke:#96682f; fill:none; stroke-linecap:round; stroke-linejoin:round }
+  .fillw { fill:#2d6f91; stroke:none; opacity:.13 }
+  .filla { fill:#b34a2c; stroke:none; opacity:.12 }
+  .filli { fill:#2f2b26; stroke:none; opacity:.07 }
+  .fillt { fill:#96682f; stroke:none; opacity:.16 }
+  text   { fill:#2f2b26; font-family:"Iowan Old Style","Palatino Linotype",Palatino,Charter,Georgia,serif }
+  .t     { font-size:15px }
+  .tb    { font-size:16px; font-weight:600 }
+  .th    { font-size:21px; font-weight:600 }
+  .ts    { font-size:12.5px; font-style:italic; opacity:.72 }
+  .tn    { font-size:12px; opacity:.8 }
+  .tw    { fill:#2d6f91 }
+  .ta    { fill:#b34a2c }
+  .twd   { fill:#96682f }
+  @media (prefers-color-scheme: dark) {
+    .ink, .fine { stroke:#e6e0d4 }
+    .water { stroke:#7cb6d4 } .acc { stroke:#e08a6b } .wood { stroke:#cca06a }
+    .fillw { fill:#7cb6d4 } .filla { fill:#e08a6b } .filli { fill:#e6e0d4; opacity:.10 }
+    .fillt { fill:#cca06a }
+    text { fill:#e6e0d4 }
+    .tw { fill:#7cb6d4 } .ta { fill:#e08a6b } .twd { fill:#cca06a }
+  }
+</style>
+<text x="52.0" y="52.0" class="th" text-anchor="start">Kath-kuni — a wall built to move</text>
+<text x="52.0" y="78.0" class="ts" text-anchor="start">Wood and stone in alternating courses, no mortar and no metal. Kāshth, wood; kona, corner.</text>
+<path class="filli" d="M300 500 L132 442 L132 408 L300 466 Z"/>
+<path class="ink" d="M300.3 500.1 C248.6 483.6 182.0 460.6 132.1 441.5" stroke-width="1.3"/>
+<path class="ink" d="M132.0 442.1 C132.6 432.3 131.8 417.5 132.2 407.9" stroke-width="1.3"/>
+<path class="ink" d="M132.4 407.7 C181.7 424.6 249.3 447.5 300.0 465.6" stroke-width="1.3"/>
+<path class="ink" d="M300.2 466.1 C300.4 475.6 299.3 489.9 300.1 500.0" stroke-width="1.3"/>
+<path class="fine" d="M132.0 413.2 C134.1 412.0 135.4 411.0 137.4 409.9" stroke-width="0.7"/>
+<path class="fine" d="M131.9 423.7 C136.7 420.4 144.1 417.3 148.6 413.7" stroke-width="0.7"/>
+<path class="fine" d="M132.1 434.2 C140.6 428.7 151.8 422.9 159.6 417.6" stroke-width="0.7"/>
+<path class="fine" d="M135.1 443.0 C145.1 436.8 160.0 427.9 170.7 421.3" stroke-width="0.7"/>
+<path class="fine" d="M146.3 447.1 C156.9 440.7 171.1 431.3 181.5 425.0" stroke-width="0.7"/>
+<path class="fine" d="M157.2 450.7 C167.5 444.1 182.0 436.1 192.5 428.9" stroke-width="0.7"/>
+<path class="fine" d="M167.9 454.5 C179.3 448.0 192.3 439.0 203.8 432.9" stroke-width="0.7"/>
+<path class="fine" d="M179.1 458.4 C189.1 452.3 203.7 443.6 214.6 436.4" stroke-width="0.7"/>
+<path class="fine" d="M190.1 462.3 C200.8 456.1 214.9 446.9 225.5 440.3" stroke-width="0.7"/>
+<path class="fine" d="M201.3 465.8 C212.2 459.8 225.8 450.4 236.8 444.3" stroke-width="0.7"/>
+<path class="fine" d="M212.2 469.8 C222.1 462.8 236.6 454.1 247.7 447.8" stroke-width="0.7"/>
+<path class="fine" d="M223.1 473.5 C233.2 466.6 247.8 457.8 258.7 451.8" stroke-width="0.7"/>
+<path class="fine" d="M234.3 477.4 C245.3 470.2 258.5 461.7 269.6 455.4" stroke-width="0.7"/>
+<path class="fine" d="M245.2 481.3 C255.8 473.9 269.9 466.0 280.8 459.5" stroke-width="0.7"/>
+<path class="fine" d="M256.4 485.1 C266.7 478.5 281.4 470.3 291.6 463.1" stroke-width="0.7"/>
+<path class="fine" d="M267.4 488.9 C277.1 482.8 290.6 474.6 300.1 468.8" stroke-width="0.7"/>
+<path class="fine" d="M278.4 492.4 C284.8 488.5 293.1 482.8 299.9 479.2" stroke-width="0.7"/>
+<path class="fine" d="M289.4 496.3 C292.7 493.9 297.1 491.6 300.2 489.6" stroke-width="0.7"/>
+<path class="filli" d="M300 500 L478 438 L478 404 L300 466 Z"/>
+<path class="ink" d="M300.0 500.4 C353.2 481.6 426.0 457.5 478.3 438.4" stroke-width="1.3"/>
+<path class="ink" d="M478.2 438.2 C478.8 428.1 478.2 413.8 478.0 404.0" stroke-width="1.3"/>
+<path class="ink" d="M477.7 403.6 C423.8 422.9 353.4 446.4 299.9 466.0" stroke-width="1.3"/>
+<path class="ink" d="M299.9 465.8 C299.7 476.6 299.5 489.0 299.9 499.8" stroke-width="1.3"/>
+<path class="fine" d="M299.9 471.2 C305.6 467.9 313.7 462.8 320.1 459.2" stroke-width="0.7"/>
+<path class="fine" d="M300.1 481.6 C317.5 470.9 342.4 456.9 359.9 445.0" stroke-width="0.7"/>
+<path class="fine" d="M300.0 492.5 C330.0 475.1 369.2 449.6 399.7 431.5" stroke-width="0.7"/>
+<path class="fine" d="M311.4 496.1 C349.5 473.2 400.8 440.5 439.6 417.1" stroke-width="0.7"/>
+<path class="fine" d="M351.3 482.4 C388.3 458.3 438.8 427.4 478.2 404.1" stroke-width="0.7"/>
+<path class="fine" d="M390.9 468.5 C417.9 453.0 451.3 431.8 477.8 414.7" stroke-width="0.7"/>
+<path class="fine" d="M431.0 454.6 C445.2 445.2 463.2 434.6 477.8 425.5" stroke-width="0.7"/>
+<path class="fine" d="M470.7 440.5 C472.9 438.7 475.8 437.4 477.9 435.9" stroke-width="0.7"/>
+<path class="fillt" d="M300 466 L132 408 L132 390 L300 448 Z"/>
+<path class="wood" d="M299.7 466.4 C248.7 447.4 181.8 426.0 131.8 408.3" stroke-width="1.3"/>
+<path class="wood" d="M131.8 407.9 C132.1 402.1 132.0 394.8 132.0 390.0" stroke-width="1.3"/>
+<path class="wood" d="M131.6 389.6 C183.8 405.9 248.4 431.1 300.2 448.2" stroke-width="1.3"/>
+<path class="wood" d="M299.9 448.0 C300.5 453.3 300.6 460.7 300.0 466.1" stroke-width="1.3"/>
+<path class="wood" d="M300.1 456.7 C248.4 440.9 181.1 415.2 132.4 399.4" stroke-width="0.9"/>
+<path class="fillt" d="M300 466 L478 404 L478 386 L300 448 Z"/>
+<path class="wood" d="M299.8 466.3 C352.4 445.8 425.0 424.0 478.3 404.4" stroke-width="1.3"/>
+<path class="wood" d="M478.1 403.9 C477.9 398.6 478.2 391.2 477.9 386.1" stroke-width="1.3"/>
+<path class="wood" d="M477.8 386.1 C424.3 405.8 354.7 428.3 299.9 447.8" stroke-width="1.3"/>
+<path class="wood" d="M300.0 448.0 C300.5 454.1 300.0 461.1 300.0 466.1" stroke-width="1.3"/>
+<path class="wood" d="M300.3 456.6 C353.1 439.0 425.2 413.0 478.1 395.1" stroke-width="0.9"/>
+<path class="filli" d="M300 448 L132 390 L132 358 L300 416 Z"/>
+<path class="ink" d="M300.0 447.7 C250.4 431.1 180.8 408.3 132.0 389.8" stroke-width="1.3"/>
+<path class="ink" d="M131.9 389.9 C132.4 379.7 131.5 367.3 132.0 358.0" stroke-width="1.3"/>
+<path class="ink" d="M132.1 357.7 C183.3 376.6 250.6 398.7 300.4 415.6" stroke-width="1.3"/>
+<path class="ink" d="M300.2 416.1 C299.5 425.2 300.3 438.3 299.8 448.1" stroke-width="1.3"/>
+<path class="fine" d="M132.0 363.4 C134.0 362.7 136.1 361.1 137.5 359.9" stroke-width="0.7"/>
+<path class="fine" d="M131.9 374.0 C137.3 370.5 143.2 366.3 148.6 363.6" stroke-width="0.7"/>
+<path class="fine" d="M132.0 384.5 C140.5 379.4 150.7 373.1 159.6 367.4" stroke-width="0.7"/>
+<path class="fine" d="M137.3 391.8 C147.0 385.3 160.1 377.9 170.5 371.2" stroke-width="0.7"/>
+<path class="fine" d="M148.4 395.5 C158.1 389.1 171.7 381.8 181.5 375.1" stroke-width="0.7"/>
+<path class="fine" d="M159.3 399.4 C169.6 393.9 182.7 385.7 192.7 378.7" stroke-width="0.7"/>
+<path class="fine" d="M170.2 403.0 C179.7 397.3 194.1 388.3 203.7 382.9" stroke-width="0.7"/>
+<path class="fine" d="M181.2 407.1 C190.6 401.5 205.0 393.1 214.7 386.7" stroke-width="0.7"/>
+<path class="fine" d="M192.3 410.9 C202.5 404.3 215.9 397.0 225.7 390.2" stroke-width="0.7"/>
+<path class="fine" d="M203.3 414.6 C213.9 408.8 226.0 400.6 236.7 394.3" stroke-width="0.7"/>
+<path class="fine" d="M214.1 418.3 C223.8 412.1 237.9 403.5 247.7 397.8" stroke-width="0.7"/>
+<path class="fine" d="M225.1 422.4 C235.9 415.5 248.8 407.4 258.5 401.9" stroke-width="0.7"/>
+<path class="fine" d="M236.4 426.0 C246.0 420.4 259.1 411.4 269.7 405.7" stroke-width="0.7"/>
+<path class="fine" d="M247.2 429.9 C257.8 423.8 270.6 415.1 280.6 409.5" stroke-width="0.7"/>
+<path class="fine" d="M258.2 433.7 C268.9 427.3 281.2 418.9 291.7 413.0" stroke-width="0.7"/>
+<path class="fine" d="M269.3 437.4 C278.8 431.9 290.8 423.8 300.1 418.8" stroke-width="0.7"/>
+<path class="fine" d="M280.5 441.4 C286.5 437.4 293.7 433.0 299.9 429.1" stroke-width="0.7"/>
+<path class="fine" d="M291.2 445.0 C294.1 443.0 297.8 441.4 299.9 439.9" stroke-width="0.7"/>
+<path class="filli" d="M300 448 L478 386 L478 354 L300 416 Z"/>
+<path class="ink" d="M299.9 448.1 C353.4 430.1 424.6 403.1 477.5 386.4" stroke-width="1.3"/>
+<path class="ink" d="M478.2 386.2 C477.8 376.6 478.6 363.0 478.0 354.0" stroke-width="1.3"/>
+<path class="ink" d="M478.4 354.3 C425.2 373.5 352.4 396.3 300.0 416.1" stroke-width="1.3"/>
+<path class="ink" d="M299.8 415.8 C300.5 426.3 299.9 438.6 300.0 447.9" stroke-width="1.3"/>
+<path class="fine" d="M300.2 421.2 C305.9 417.6 314.5 412.9 319.9 408.9" stroke-width="0.7"/>
+<path class="fine" d="M300.1 431.7 C318.1 421.1 341.2 406.7 359.7 395.3" stroke-width="0.7"/>
+<path class="fine" d="M300.1 442.6 C329.9 423.7 370.3 399.6 399.6 381.5" stroke-width="0.7"/>
+<path class="fine" d="M318.9 441.8 C355.9 419.5 403.8 389.5 439.3 367.5" stroke-width="0.7"/>
+<path class="fine" d="M358.7 427.3 C394.5 405.2 443.0 376.3 478.1 354.4" stroke-width="0.7"/>
+<path class="fine" d="M398.3 413.8 C422.1 399.1 454.0 379.0 477.8 364.8" stroke-width="0.7"/>
+<path class="fine" d="M438.2 399.8 C450.5 392.1 465.7 383.4 478.2 375.4" stroke-width="0.7"/>
+<path class="fillt" d="M300 416 L132 358 L132 340 L300 398 Z"/>
+<path class="wood" d="M299.9 415.7 C248.9 399.7 182.7 374.7 131.5 358.0" stroke-width="1.3"/>
+<path class="wood" d="M131.9 358.2 C132.1 352.6 131.9 345.7 132.1 339.9" stroke-width="1.3"/>
+<path class="wood" d="M132.1 340.1 C181.9 356.2 249.3 379.4 299.5 398.1" stroke-width="1.3"/>
+<path class="wood" d="M299.8 398.1 C299.9 402.7 299.3 410.7 299.9 416.1" stroke-width="1.3"/>
+<path class="wood" d="M300.2 407.3 C249.0 390.1 182.1 365.9 131.8 349.4" stroke-width="0.9"/>
+<path class="fillt" d="M300 416 L478 354 L478 336 L300 398 Z"/>
+<path class="wood" d="M300.1 415.8 C355.0 397.4 424.9 372.7 478.1 353.8" stroke-width="1.3"/>
+<path class="wood" d="M478.2 354.1 C478.1 348.8 478.1 341.7 478.0 335.9" stroke-width="1.3"/>
+<path class="wood" d="M477.7 336.3 C424.7 353.9 353.1 379.6 300.3 397.7" stroke-width="1.3"/>
+<path class="wood" d="M300.0 398.1 C300.0 404.1 300.7 410.0 299.9 416.2" stroke-width="1.3"/>
+<path class="wood" d="M299.9 406.8 C352.7 387.9 424.8 363.8 477.8 345.1" stroke-width="0.9"/>
+<path class="filli" d="M300 398 L132 340 L132 310 L300 368 Z"/>
+<path class="ink" d="M300.4 398.2 C247.9 380.4 183.3 357.9 131.8 340.2" stroke-width="1.3"/>
+<path class="ink" d="M132.0 340.2 C131.6 330.4 131.5 319.6 132.0 310.1" stroke-width="1.3"/>
+<path class="ink" d="M132.3 310.4 C181.2 325.8 248.5 350.7 300.3 368.2" stroke-width="1.3"/>
+<path class="ink" d="M300.2 368.1 C300.4 376.8 300.3 388.2 299.8 398.0" stroke-width="1.3"/>
+<path class="fine" d="M132.1 315.3 C133.2 314.2 136.0 312.4 137.7 311.8" stroke-width="0.7"/>
+<path class="fine" d="M132.2 325.8 C137.0 322.6 143.4 318.3 148.7 315.8" stroke-width="0.7"/>
+<path class="fine" d="M132.1 336.5 C139.7 330.9 151.8 324.6 159.5 319.5" stroke-width="0.7"/>
+<path class="fine" d="M139.4 342.4 C149.1 336.5 160.8 328.9 170.4 323.5" stroke-width="0.7"/>
+<path class="fine" d="M150.2 346.3 C159.8 340.7 171.7 332.4 181.5 327.2" stroke-width="0.7"/>
+<path class="fine" d="M161.4 350.2 C170.2 343.8 182.9 336.4 192.6 330.9" stroke-width="0.7"/>
+<path class="fine" d="M172.3 353.7 C181.2 348.8 194.0 340.6 203.5 334.7" stroke-width="0.7"/>
+<path class="fine" d="M183.2 357.6 C192.7 351.6 204.7 344.8 214.5 338.4" stroke-width="0.7"/>
+<path class="fine" d="M194.5 361.4 C203.3 356.1 215.8 348.1 225.5 342.3" stroke-width="0.7"/>
+<path class="fine" d="M205.4 365.3 C214.3 359.2 227.2 352.2 236.8 346.3" stroke-width="0.7"/>
+<path class="fine" d="M216.3 369.0 C225.3 363.0 238.4 355.7 247.8 349.9" stroke-width="0.7"/>
+<path class="fine" d="M227.2 373.1 C236.7 367.2 248.7 359.8 258.8 353.7" stroke-width="0.7"/>
+<path class="fine" d="M238.4 376.9 C247.8 371.3 259.9 362.7 269.8 357.5" stroke-width="0.7"/>
+<path class="fine" d="M249.3 380.4 C258.4 375.3 270.7 367.7 280.6 361.3" stroke-width="0.7"/>
+<path class="fine" d="M260.5 384.5 C269.2 378.0 282.7 371.3 291.5 365.1" stroke-width="0.7"/>
+<path class="fine" d="M271.4 388.1 C279.8 382.4 291.1 376.4 300.1 370.8" stroke-width="0.7"/>
+<path class="fine" d="M282.4 391.9 C287.9 388.1 294.7 384.5 299.8 381.1" stroke-width="0.7"/>
+<path class="fine" d="M293.3 395.8 C295.8 394.4 298.2 392.4 300.0 391.7" stroke-width="0.7"/>
+<path class="filli" d="M300 398 L478 336 L478 306 L300 368 Z"/>
+<path class="ink" d="M300.5 398.2 C353.3 378.1 423.5 355.5 478.4 336.0" stroke-width="1.3"/>
+<path class="ink" d="M477.9 335.9 C478.8 327.5 477.5 315.6 478.2 305.8" stroke-width="1.3"/>
+<path class="ink" d="M478.5 305.7 C424.3 325.9 354.5 349.8 300.0 368.1" stroke-width="1.3"/>
+<path class="ink" d="M299.9 367.9 C299.8 377.7 299.8 388.5 300.1 398.0" stroke-width="1.3"/>
+<path class="fine" d="M299.9 373.1 C305.6 369.4 313.7 364.8 319.8 361.1" stroke-width="0.7"/>
+<path class="fine" d="M300.1 383.6 C317.6 372.4 342.1 358.7 359.7 347.3" stroke-width="0.7"/>
+<path class="fine" d="M300.2 394.7 C330.9 376.1 370.0 351.3 399.7 333.3" stroke-width="0.7"/>
+<path class="fine" d="M326.1 389.0 C361.1 366.9 405.5 340.4 439.5 319.7" stroke-width="0.7"/>
+<path class="fine" d="M366.4 374.7 C398.7 353.7 444.6 325.8 477.9 306.1" stroke-width="0.7"/>
+<path class="fine" d="M406.1 361.0 C427.8 348.3 456.3 329.3 478.1 317.2" stroke-width="0.7"/>
+<path class="fine" d="M445.8 347.0 C455.8 341.4 468.4 333.2 478.0 327.7" stroke-width="0.7"/>
+<path class="fillt" d="M300 368 L132 310 L132 292 L300 350 Z"/>
+<path class="wood" d="M300.0 367.6 C250.4 352.1 183.3 328.5 131.6 310.3" stroke-width="1.3"/>
+<path class="wood" d="M132.0 309.9 C132.6 304.7 132.3 296.8 131.9 292.0" stroke-width="1.3"/>
+<path class="wood" d="M132.3 292.3 C182.2 309.8 248.3 333.8 300.0 349.6" stroke-width="1.3"/>
+<path class="wood" d="M300.1 350.0 C299.8 355.9 299.7 363.1 299.8 367.8" stroke-width="1.3"/>
+<path class="wood" d="M300.3 359.3 C249.5 340.9 182.6 319.4 132.4 301.1" stroke-width="0.9"/>
+<path class="fillt" d="M300 368 L478 306 L478 288 L300 350 Z"/>
+<path class="wood" d="M299.8 367.9 C352.9 350.9 425.5 324.8 477.9 305.8" stroke-width="1.3"/>
+<path class="wood" d="M478.1 306.1 C477.6 300.4 478.1 293.8 478.0 288.1" stroke-width="1.3"/>
+<path class="wood" d="M477.6 287.6 C424.0 306.5 354.5 332.9 299.6 349.8" stroke-width="1.3"/>
+<path class="wood" d="M299.9 349.8 C299.6 354.9 300.3 362.4 299.9 368.2" stroke-width="1.3"/>
+<path class="wood" d="M300.0 359.1 C352.3 339.2 424.7 315.9 478.4 296.6" stroke-width="0.9"/>
+<path class="filli" d="M300 350 L132 292 L132 264 L300 322 Z"/>
+<path class="ink" d="M300.4 350.0 C249.6 333.7 181.8 310.7 132.4 292.3" stroke-width="1.3"/>
+<path class="ink" d="M131.9 292.1 C132.1 284.1 132.0 272.4 132.1 264.0" stroke-width="1.3"/>
+<path class="ink" d="M132.4 263.7 C181.6 281.5 250.8 305.7 300.0 321.9" stroke-width="1.3"/>
+<path class="ink" d="M299.8 322.1 C300.3 331.0 299.9 341.3 299.9 350.1" stroke-width="1.3"/>
+<path class="fine" d="M131.9 269.4 C133.4 268.3 135.7 266.5 137.6 266.0" stroke-width="0.7"/>
+<path class="fine" d="M132.0 279.8 C136.7 277.2 144.0 272.7 148.5 269.6" stroke-width="0.7"/>
+<path class="fine" d="M132.1 290.4 C140.1 285.7 150.8 278.9 159.7 273.6" stroke-width="0.7"/>
+<path class="fine" d="M141.4 295.4 C150.3 290.0 162.1 282.8 170.4 277.3" stroke-width="0.7"/>
+<path class="fine" d="M152.2 298.9 C161.0 293.2 172.2 286.9 181.6 281.1" stroke-width="0.7"/>
+<path class="fine" d="M163.4 302.8 C171.8 298.0 184.1 289.8 192.5 284.9" stroke-width="0.7"/>
+<path class="fine" d="M174.4 306.5 C183.6 300.7 195.1 294.6 203.7 288.6" stroke-width="0.7"/>
+<path class="fine" d="M185.3 310.4 C194.5 305.5 206.0 298.0 214.4 292.5" stroke-width="0.7"/>
+<path class="fine" d="M196.3 314.4 C205.5 308.6 216.9 302.2 225.7 296.4" stroke-width="0.7"/>
+<path class="fine" d="M207.3 318.1 C216.1 313.1 227.4 305.3 236.7 300.2" stroke-width="0.7"/>
+<path class="fine" d="M218.5 322.0 C227.3 315.9 238.3 308.8 247.6 303.9" stroke-width="0.7"/>
+<path class="fine" d="M229.6 325.6 C238.0 320.0 250.6 313.7 258.6 307.8" stroke-width="0.7"/>
+<path class="fine" d="M240.7 329.4 C249.3 324.6 260.4 317.1 269.5 311.6" stroke-width="0.7"/>
+<path class="fine" d="M251.6 333.4 C260.8 327.4 271.7 320.5 280.8 315.3" stroke-width="0.7"/>
+<path class="fine" d="M262.6 336.9 C271.4 332.2 282.8 325.0 291.7 319.0" stroke-width="0.7"/>
+<path class="fine" d="M273.4 340.9 C281.0 336.1 292.1 329.9 300.1 324.5" stroke-width="0.7"/>
+<path class="fine" d="M284.6 344.7 C289.5 342.2 295.6 338.3 300.0 335.2" stroke-width="0.7"/>
+<path class="fine" d="M295.6 348.4 C297.0 347.6 298.7 346.2 300.0 345.7" stroke-width="0.7"/>
+<path class="filli" d="M300 350 L478 288 L478 260 L300 322 Z"/>
+<path class="ink" d="M300.1 350.4 C354.1 330.3 425.7 306.8 478.0 287.7" stroke-width="1.3"/>
+<path class="ink" d="M478.1 288.0 C477.8 279.4 477.8 268.9 478.1 260.1" stroke-width="1.3"/>
+<path class="ink" d="M478.1 260.2 C424.3 278.6 353.7 302.0 300.4 321.6" stroke-width="1.3"/>
+<path class="ink" d="M299.8 322.2 C300.7 331.0 299.9 340.9 299.9 349.9" stroke-width="1.3"/>
+<path class="fine" d="M299.9 327.4 C306.5 324.0 313.5 318.3 319.8 315.2" stroke-width="0.7"/>
+<path class="fine" d="M300.2 337.7 C318.3 326.7 342.2 312.2 359.7 301.0" stroke-width="0.7"/>
+<path class="fine" d="M299.8 348.4 C329.3 329.4 370.4 306.1 399.9 287.2" stroke-width="0.7"/>
+<path class="fine" d="M333.8 338.1 C365.9 319.2 408.8 293.9 439.7 273.2" stroke-width="0.7"/>
+<path class="fine" d="M373.5 324.4 C405.8 306.2 447.1 279.2 478.1 260.5" stroke-width="0.7"/>
+<path class="fine" d="M413.6 310.4 C433.0 298.5 458.2 283.5 478.0 270.7" stroke-width="0.7"/>
+<path class="fine" d="M453.5 296.5 C460.5 292.5 470.1 285.6 478.0 281.4" stroke-width="0.7"/>
+<path class="fillt" d="M300 322 L132 264 L132 246 L300 304 Z"/>
+<path class="wood" d="M300.5 321.9 C250.7 306.3 182.0 280.3 132.1 263.7" stroke-width="1.3"/>
+<path class="wood" d="M131.8 263.9 C131.4 258.2 132.1 251.1 131.8 246.1" stroke-width="1.3"/>
+<path class="wood" d="M132.5 245.7 C181.5 262.5 248.5 285.4 299.7 303.8" stroke-width="1.3"/>
+<path class="wood" d="M299.9 303.8 C300.5 309.3 300.1 316.4 299.8 321.9" stroke-width="1.3"/>
+<path class="wood" d="M300.2 313.3 C249.7 294.9 182.1 272.6 131.8 255.3" stroke-width="0.9"/>
+<path class="fillt" d="M300 322 L478 260 L478 242 L300 304 Z"/>
+<path class="wood" d="M300.0 321.9 C353.3 304.0 425.6 277.9 477.9 260.0" stroke-width="1.3"/>
+<path class="wood" d="M478.0 260.1 C478.5 254.3 477.7 247.1 478.2 241.8" stroke-width="1.3"/>
+<path class="wood" d="M478.3 242.3 C424.1 259.3 352.6 283.8 299.5 303.9" stroke-width="1.3"/>
+<path class="wood" d="M300.1 304.2 C299.7 309.7 300.3 316.2 300.0 322.1" stroke-width="1.3"/>
+<path class="wood" d="M300.1 313.2 C352.4 295.5 424.1 270.0 477.8 251.1" stroke-width="0.9"/>
+<path class="ink" d="M300.2 499.6 C298.7 440.1 301.0 362.6 299.6 303.8" stroke-width="1.7"/>
+<path class="ink" d="M300.2 500.3 C299.3 440.5 300.9 364.5 299.6 304.3" stroke-width="1.7"/>
+<path class="ink" d="M299.8 304.3 C250.4 285.7 182.5 264.2 131.9 245.6" stroke-width="1.3"/>
+<path class="ink" d="M132.3 246.2 C187.1 226.2 255.3 203.7 310.4 184.0" stroke-width="1.3"/>
+<path class="ink" d="M310.5 184.4 C359.8 201.7 427.6 224.9 478.1 241.7" stroke-width="1.3"/>
+<path class="ink" d="M478.0 242.0 C425.4 260.8 351.7 286.2 300.4 303.5" stroke-width="1.3"/>
+<path class="fine" d="M207.4 486.3 C191.2 517.0 168.2 557.7 149.7 588.2" stroke-width="0.8" stroke-dasharray="1 3.5"/>
+<text x="96.0" y="604.0" class="ts" text-anchor="start">dry-laid stone, no mortar</text>
+<path class="fine" d="M380.1 457.8 C400.3 489.8 430.3 534.2 452.2 565.9" stroke-width="0.8" stroke-dasharray="1 3.5"/>
+<text x="410.0" y="582.0" class="ts" text-anchor="start">a pair of deodar beams, one to each face</text>
+<path class="fine" d="M299.8 349.7 C264.2 308.0 218.3 248.7 181.6 206.5" stroke-width="0.8" stroke-dasharray="1 3.5"/>
+<text x="176.0" y="196.0" class="ts" text-anchor="end">the beams interlock at the corner,</text>
+<text x="176.0" y="212.0" class="ts" text-anchor="end">one direction, then the other</text>
+<path class="fine" d="M410.5 314.3 C433.4 307.7 465.1 300.9 490.1 295.9" stroke-width="0.8" stroke-dasharray="1 3.5"/>
+<text x="496.0" y="300.0" class="ts" text-anchor="start">as the wall rises, stone gives way to wood</text>
+<text x="596.0" y="366.0" class="tb" text-anchor="start">One timber course, from above</text>
+<path class="filli" d="M600 400 L600 592 L870 592 L870 546 L646 546 L646 400 Z"/>
+<path class="ink" d="M600.4 400.0 C600.2 456.4 600.1 534.1 600.4 592.1" stroke-width="1.4"/>
+<path class="ink" d="M600.2 400.2 C600.0 457.9 599.1 535.9 599.6 592.3" stroke-width="1.4"/>
+<path class="ink" d="M599.7 592.3 C681.7 591.0 790.2 591.9 869.9 592.1" stroke-width="1.4"/>
+<path class="ink" d="M599.8 591.7 C679.6 592.2 787.5 591.9 870.1 592.2" stroke-width="1.4"/>
+<path class="ink" d="M645.8 399.7 C645.5 443.8 645.8 502.4 646.1 545.8" stroke-width="1.4"/>
+<path class="ink" d="M646.0 400.0 C646.6 443.5 644.5 501.7 646.1 545.7" stroke-width="1.4"/>
+<path class="ink" d="M645.6 546.0 C712.0 546.6 803.4 545.8 869.8 546.3" stroke-width="1.4"/>
+<path class="ink" d="M646.4 546.0 C712.1 544.6 803.7 545.7 870.0 545.7" stroke-width="1.4"/>
+<path class="wood" d="M606.9 400.2 C606.4 454.1 606.2 529.8 606.8 584.7" stroke-width="2.4"/>
+<path class="wood" d="M607.2 400.1 C608.4 456.6 608.5 530.8 607.2 584.8" stroke-width="2.4"/>
+<path class="wood" d="M607.4 585.3 C685.0 585.8 791.4 584.0 869.7 585.1" stroke-width="2.4"/>
+<path class="wood" d="M606.8 585.3 C684.5 586.5 791.0 585.5 870.0 585.1" stroke-width="2.4"/>
+<path class="wood" d="M638.6 400.1 C638.2 446.2 640.4 506.1 639.3 552.8" stroke-width="2.4"/>
+<path class="wood" d="M638.9 400.0 C640.3 447.3 637.8 506.7 639.2 552.6" stroke-width="2.4"/>
+<path class="wood" d="M638.9 552.8 C707.4 553.0 799.4 553.0 869.7 553.2" stroke-width="2.4"/>
+<path class="wood" d="M638.8 553.1 C708.3 552.6 799.8 553.3 869.6 553.1" stroke-width="2.4"/>
+<path class="wood" d="M608.0 471.9 C617.1 472.3 629.1 472.2 637.8 472.0" stroke-width="2.2"/>
+<path class="wood" d="M608.0 472.0 C617.2 472.2 629.0 471.7 638.0 471.9" stroke-width="2.2"/>
+<path class="wood" d="M608.1 419.9 C617.0 419.4 628.7 420.0 637.9 420.1" stroke-width="2.2"/>
+<path class="wood" d="M607.9 420.2 C617.0 419.8 628.7 419.8 637.9 420.0" stroke-width="2.2"/>
+<path class="wood" d="M728.1 553.9 C727.9 562.5 727.9 575.0 727.9 584.0" stroke-width="2.2"/>
+<path class="wood" d="M728.0 554.1 C727.6 563.4 728.5 575.1 727.9 584.1" stroke-width="2.2"/>
+<path class="wood" d="M805.9 554.0 C806.2 562.8 805.8 574.8 806.0 584.1" stroke-width="2.2"/>
+<path class="wood" d="M805.9 553.9 C805.5 562.6 806.4 574.7 806.0 583.9" stroke-width="2.2"/>
+<path class="filli" d="M625.3 566.1 C625.4 566.5 625.5 567.2 625.2 567.6 C624.9 568.0 623.8 568.4 623.3 568.6 C622.8 568.8 622.6 568.6 622.1 568.6 C621.6 568.6 620.9 568.7 620.5 568.5 C620.0 568.4 619.7 568.2 619.5 567.8 C619.4 567.4 619.6 566.7 619.5 566.1 C619.4 565.6 618.8 564.9 618.9 564.5 C619.0 564.1 619.5 563.9 620.1 563.6 C620.7 563.4 621.9 563.3 622.5 563.2 C623.1 563.1 623.6 562.7 623.9 563.0 C624.2 563.3 624.2 564.3 624.4 564.8 C624.6 565.3 625.1 565.6 625.3 566.1 Z"/>
+<path class="filli" d="M628.4 528.3 C628.5 528.9 628.2 529.2 627.9 529.6 C627.6 530.0 627.2 530.5 626.8 530.8 C626.3 531.1 625.7 531.5 625.2 531.5 C624.6 531.5 623.9 531.2 623.5 530.8 C623.1 530.4 623.1 529.7 622.9 529.2 C622.6 528.6 621.9 528.1 621.9 527.7 C621.8 527.3 622.2 527.0 622.5 526.7 C622.7 526.3 623.0 526.0 623.5 525.7 C623.9 525.5 624.6 525.1 625.1 525.0 C625.6 525.0 626.1 525.0 626.5 525.2 C626.8 525.4 627.1 525.7 627.4 526.2 C627.7 526.7 628.4 527.8 628.4 528.3 Z"/>
+<path class="filli" d="M622.4 495.6 C622.4 496.2 622.1 496.8 622.0 497.3 C621.9 497.9 622.2 498.6 621.8 499.0 C621.5 499.3 620.3 499.5 619.8 499.4 C619.2 499.3 618.6 498.8 618.3 498.4 C618.0 498.0 618.1 497.4 617.8 497.0 C617.6 496.7 617.0 496.8 616.9 496.4 C616.8 495.9 616.7 494.8 617.0 494.3 C617.3 493.9 618.1 494.1 618.6 493.8 C619.2 493.6 619.7 493.0 620.3 492.8 C620.8 492.7 621.4 492.8 621.7 493.0 C622.0 493.2 622.1 493.6 622.2 494.1 C622.3 494.5 622.4 495.1 622.4 495.6 Z"/>
+<path class="filli" d="M626.8 445.6 C626.8 446.1 627.4 447.1 627.2 447.6 C626.9 448.2 625.8 448.8 625.3 448.9 C624.7 449.1 624.3 448.8 623.7 448.7 C623.2 448.7 622.4 449.0 622.1 448.7 C621.8 448.5 622.0 447.8 621.8 447.2 C621.7 446.7 621.2 445.9 621.2 445.5 C621.2 445.1 621.8 445.3 622.0 444.9 C622.1 444.5 621.6 443.5 622.0 443.1 C622.3 442.7 623.4 442.4 623.9 442.5 C624.5 442.6 624.9 443.4 625.4 443.8 C625.8 444.1 626.7 444.1 626.9 444.4 C627.2 444.7 626.7 445.1 626.8 445.6 Z"/>
+<path class="filli" d="M626.3 402.4 C626.4 402.9 626.3 402.8 626.0 403.2 C625.7 403.6 625.1 404.5 624.6 404.8 C624.2 405.0 623.8 404.8 623.4 404.9 C622.9 404.9 622.4 405.2 621.9 405.1 C621.3 404.9 620.5 404.5 620.2 403.9 C619.8 403.4 619.6 402.1 619.6 401.6 C619.6 401.1 619.8 401.3 620.2 400.8 C620.5 400.4 621.1 399.2 621.6 398.9 C622.1 398.5 622.9 398.7 623.3 398.8 C623.8 398.8 623.9 398.8 624.3 399.0 C624.6 399.3 625.3 399.5 625.6 400.0 C625.9 400.6 626.2 401.9 626.3 402.4 Z"/>
+<path class="filli" d="M681.4 568.3 C681.3 568.8 680.4 569.3 680.1 569.7 C679.9 570.1 680.5 570.5 680.1 570.8 C679.6 571.1 678.2 571.5 677.5 571.6 C676.8 571.6 676.3 571.4 676.0 571.0 C675.6 570.7 675.6 570.1 675.4 569.5 C675.2 569.0 674.6 568.3 674.7 567.9 C674.7 567.5 675.4 567.3 675.6 567.0 C675.9 566.6 675.7 566.1 676.2 565.8 C676.7 565.4 677.8 565.1 678.3 565.0 C678.9 565.0 678.9 565.1 679.3 565.4 C679.8 565.8 680.5 566.5 680.8 567.0 C681.2 567.5 681.6 567.8 681.4 568.3 Z"/>
+<path class="filli" d="M769.0 570.4 C768.9 571.0 768.4 571.1 768.2 571.5 C767.9 571.9 768.1 572.4 767.7 572.6 C767.4 572.8 766.6 572.6 766.0 572.5 C765.4 572.4 764.6 572.2 764.2 572.0 C763.7 571.8 763.8 571.7 763.5 571.3 C763.3 570.9 762.4 570.4 762.5 569.8 C762.6 569.2 763.6 568.3 763.9 567.9 C764.3 567.6 764.1 567.9 764.4 567.7 C764.8 567.5 765.4 566.9 765.9 566.8 C766.5 566.7 767.2 567.1 767.7 567.2 C768.2 567.4 768.5 567.4 768.7 567.9 C769.0 568.4 769.1 569.8 769.0 570.4 Z"/>
+<path class="filli" d="M843.4 567.1 C843.5 567.6 843.2 568.2 843.0 568.6 C842.8 569.1 842.5 569.5 842.0 569.8 C841.5 570.1 840.7 570.5 840.2 570.4 C839.7 570.3 839.3 569.4 838.8 569.0 C838.3 568.6 837.6 568.4 837.3 568.0 C837.0 567.7 837.2 567.1 837.1 566.7 C837.1 566.3 836.6 565.9 836.8 565.5 C837.1 565.1 838.1 564.6 838.7 564.3 C839.4 564.0 840.1 563.4 840.5 563.5 C840.9 563.6 840.8 564.3 841.0 564.7 C841.3 565.1 841.7 565.4 842.1 565.8 C842.5 566.2 843.2 566.6 843.4 567.1 Z"/>
+<path class="filla" d="M626.6 373.6 C626.7 374.3 626.8 375.7 626.4 376.2 C626.1 376.8 625.2 376.6 624.7 376.9 C624.1 377.2 623.7 378.1 623.1 378.0 C622.5 378.0 621.5 377.2 620.9 376.8 C620.4 376.3 620.0 375.7 619.7 375.2 C619.4 374.8 619.3 374.5 619.2 374.1 C619.2 373.6 619.1 372.8 619.3 372.3 C619.5 371.7 620.1 371.1 620.7 370.8 C621.2 370.6 621.8 370.6 622.4 370.6 C623.1 370.7 624.2 370.9 624.8 371.1 C625.4 371.3 625.7 371.3 626.0 371.7 C626.3 372.1 626.6 372.8 626.6 373.6 Z"/>
+<path class="fine" d="M629.9 377.7 C647.4 393.4 669.1 416.5 686.2 431.7" stroke-width="0.8" stroke-dasharray="1 3.5"/>
+<text x="692.0" y="436.0" class="ts" text-anchor="start">wooden peg, kadil</text>
+<path class="fine" d="M629.9 419.9 C647.1 433.3 669.7 450.0 685.8 461.9" stroke-width="0.8" stroke-dasharray="1 3.5"/>
+<text x="692.0" y="466.0" class="ts" text-anchor="start">cross-tie, maanvi</text>
+<path class="fine" d="M624.3 496.0 C642.8 494.7 667.2 492.2 686.0 492.0" stroke-width="0.8" stroke-dasharray="1 3.5"/>
+<text x="692.0" y="496.0" class="ts" text-anchor="start">rubble packed between</text>
+<path class="fine" d="M638.8 532.2 C654.0 529.5 672.7 524.9 685.9 521.9" stroke-width="0.8" stroke-dasharray="1 3.5"/>
+<text x="692.0" y="526.0" class="ts" text-anchor="start">two beams, one per face</text>
+<text x="52.0" y="682.0" class="ts" text-anchor="start">No mortar, no nails, no steel. The wall is held down by its own weight, so in a tremor it can shear a little, grind, and settle back.</text>
+<text x="52.0" y="699.0" class="ts" text-anchor="start">Concrete cannot do that. Sarahan&#x27;s Bhimakali temple — your first night — is the great surviving example, and it is still standing.</text>
+</svg>

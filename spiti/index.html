@@ -68,6 +68,7 @@ h1{font:500 54px/1 var(--display);letter-spacing:-.02em;margin:14px 0 14px}
 .pill svg{width:16px;height:16px;color:var(--accent-strong)}
 .pill[hidden]{display:none}
 .note{width:100%;margin:6px 0 0;text-align:center;font-size:12.5px;color:var(--muted)}
+footer .minor{color:var(--muted);text-underline-offset:3px}
 footer{margin-top:auto;padding-top:48px;text-align:center;font-size:12.5px;line-height:1.7;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
 </style>
@@ -105,10 +106,10 @@ footer{margin-top:auto;padding-top:48px;text-align:center;font-size:12.5px;line-
       </a>
     </li>
     <li>
-      <a class="card" href="https://www.google.com/maps/d/viewer?hl=en&amp;mid=1u-k6Xo2r8bb7X1d2uw0fOrKS4oj_jdU&amp;ll=31.598923869659814%2C77.71116500000001&amp;z=8" target="_blank" rel="noopener">
-        <span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4Z"/><path d="M9 4v14M15 6v14"/></svg></span>
-        <span class="txt"><strong>Google My Maps</strong><small>The same stops, to open in Google Maps</small></span>
-        <span class="go" aria-hidden="true">↗</span>
+      <a class="card" href="practical/">
+        <span class="i"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.3 4.7-4.7 2.3 2.3-4.7Z"/></svg></span>
+        <span class="txt"><strong>Practical</strong><small>Fuel, cash, signal, emergency, permits, opening hours, phrases</small></span>
+        <span class="go" aria-hidden="true">→</span>
       </a>
     </li>
   </ul>
@@ -122,10 +123,10 @@ footer{margin-top:auto;padding-top:48px;text-align:center;font-size:12.5px;line-
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.9-3M4 13a8 8 0 0 0 14.9 3"/><path d="M5 3v5h5M19 21v-5h-5"/></svg>
       Check for updates
     </button>
-    <p class="note">Works offline once opened. <span class="ver">Saved version: <span data-pwa-version>not yet saved</span></span></p>
+    <p class="note" data-pwa-status aria-live="polite">Not saved for offline use yet.</p>
   </div>
 
-  <footer>Sarahan · Chitkul · Kalpa · Tabo · Mud · Kaza · Losar · Chandratal</footer>
+  <footer><a class="minor" href="https://www.google.com/maps/d/viewer?hl=en&amp;mid=1u-k6Xo2r8bb7X1d2uw0fOrKS4oj_jdU&amp;ll=31.598923869659814%2C77.71116500000001&amp;z=8" target="_blank" rel="noopener">Also on Google My Maps ↗</a><br>Sarahan · Chitkul · Kalpa · Tabo · Mud · Kaza · Losar · Chandratal</footer>
 </main>
 </body>
 </html>

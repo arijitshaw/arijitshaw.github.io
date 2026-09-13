@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="862" viewBox="0 0 980 862" role="img" aria-labelledby="ttl dsc">
+<title id="ttl">Spiti was a crossroads, not a cul-de-sac</title>
+<desc id="dsc">Spoke diagram centred on Kaza showing six historic pass routes out of Spiti — Parang La north to Ladakh, Shipki La east to Tibet, Manirang south to Kinnaur, Pin-Bhaba south-west to Kinnaur, Pin-Parvati west to Kullu and Kunzum La north-west to Lahaul — with the single modern road overlaid.</desc>
+<style>
+  .ink   { stroke:#2f2b26; fill:none; stroke-linecap:round; stroke-linejoin:round }
+  .fine  { stroke:#2f2b26; fill:none; stroke-width:.9; stroke-linecap:round; opacity:.75 }
+  .water { stroke:#2d6f91; fill:none; stroke-linecap:round; stroke-linejoin:round }
+  .acc   { stroke:#b34a2c; fill:none; stroke-linecap:round; stroke-linejoin:round }
+  .wood  { stroke:#96682f; fill:none; stroke-linecap:round; stroke-linejoin:round }
+  .fillw { fill:#2d6f91; stroke:none; opacity:.13 }
+  .filla { fill:#b34a2c; stroke:none; opacity:.12 }
+  .filli { fill:#2f2b26; stroke:none; opacity:.07 }
+  .fillt { fill:#96682f; stroke:none; opacity:.16 }
+  text   { fill:#2f2b26; font-family:"Iowan Old Style","Palatino Linotype",Palatino,Charter,Georgia,serif }
+  .t     { font-size:15px }
+  .tb    { font-size:16px; font-weight:600 }
+  .th    { font-size:21px; font-weight:600 }
+  .ts    { font-size:12.5px; font-style:italic; opacity:.72 }
+  .tn    { font-size:12px; opacity:.8 }
+  .tw    { fill:#2d6f91 }
+  .ta    { fill:#b34a2c }
+  .twd   { fill:#96682f }
+  @media (prefers-color-scheme: dark) {
+    .ink, .fine { stroke:#e6e0d4 }
+    .water { stroke:#7cb6d4 } .acc { stroke:#e08a6b } .wood { stroke:#cca06a }
+    .fillw { fill:#7cb6d4 } .filla { fill:#e08a6b } .filli { fill:#e6e0d4; opacity:.10 }
+    .fillt { fill:#cca06a }
+    text { fill:#e6e0d4 }
+    .tw { fill:#7cb6d4 } .ta { fill:#e08a6b } .twd { fill:#cca06a }
+  }
+</style>
+<text x="52.0" y="52.0" class="th" text-anchor="start">Spiti was a crossroads, not a cul-de-sac</text>
+<text x="52.0" y="78.0" class="ts" text-anchor="start">Six ways out on foot. Every one of them is now a trek rather than a route.</text>
+<path class="water" d="M496.6 442.7 C499.4 444.9 507.9 452.2 513.7 456.1 C519.6 460.0 526.0 462.6 531.7 466.0 C537.5 469.5 542.8 473.1 548.4 476.6 C554.0 480.0 559.6 483.0 565.4 486.7 C571.2 490.5 577.6 495.5 583.3 499.3 C588.9 503.1 593.8 506.2 599.3 509.6 C604.8 513.1 610.6 516.3 616.0 520.1 C621.5 523.8 626.8 528.8 632.0 532.0 C637.1 535.2 642.2 536.4 646.8 539.4 C651.4 542.5 654.8 546.6 659.6 550.3 C664.5 554.1 670.3 558.3 675.8 561.9 C681.3 565.5 687.3 568.4 692.5 571.7 C697.8 575.0 702.5 578.6 707.2 582.0 C711.9 585.4 718.3 590.4 720.5 592.1" stroke-width="1.6"/>
+<text x="736.0" y="586.0" class="t tw" text-anchor="start">Spiti</text>
+<path class="ink" d="M490.5 405.3 C488.7 342.5 487.8 259.6 490.1 195.4" stroke-width="1.7"/>
+<path class="ink" d="M490.5 405.5 C489.3 341.4 491.6 260.0 490.3 196.3" stroke-width="1.7"/>
+<path class="ink" d="M490.1 196.0 C488.9 199.2 487.5 202.3 486.2 205.3" stroke-width="1.7"/>
+<path class="ink" d="M490.0 195.9 C490.6 198.7 492.7 202.0 493.8 205.2" stroke-width="1.7"/>
+<path class="ink" d="M462.8 262.8 C464.7 260.5 470.9 250.0 474.6 249.1 C478.2 248.1 482.2 256.3 484.8 257.3 C487.4 258.4 488.3 255.3 490.1 255.4 C491.8 255.5 493.1 259.2 495.4 258.1 C497.7 257.0 500.2 248.1 503.8 248.6 C507.3 249.2 514.4 259.2 516.5 261.3" stroke-width="1.6"/>
+<path class="ink" d="M464.1 262.6 C465.8 260.4 470.9 250.3 474.4 249.4 C477.9 248.4 482.3 255.8 485.0 256.8 C487.7 257.8 489.0 255.1 490.7 255.2 C492.3 255.3 492.2 258.3 494.7 257.2 C497.2 256.0 501.8 247.4 505.5 248.2 C509.2 249.0 514.9 259.7 516.8 262.0" stroke-width="1.6"/>
+<path class="fine" d="M464.2 261.2 C480.3 261.9 500.1 261.6 516.2 261.6" stroke-width="0.9"/>
+<path class="fine" d="M468.7 261.5 C470.8 259.0 474.0 254.3 476.3 251.9" stroke-width="0.7"/>
+<path class="fine" d="M478.5 261.6 C480.0 259.2 482.7 256.5 484.3 254.3" stroke-width="0.7"/>
+<path class="fine" d="M488.0 261.6 C489.8 259.5 491.2 256.8 493.2 254.9" stroke-width="0.7"/>
+<path class="fine" d="M497.4 261.6 C499.4 258.7 502.4 254.4 505.3 251.9" stroke-width="0.7"/>
+<path class="fine" d="M507.1 261.6 C507.8 260.3 509.4 258.4 510.7 256.8" stroke-width="0.7"/>
+<text x="490.0" y="158.0" class="tb" text-anchor="middle">Parang La · 5,578 m</text>
+<text x="490.0" y="176.0" class="ts" text-anchor="middle">north to Ladakh — Rupshu and Tso Moriri</text>
+<path class="ink" d="M529.5 434.9 C603.0 423.8 704.2 413.8 775.5 404.6" stroke-width="1.7"/>
+<path class="ink" d="M530.2 435.3 C603.2 423.5 703.3 412.5 775.4 404.1" stroke-width="1.7"/>
+<path class="ink" d="M775.9 404.1 C773.6 403.0 769.0 402.4 766.4 401.6" stroke-width="1.7"/>
+<path class="ink" d="M776.0 404.1 C773.7 405.5 769.8 407.4 767.1 408.8" stroke-width="1.7"/>
+<path class="ink" d="M673.9 420.8 C675.7 419.1 681.3 411.1 684.8 410.7 C688.4 410.3 692.6 417.7 695.0 418.5 C697.4 419.3 697.8 415.6 699.4 415.4 C700.9 415.2 702.0 418.0 704.3 417.1 C706.6 416.1 709.6 409.0 713.4 409.8 C717.1 410.6 724.6 419.7 726.9 421.7" stroke-width="1.6"/>
+<path class="ink" d="M674.7 420.4 C676.6 418.5 682.4 409.5 685.7 409.0 C689.1 408.5 692.6 416.1 694.9 417.3 C697.1 418.6 697.6 416.5 699.4 416.5 C701.1 416.5 702.8 418.6 705.3 417.3 C707.8 416.0 710.7 408.2 714.3 408.8 C717.8 409.5 724.7 419.2 726.8 421.2" stroke-width="1.6"/>
+<path class="fine" d="M674.0 421.3 C690.2 421.7 710.7 421.7 726.2 421.6" stroke-width="0.9"/>
+<path class="fine" d="M678.8 421.5 C680.8 418.6 684.6 414.9 686.3 411.8" stroke-width="0.7"/>
+<path class="fine" d="M688.5 421.4 C690.0 419.4 692.3 416.1 694.1 414.2" stroke-width="0.7"/>
+<path class="fine" d="M697.9 421.4 C699.9 419.7 701.3 416.5 703.1 414.8" stroke-width="0.7"/>
+<path class="fine" d="M707.4 421.4 C710.2 419.0 713.2 414.9 715.3 411.7" stroke-width="0.7"/>
+<path class="fine" d="M717.1 421.5 C718.2 420.4 719.5 418.1 720.7 416.9" stroke-width="0.7"/>
+<text x="792.0" y="400.0" class="tb" text-anchor="start">Shipki La · 4,600 m</text>
+<text x="792.0" y="418.0" class="ts" text-anchor="start">east, down to the Sutlej,</text>
+<text x="792.0" y="434.0" class="ts" text-anchor="start">then over into Tibet</text>
+<path class="ink" d="M489.9 477.0 C488.2 544.4 489.2 636.0 490.3 706.4" stroke-width="1.7"/>
+<path class="ink" d="M490.4 477.7 C491.2 547.5 488.9 638.1 489.9 706.5" stroke-width="1.7"/>
+<path class="ink" d="M490.1 706.1 C491.0 703.6 492.8 699.1 493.7 696.9" stroke-width="1.7"/>
+<path class="ink" d="M489.9 706.0 C489.3 703.5 487.7 699.7 486.1 696.7" stroke-width="1.7"/>
+<path class="ink" d="M463.1 646.0 C465.4 643.9 473.1 633.9 476.8 633.2 C480.4 632.4 482.5 640.4 485.0 641.4 C487.4 642.5 489.7 639.3 491.2 639.4 C492.8 639.6 492.2 643.3 494.4 642.3 C496.5 641.3 500.6 633.1 504.2 633.4 C507.8 633.8 513.9 642.7 515.9 644.6" stroke-width="1.6"/>
+<path class="ink" d="M463.0 645.8 C465.0 643.7 471.1 634.2 474.7 633.7 C478.4 633.2 482.6 641.8 485.0 642.7 C487.4 643.6 487.6 639.4 489.1 639.1 C490.6 638.9 491.5 642.2 494.2 641.3 C496.9 640.4 502.1 633.1 505.5 634.0 C509.0 634.9 513.3 644.6 514.9 646.8" stroke-width="1.6"/>
+<path class="fine" d="M463.9 645.4 C479.3 645.6 500.9 645.0 516.1 645.8" stroke-width="0.9"/>
+<path class="fine" d="M468.7 645.6 C470.8 643.0 474.2 638.7 476.3 635.9" stroke-width="0.7"/>
+<path class="fine" d="M478.3 645.5 C479.9 643.6 482.6 640.3 484.1 638.2" stroke-width="0.7"/>
+<path class="fine" d="M487.9 645.4 C490.0 643.4 491.5 641.1 493.2 638.8" stroke-width="0.7"/>
+<path class="fine" d="M497.5 645.4 C499.5 642.9 502.8 638.7 505.1 635.7" stroke-width="0.7"/>
+<path class="fine" d="M507.2 645.6 C508.3 643.9 509.8 642.1 510.7 640.9" stroke-width="0.7"/>
+<text x="490.0" y="732.0" class="tb" text-anchor="middle">Manirang · 5,550 m</text>
+<text x="490.0" y="750.0" class="ts" text-anchor="middle">south to Kinnaur — the Ropa valley</text>
+<path class="ink" d="M459.9 467.9 C401.8 518.4 327.3 585.2 271.9 636.2" stroke-width="1.7"/>
+<path class="ink" d="M459.0 467.3 C403.5 517.5 326.4 583.4 271.7 635.6" stroke-width="1.7"/>
+<path class="ink" d="M272.1 636.0 C274.6 634.8 278.8 633.9 281.2 632.6" stroke-width="1.7"/>
+<path class="ink" d="M271.9 636.1 C273.6 632.9 274.8 629.7 276.5 627.1" stroke-width="1.7"/>
+<path class="ink" d="M303.3 585.2 C305.4 583.5 312.3 575.2 315.8 574.7 C319.3 574.1 322.1 581.0 324.4 581.8 C326.7 582.6 327.8 579.5 329.6 579.4 C331.3 579.3 332.3 582.1 334.7 581.3 C337.2 580.5 340.7 573.6 344.5 574.5 C348.2 575.3 355.1 584.6 357.2 586.7" stroke-width="1.6"/>
+<path class="ink" d="M303.6 586.7 C305.5 584.5 311.3 574.1 314.7 573.3 C318.1 572.6 321.6 581.4 324.0 582.3 C326.5 583.2 327.7 578.9 329.4 578.9 C331.1 578.9 331.7 583.4 334.2 582.5 C336.8 581.6 341.0 572.6 344.6 573.3 C348.3 574.0 354.4 584.3 356.3 586.5" stroke-width="1.6"/>
+<path class="fine" d="M304.1 585.3 C320.5 585.0 341.1 585.7 356.3 585.4" stroke-width="0.9"/>
+<path class="fine" d="M308.8 585.6 C310.7 582.6 314.0 578.9 316.6 575.9" stroke-width="0.7"/>
+<path class="fine" d="M318.4 585.5 C320.0 583.3 322.4 580.6 324.1 578.2" stroke-width="0.7"/>
+<path class="fine" d="M327.9 585.4 C329.4 583.8 332.0 581.0 333.3 579.0" stroke-width="0.7"/>
+<path class="fine" d="M337.5 585.4 C340.1 583.0 342.9 579.0 345.2 576.0" stroke-width="0.7"/>
+<path class="fine" d="M347.1 585.6 C348.1 584.3 349.3 582.4 350.8 580.9" stroke-width="0.7"/>
+<text x="250.0" y="664.0" class="tb" text-anchor="middle">Pin–Bhaba · 4,890 m</text>
+<text x="250.0" y="682.0" class="ts" text-anchor="middle">south-west to Kinnaur — the Bhaba valley</text>
+<path class="ink" d="M450.7 446.9 C377.0 457.6 282.0 474.2 207.5 485.8" stroke-width="1.7"/>
+<path class="ink" d="M450.8 445.9 C379.5 459.0 282.1 474.7 207.5 486.3" stroke-width="1.7"/>
+<path class="ink" d="M208.1 485.9 C211.2 486.5 214.8 487.9 217.9 488.3" stroke-width="1.7"/>
+<path class="ink" d="M207.9 485.9 C210.4 484.5 213.7 482.3 216.6 480.9" stroke-width="1.7"/>
+<path class="ink" d="M261.8 476.7 C263.6 474.7 268.9 465.4 272.6 464.4 C276.4 463.5 281.7 470.2 284.1 471.0 C286.5 471.8 285.9 469.0 287.3 469.3 C288.7 469.7 290.0 474.1 292.5 472.9 C295.0 471.7 298.8 461.7 302.4 462.1 C305.9 462.5 311.7 473.1 313.5 475.3" stroke-width="1.6"/>
+<path class="ink" d="M262.3 474.7 C264.3 472.9 271.0 464.2 274.4 463.7 C277.9 463.3 280.6 471.1 283.0 471.8 C285.5 472.6 287.3 468.2 289.1 468.3 C290.9 468.5 291.4 473.9 293.8 472.8 C296.2 471.8 300.3 461.8 303.5 462.2 C306.7 462.6 311.6 473.0 313.2 475.1" stroke-width="1.6"/>
+<path class="fine" d="M262.0 475.7 C278.3 475.8 298.4 475.8 314.0 475.5" stroke-width="0.9"/>
+<path class="fine" d="M266.7 475.5 C268.8 472.8 271.8 468.7 274.5 465.9" stroke-width="0.7"/>
+<path class="fine" d="M276.2 475.5 C278.2 473.5 280.1 470.3 282.1 468.2" stroke-width="0.7"/>
+<path class="fine" d="M286.0 475.5 C287.1 473.9 289.9 470.6 291.2 468.9" stroke-width="0.7"/>
+<path class="fine" d="M295.6 475.6 C298.2 472.2 301.2 469.0 303.3 465.7" stroke-width="0.7"/>
+<path class="fine" d="M305.1 475.6 C306.0 474.3 307.8 472.3 308.7 470.8" stroke-width="0.7"/>
+<text x="170.0" y="440.0" class="tb" text-anchor="middle">Pin–Parvati · 5,319 m</text>
+<text x="170.0" y="458.0" class="ts" text-anchor="middle">west to Kullu — the Parvati valley</text>
+<path class="ink" d="M455.6 420.6 C391.9 384.3 309.2 335.8 245.5 299.6" stroke-width="1.7"/>
+<path class="ink" d="M455.6 420.4 C395.0 385.2 307.6 335.7 246.5 300.4" stroke-width="1.7"/>
+<path class="ink" d="M245.9 299.9 C247.4 302.5 250.8 305.4 252.2 308.0" stroke-width="1.7"/>
+<path class="ink" d="M245.9 299.8 C248.8 300.2 252.8 301.4 256.0 301.3" stroke-width="1.7"/>
+<path class="ink" d="M299.4 353.3 C301.4 351.3 307.9 342.1 311.6 341.5 C315.2 340.8 318.8 348.3 321.2 349.4 C323.7 350.6 324.4 348.2 326.2 348.4 C328.0 348.7 329.7 352.2 331.9 351.0 C334.1 349.8 335.9 340.8 339.3 341.1 C342.7 341.5 350.2 351.1 352.3 353.1" stroke-width="1.6"/>
+<path class="ink" d="M299.5 352.5 C301.5 350.9 307.8 343.7 311.3 343.1 C314.8 342.5 318.2 348.3 320.5 348.8 C322.9 349.4 323.7 346.1 325.6 346.2 C327.5 346.2 329.4 349.8 331.9 349.2 C334.4 348.6 337.2 341.6 340.5 342.5 C343.9 343.4 350.1 352.6 352.0 354.6" stroke-width="1.6"/>
+<path class="fine" d="M300.1 353.4 C315.6 352.9 336.3 352.7 352.0 353.3" stroke-width="0.9"/>
+<path class="fine" d="M304.7 353.4 C306.9 350.9 310.3 346.9 312.4 343.7" stroke-width="0.7"/>
+<path class="fine" d="M314.3 353.4 C316.4 351.1 318.1 348.1 320.2 346.2" stroke-width="0.7"/>
+<path class="fine" d="M324.0 353.5 C325.6 351.9 327.4 348.7 329.2 346.8" stroke-width="0.7"/>
+<path class="fine" d="M333.5 353.4 C336.1 350.8 338.7 347.1 341.3 343.7" stroke-width="0.7"/>
+<path class="fine" d="M343.2 353.6 C343.8 351.8 345.7 350.2 346.9 348.8" stroke-width="0.7"/>
+<text x="206.0" y="262.0" class="tb" text-anchor="middle">Kunzum La · 4,590 m</text>
+<text x="206.0" y="280.0" class="ts" text-anchor="middle">north-west to Lahaul</text>
+<text x="206.0" y="296.0" class="ts" text-anchor="middle">a road since the 1970s, open May–Oct</text>
+<path class="ink" d="M469.9 442.9 C469.9 439.9 469.6 436.6 470.0 434.0" stroke-width="1.3"/>
+<path class="ink" d="M470.0 433.9 C472.6 431.9 475.4 429.4 477.1 427.9" stroke-width="1.3"/>
+<path class="ink" d="M476.9 428.1 C478.9 429.3 482.3 432.6 483.9 434.2" stroke-width="1.3"/>
+<path class="ink" d="M484.0 434.0 C484.1 436.2 483.6 440.7 483.9 443.1" stroke-width="1.3"/>
+<path class="ink" d="M484.0 443.1 C480.4 443.4 474.8 442.6 470.1 443.1" stroke-width="1.3"/>
+<path class="ink" d="M485.1 449.1 C485.6 445.9 484.9 442.9 485.1 439.9" stroke-width="1.3"/>
+<path class="ink" d="M484.9 440.1 C487.6 438.5 490.4 435.9 491.9 434.0" stroke-width="1.3"/>
+<path class="ink" d="M491.8 434.2 C494.1 436.2 497.2 438.7 499.1 440.0" stroke-width="1.3"/>
+<path class="ink" d="M499.2 440.1 C498.6 442.8 499.0 446.3 499.0 448.9" stroke-width="1.3"/>
+<path class="ink" d="M499.0 449.1 C495.1 449.2 489.8 449.3 485.2 449.1" stroke-width="1.3"/>
+<path class="ink" d="M498.9 441.2 C499.0 437.9 498.7 434.3 499.0 431.9" stroke-width="1.3"/>
+<path class="ink" d="M499.1 432.0 C500.7 430.3 504.4 428.3 505.9 426.0" stroke-width="1.3"/>
+<path class="ink" d="M505.9 425.9 C508.5 427.5 510.5 430.3 512.9 431.9" stroke-width="1.3"/>
+<path class="ink" d="M513.2 431.9 C513.1 435.0 513.4 437.7 512.9 440.9" stroke-width="1.3"/>
+<path class="ink" d="M513.0 441.1 C508.8 441.1 502.8 440.7 499.1 440.8" stroke-width="1.3"/>
+<text x="534.0" y="406.0" class="tb" text-anchor="start">Kaza</text>
+<text x="534.0" y="424.0" class="ts" text-anchor="start">3,650 m</text>
+<path class="acc" d="M701.4 699.4 C699.2 697.3 693.1 690.7 688.4 686.7 C683.8 682.8 677.8 679.6 673.3 675.7 C668.8 671.7 665.5 667.3 661.4 662.9 C657.3 658.5 652.8 653.7 648.7 649.2 C644.5 644.6 641.1 640.2 636.5 635.6 C631.9 631.0 626.0 626.6 621.3 621.3 C616.6 616.1 613.2 609.5 608.4 604.0 C603.7 598.5 597.5 593.5 592.5 588.4 C587.6 583.3 583.0 578.8 578.7 573.6 C574.3 568.4 570.7 562.8 566.5 557.3 C562.3 551.7 557.1 546.2 553.3 540.1 C549.5 533.9 547.1 527.3 543.6 520.5 C540.0 513.7 536.0 505.5 531.9 499.3 C527.9 493.1 521.3 485.9 519.2 483.3" stroke-width="3.0"/>
+<path class="acc" d="M699.6 698.6 C697.4 696.7 690.4 691.1 686.3 687.1 C682.2 683.1 679.3 679.1 675.0 674.6 C670.7 670.1 665.3 664.2 660.7 660.1 C656.1 655.9 651.6 653.3 647.5 649.5 C643.3 645.7 639.8 641.8 635.7 637.1 C631.7 632.5 627.7 627.3 623.2 621.8 C618.7 616.3 613.6 609.5 608.7 604.2 C603.8 598.9 598.8 595.0 593.9 589.9 C588.9 584.8 583.9 578.8 579.2 573.4 C574.5 568.0 569.9 563.0 565.8 557.3 C561.8 551.5 558.3 544.9 554.8 538.9 C551.3 532.9 548.7 527.3 544.7 521.1 C540.6 515.0 534.8 508.9 530.4 502.2 C526.1 495.5 520.8 484.3 518.8 480.8" stroke-width="3.0"/>
+<path class="acc" d="M556.1 524.2 C546.0 512.8 534.2 497.3 524.0 486.2" stroke-width="2.4"/>
+<path class="acc" d="M524.0 486.1 C525.0 489.0 525.9 492.4 527.2 495.5" stroke-width="2.4"/>
+<path class="acc" d="M523.9 485.9 C526.8 487.6 530.2 489.1 532.8 490.8" stroke-width="2.4"/>
+<text x="656.0" y="722.0" class="tb ta" text-anchor="start">the road, since 1975</text>
+<text x="656.0" y="740.0" class="ts" text-anchor="start">one way in, all the way up the Sutlej</text>
+<path class="acc" d="M326.6 346.7 C329.2 348.7 337.4 354.8 342.1 359.0 C346.8 363.1 350.0 367.7 354.7 371.4 C359.5 375.1 365.7 377.8 370.7 381.2 C375.8 384.6 379.1 388.1 385.0 391.6 C390.8 395.0 399.3 398.6 405.9 401.8 C412.4 405.0 417.9 407.7 424.1 410.6 C430.3 413.5 440.1 417.8 443.3 419.2" stroke-width="2.4"/>
+<path class="acc" d="M324.7 346.4 C327.4 348.4 335.5 354.2 340.7 358.2 C345.9 362.2 351.2 366.5 356.0 370.4 C360.9 374.3 365.0 378.4 370.1 381.8 C375.1 385.1 380.7 387.3 386.6 390.4 C392.4 393.5 399.0 397.1 405.3 400.4 C411.5 403.7 417.8 407.4 424.0 410.2 C430.2 413.0 439.4 416.1 442.5 417.2" stroke-width="2.4"/>
+<text x="52.0" y="806.0" class="ts" text-anchor="start">Before the road, Spiti sat where six valleys met and traded in every direction: salt and wool down from Tibet, grain up from</text>
+<text x="52.0" y="823.0" class="ts" text-anchor="start">Kinnaur, horses north to Ladakh, pilgrims west to Kullu. The road did not open Spiti up. It shut five doors and widened the sixth.</text>
+</svg>

@@ -1,0 +1,74 @@
+# Volatile practical claims (T4.1, T4.3). Stable, interpretive content (history, geology, myth) is
+# deliberately not listed. Fields:
+#   claim     what the site says
+#   where     where it says it
+#   source    operator call | HP PWD | official site | field | preparation page | book text
+#   verified  YYYY-MM-DD, or never
+#   expires   YYYY-MM-DD after which the build warns that it needs re-checking
+# The build lists "never" and expired items in content/unverified.md.
+
+- claim: Night temperatures by halt (Sarahan 8 to 12 °C … Chandratal −5 to −10 °C)
+  where: preparation#s1, practical#money, book ch-13, ch-14
+  source: preparation page (long-run records plus early-September forecasts)
+  verified: 2026-09-06
+  expires: 2026-09-20
+
+- claim: Chandratal camps run until about 10–15 October
+  where: preparation#s2, practical#hours, book ch-14 box
+  source: preparation page (operator reports)
+  verified: 2026-09-06
+  expires: 2026-09-22
+
+- claim: Black ice on the road in late September; wait for the sun before driving
+  where: preparation#s2, book ch-13 box
+  source: preparation page (operator advice)
+  verified: 2026-09-06
+  expires: 2026-09-30
+
+- claim: Reckong Peo is the last place with reliable ATMs, market and fuel; Kaza ATMs often empty
+  where: book ch-5, ch-11, practical#money
+  source: book text
+  verified: never
+  expires: 2026-09-15
+
+- claim: Kaza has the last fuel pump before Manali
+  where: book ch-11, ch-13 box, practical#fuel
+  source: book text
+  verified: never
+  expires: 2026-09-15
+
+- claim: No network, charging or hot shower at Chandratal
+  where: book ch-14, practical#money
+  source: book text and preparation page
+  verified: never
+  expires: 2026-09-22
+
+- claim: Check posts at Wangtu, Sumdo and Losar
+  where: book ch-6, interlude-6, practical#permits
+  source: book text
+  verified: never
+  expires: 2026-09-15
+
+- claim: Photography not allowed inside Tabo's old temples or the Lhalung Serkhang
+  where: book ch-8, ch-9, practical#hours
+  source: book text
+  verified: never
+  expires: 2026-09-19
+
+- claim: Dhankar old gompa access sometimes restricted
+  where: book ch-9, practical#hours
+  source: book text
+  verified: never
+  expires: 2026-09-20
+
+- claim: Hikkim post office closes in winter
+  where: book ch-12, practical#hours
+  source: book text
+  verified: never
+  expires: 2026-09-21
+
+- claim: 112 national emergency number and 108 ambulance reach the route
+  where: practical#emergency
+  source: official site
+  verified: never
+  expires: 2026-09-15
