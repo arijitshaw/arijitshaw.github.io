@@ -12,7 +12,9 @@ Conventions understood in the markdown:
   ## Contents                     **Group** lines + | num | name | when | rows drive the sidebar groups
   --- then *italic line*          at the very end = colophon
 """
+import hashlib
 import html
+import json
 import re
 import unicodedata
 from pathlib import Path
@@ -24,6 +26,17 @@ SRC = ROOT / "spiti" / "book" / "spiti-circuit-the-long-read.md"
 OUT = ROOT / "spiti" / "book" / "index.html"
 MAP_URL = ("https://www.google.com/maps/d/viewer?hl=en&mid=1u-k6Xo2r8bb7X1d2uw0fOrKS4oj_jdU"
            "&ll=31.598923869659814%2C77.71116500000001&z=8")
+SPITI = ROOT / "spiti"
+IMAGES = ROOT / "spiti" / "book" / "images.json"   # written by scripts/commons_image.py
+# Third-party files the pages load; cached by the service worker so the site works offline.
+EXTERNAL = [
+    "https://unpkg.com/react@18.3.1/umd/react.production.min.js",
+    "https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js",
+    "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Lora:wght@400;600&display=swap",
+    "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Lora:wght@400;600&display=swap",
+    "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400"
+    "&family=Lora:ital,wght@0,400;0,600;1,400&display=swap",
+]
 
 BOXES = {"In the rock": "rock", "The other story": "myth", "Who came through here": "people"}
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII"]
@@ -64,23 +77,64 @@ def inline(text):
     return re.sub(r"^<p>|</p>$", "", md([text]))
 
 
-def render_body(lines, prefix):
-    """Render a section body; wrap the recurring boxes in <aside>. Returns (html, toc)."""
+def clean_credit(text):
+    """Commons author fields are free text; keep just a readable name."""
+    t = re.sub(r"^(This Photo was taken by|Photo by|Artist:)\s*", "", text or "").strip()
+    t = re.sub(r"^No machine-readable author provided\.\s*(\S+?)~commonswiki.*", r"\1", t)
+    if m := re.match(r"https?://(?:www\.)?([^/\s]+)", t):
+        return m[1]
+    # cut at the first sentence end, but not after an initial like "A. Gonsalves"
+    t = re.split(r"(?<=[a-z]{2})\.\s+(?=[A-Z])|;\s*Engraver", t)[0].strip(" .")
+    for half in (len(t) // 2,):
+        if t and t[:half] == t[half:]:
+            t = t[:half]
+    return "" if t.lower() in ("as in description", "unknown author", "") else t
+
+
+def figure_html(img, hero=False):
+    cap = f"{inline(img['caption'])} " if img.get("caption") else ""
+    credit = clean_credit(img.get("credit"))
+    return (f'<figure class="fig{" hero" if hero else ""}" id="fig-{Path(img["file"]).stem}">'
+            f'<img src="img/{img["file"]}" alt="{html.escape(img.get("alt") or img.get("caption", ""))}" '
+            f'width="{img["w"]}" height="{img["h"]}" loading="lazy" decoding="async">'
+            f'<figcaption>{cap}<span class="credit">{html.escape(credit) + " · " if credit else ""}'
+            f'<a href="{html.escape(img["source"])}" target="_blank" rel="noopener">{html.escape(img["license"])}</a>'
+            f'</span></figcaption></figure>')
+
+
+def render_body(lines, prefix, figs=None):
+    """Render a section body; wrap the recurring boxes in <aside>; place each heading's
+    figures after its first paragraph. Returns (html, toc)."""
     out, h2s, h3s, buf = [], [], [], []
-    box_level = None
+    box_level, pending, placed = None, None, {}
+    figs = {} if figs is None else figs
+
+    def place():
+        nonlocal pending
+        token = f"FIGUREPLACEHOLDER{len(placed)}"
+        placed[token], pending = pending, None
+        buf.extend(["", token, ""])
 
     def flush():
+        if pending:
+            place()
         if any(l.strip() for l in buf):
-            out.append(md(buf))
+            chunk = md(buf)
+            for token, fig in placed.items():
+                chunk = chunk.replace(f"<p>{token}</p>", fig)
+            out.append(chunk)
         buf.clear()
 
     for line in lines:
         m = re.match(r"^(#{2,4}) (.+)$", line)
         if not m:
+            if pending and not line.strip() and any(l.strip() for l in buf):
+                place()
             buf.append(line)
             continue
         flush()
         level, text = len(m.group(1)), m.group(2).strip()
+        pending = figs.pop(plain(text), None)
         if box_level is not None and level <= box_level:
             out.append("</aside>")
             box_level = None
@@ -92,6 +146,10 @@ def render_body(lines, prefix):
             out.append(f'<aside class="box box-{kind}"><div class="box-label">{html.escape(label.strip())}</div>')
             out.append(f'<h{level} id="{hid}">{inline(rest[:1].upper() + rest[1:])}</h{level}>')
             box_level = level
+        elif hist := re.fullmatch(r"([A-Z][a-z]+(?: [a-z]+)? section)\s*·\s*(.+)", text):
+            # a labelled heading rather than a box: these sections don't mark where they end
+            out.append(f'<div class="h-label">{hist[1]}</div>'
+                       f'<h{level} id="{hid}" class="labelled">{inline(hist[2])}</h{level}>')
         else:
             out.append(f'<h{level} id="{hid}">{inline(text)}</h{level}>')
         (h2s if level == 2 else h3s if level == 3 else []).append((hid, plain(text)))
@@ -143,11 +201,18 @@ def main():
     subtitle = next((l.lstrip("# ").strip() for l in cover_lines if l.startswith("###")), "")
     tagline = next((l.strip("* ") for l in cover_lines if l.startswith("*")), "")
 
+    # ---- images: anchor (chapter title or heading text) -> figure html ----
+    images = json.loads(IMAGES.read_text(encoding="utf-8")) if IMAGES.exists() else []
+    figs = {}
+    for img in images:
+        figs[img["anchor"]] = figs.get(img["anchor"], "") + figure_html(img)
+
     # ---- chapters, interludes, sidebars, appendices ----
     sections, colophon = [], ""
     for bi, (title, body) in enumerate(blocks[1:], start=1):
         sid, n, kind, label, name = classify(title)
         _used_ids.add(sid)
+        hero = figs.pop(name, "").replace('class="fig"', 'class="fig hero"')
 
         # meta lines (**Day 1 · …** or *Read this …*) directly under the title
         i, meta = 0, []
@@ -170,10 +235,26 @@ def main():
                 body = body[:last]
         body = [l for l in body if l.strip() != "---"]
 
-        body_html, toc = render_body(body, sid)
+        body_html, toc = render_body(body, sid, figs)
         sections.append(dict(id=sid, n=n, kind=kind, label=label, title=name,
                              here=f"{label} · {name}" if label else name,
-                             meta=meta, body=body_html, toc=toc))
+                             meta=meta, body=body_html, toc=toc, hero=hero))
+
+    for anchor in figs:
+        print(f"warning: no chapter or heading called {anchor!r}; its image was not placed")
+
+    if images:
+        items = "".join(
+            f'<li><a href="#fig-{Path(i["file"]).stem}">{html.escape(plain(i.get("caption") or i["anchor"]))}</a>'
+            f'{" — " + html.escape(clean_credit(i["credit"])) if clean_credit(i["credit"]) else ""}, '
+            f'<a href="{html.escape(i["source"])}" target="_blank" rel="noopener">'
+            f'{html.escape(i["license"])}</a></li>' for i in images if i["anchor"] not in figs)
+        _used_ids.add("image-credits")
+        sections.append(dict(
+            id="image-credits", n="", kind="back", label="", title="Image credits", here="Image credits",
+            meta=[("Photographs and artwork from Wikimedia Commons and Wikipedia. "
+                   "Each link goes to the original file, with its author and licence.", True)],
+            body=f'<ol class="credits">{items}</ol>', toc=[], hero=""))
 
     # ---- front matter; the Contents section also yields sidebar groups and "when" notes ----
     by_title = {s["title"].lower(): s["id"] for s in sections}
@@ -218,7 +299,7 @@ def main():
             body = linked
         body_html, toc = render_body([l for l in body if l.strip() != "---"], sid)
         front_sections.append(dict(id=sid, n="", kind="front", label="Before you start", title=title,
-                                   here=title, meta=[], body=body_html, toc=toc))
+                                   here=title, meta=[], body=body_html, toc=toc, hero=""))
     sections = front_sections + sections
 
     # ---- sidebar: document order, a new group header whenever the Contents group changes ----
@@ -247,7 +328,7 @@ def main():
         meta = "".join(f'<p class="meta{" note" if it else ""}">{x}</p>' for x, it in s["meta"])
         return (f'<section class="chapter k-{s["kind"]}" id="{s["id"]}" data-section data-here="{html.escape(s["here"])}">'
                 f'<header class="chapter-head">{kicker}'
-                f'<h1>{html.escape(s["title"])}</h1>{meta}</header>'
+                f'<h1>{html.escape(s["title"])}</h1>{meta}</header>{s["hero"]}'
                 f'<div class="chapter-body">{s["body"]}</div></section>')
 
     page = (TEMPLATE
@@ -260,7 +341,109 @@ def main():
             .replace("%%COLOPHON%%", colophon)
             .replace("%%MAP_URL%%", html.escape(MAP_URL)))
     OUT.write_text(page, encoding="utf-8")
-    print(f"wrote {OUT.relative_to(ROOT)} ({len(sections)} sections)")
+    print(f"wrote {OUT.relative_to(ROOT)} ({len(sections)} sections, {len(images)} images)")
+    write_service_worker()
+
+
+def write_service_worker():
+    """spiti/sw.js precaches every file of the site; its VERSION is a hash of their contents,
+    so any change to the site makes installed copies offer an update."""
+    files = []
+    for p in sorted(SPITI.rglob("*")):
+        rel = p.relative_to(SPITI).as_posix()
+        if p.is_dir() or p.suffix == ".md" or p.name == "sw.js" or rel == "book/images.json" \
+                or any(part.startswith(".") for part in rel.split("/")):
+            continue
+        files.append(rel)
+    digest = hashlib.sha256()
+    for rel in files:
+        digest.update(rel.encode())
+        digest.update((SPITI / rel).read_bytes())
+    version = digest.hexdigest()[:8]
+    urls = ["./" if f == "index.html" else f.removesuffix("index.html") if f.endswith("/index.html") else f
+            for f in files]
+    sw = (SW_TEMPLATE.replace("%%VERSION%%", version)
+          .replace("%%PRECACHE%%", json.dumps(urls, indent=1))
+          .replace("%%EXTERNAL%%", json.dumps(EXTERNAL, indent=1)))
+    (SPITI / "sw.js").write_text(sw, encoding="utf-8")
+    size = sum((SPITI / f).stat().st_size for f in files) / 1e6
+    print(f"wrote spiti/sw.js (version {version}, {len(urls)} files, {size:.1f} MB)")
+
+
+SW_TEMPLATE = r"""// Generated by scripts/build_spiti_book.py — do not edit by hand.
+// Caches the whole spiti/ site for offline use. Each build gets a new VERSION; installed
+// copies then download the new files in the background and pages offer "Update" (pwa.js).
+const VERSION = "%%VERSION%%";
+const CACHE = `spiti-${VERSION}`;
+const RUNTIME = "spiti-runtime";
+const PRECACHE = %%PRECACHE%%;
+const EXTERNAL = %%EXTERNAL%%;
+
+const fill = (cache, url) =>
+  cache.match(url, { ignoreVary: true })
+    .then(hit => hit || fetch(url, { mode: "cors" }).then(res => res.ok && cache.put(url, res)))
+    .catch(() => {});
+
+self.addEventListener("install", event => {
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+    await cache.addAll(PRECACHE.map(url => new Request(url, { cache: "reload" })));
+    const runtime = await caches.open(RUNTIME);
+    await Promise.all(EXTERNAL.map(url => fill(runtime, url)));
+  })());
+});
+
+self.addEventListener("activate", event => {
+  event.waitUntil((async () => {
+    for (const key of await caches.keys())
+      if (key.startsWith("spiti-") && key !== CACHE && key !== RUNTIME) await caches.delete(key);
+    await self.clients.claim();
+  })());
+});
+
+self.addEventListener("message", event => {
+  const data = event.data || {};
+  if (data.type === "skip-waiting") self.skipWaiting();
+  if (data.type === "version" && event.source) event.source.postMessage({ type: "version", version: VERSION });
+  if (data.type === "cache" && Array.isArray(data.urls))
+    event.waitUntil(caches.open(RUNTIME).then(runtime => Promise.all(
+      data.urls.filter(url => new URL(url).origin !== location.origin).map(url => fill(runtime, url)))));
+});
+
+self.addEventListener("fetch", event => {
+  const { request } = event;
+  if (request.method !== "GET") return;
+  const url = new URL(request.url);
+
+  if (url.origin === location.origin) {
+    if (!url.pathname.startsWith(new URL(self.registration.scope).pathname)) return;
+    // the site itself: cache first; new content arrives through a service-worker update
+    event.respondWith((async () => {
+      const cache = await caches.open(CACHE);
+      const hit = await cache.match(request, { ignoreSearch: true });
+      if (hit) return hit;
+      try {
+        return await fetch(request);
+      } catch (err) {
+        if (request.mode === "navigate")
+          return (await cache.match(url.pathname.replace(/[^/]*$/, ""))) || (await cache.match("./"));
+        throw err;
+      }
+    })());
+    return;
+  }
+
+  // fonts and scripts from other sites: cache first, filled on first use
+  event.respondWith((async () => {
+    const runtime = await caches.open(RUNTIME);
+    const hit = await runtime.match(request, { ignoreVary: true });
+    if (hit) return hit;
+    const res = await fetch(request);
+    if (res.ok || res.type === "opaque") runtime.put(request, res.clone());
+    return res;
+  })());
+});
+"""
 
 
 DARK_TOKENS = """
@@ -279,7 +462,13 @@ TEMPLATE = r"""<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Long Read · Spiti Circuit</title>
 <meta name="description" content="History, geology, myth and old travel writing for the Shimla – Kinnaur – Spiti – Chandratal – Manali road, chapter by chapter.">
-<meta name="theme-color" content="#f3f2f2">
+<meta name="theme-color" content="#201f1d">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Spiti">
+<script src="../pwa.js" defer></script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -411,6 +600,23 @@ td:first-child{white-space:nowrap;color:var(--muted)}
 #contents td a:hover{color:var(--accent-strong);text-decoration:underline}
 #contents td a strong{font-weight:600}
 
+.h-label{margin:2.6em 0 0;font:600 12px/1 var(--display);letter-spacing:.18em;text-transform:uppercase;color:var(--people)}
+.h-label::before{content:"";display:inline-block;width:18px;height:1px;margin-right:8px;vertical-align:middle;background:currentColor}
+.chapter-body .h-label + h2,.chapter-body .h-label + h3{margin-top:.4em;scroll-margin-top:calc(var(--top) + 48px)}
+
+/* figures */
+.fig{margin:1.9em 0 2.1em}
+.fig img{display:block;width:auto;height:auto;max-width:100%;max-height:min(78vh,680px);margin:0 auto;border-radius:6px;background:var(--surface)}
+.fig figcaption{margin-top:9px;font-size:13.5px;line-height:1.45;color:var(--muted);text-align:center;text-wrap:balance}
+.fig .credit{display:block;margin-top:2px;font-size:11.5px;opacity:.85}
+.fig .credit a{color:inherit}
+.fig.hero{margin:-8px 0 44px}
+.box .fig{margin:1.2em 0 1.4em}
+@media (min-width:1280px){.fig.hero{margin-left:-3.5rem;margin-right:-3.5rem}.fig.hero figcaption{padding:0 3.5rem}}
+.credits{padding-left:1.4em;font-size:14px;line-height:1.5}
+.credits li{margin:.45em 0}
+.credits a:first-child{color:inherit}
+
 .colophon{margin:88px 0 0;padding-top:28px;border-top:1px solid var(--divider);text-align:center;font-size:14px;color:var(--muted)}
 .colophon nav{margin-top:18px;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;font:600 16px/1.3 var(--display)}
 
@@ -464,6 +670,8 @@ td:first-child{white-space:nowrap;color:var(--muted)}
     <a href="../preparation/">Preparation: weather, roads, packing</a>
     <a href="%%MAP_URL%%" target="_blank" rel="noopener">Trip map ↗</a>
     <a href="../">Spiti Circuit home</a>
+    <a href="#" data-pwa-install>Install on this phone</a>
+    <a href="#" data-pwa-update>Check for updates</a>
   </div>
 </aside>
 <div class="backdrop" id="backdrop"></div>
@@ -479,8 +687,9 @@ td:first-child{white-space:nowrap;color:var(--muted)}
     <div class="actions">
       <a class="btn primary" href="#how-to-use">Begin reading</a>
       <a class="btn" id="resume" href="#" hidden>Continue · <span></span></a>
+      <a class="btn" href="#" data-pwa-install>Install on phone</a>
     </div>
-    <p class="offline">Open this page once while you have signal. After that it keeps working offline, which you will want past Reckong Peo.</p>
+    <p class="offline">Open this once while you have signal and the whole site, pictures included, keeps working offline, which you will want past Reckong Peo.</p>
   </header>
 
 %%SECTIONS%%
@@ -573,9 +782,8 @@ td:first-child{white-space:nowrap;color:var(--muted)}
     resume.hidden = false;
   }
   update();
-
-  if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost"))
-    navigator.serviceWorker.register("sw.js").catch(() => {});
+  // lazy images change the page height as they load; keep the progress bar honest
+  document.addEventListener("load", e => { if (e.target.tagName === "IMG") onScroll(); }, true);
 })();
 </script>
 </body>

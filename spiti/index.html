@@ -9,6 +9,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Lora:wght@400;600&display=swap">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#201f1d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Spiti">
+<script src="pwa.js" defer></script>
 <script>try{var t=localStorage.getItem("spiti-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <style>
 :root{
@@ -54,6 +61,13 @@ h1{font:500 54px/1 var(--display);letter-spacing:-.02em;margin:14px 0 14px}
 .card.primary small,.card.primary .go{color:color-mix(in srgb,var(--bg) 72%,transparent)}
 .card.primary .i{color:var(--bg);background:color-mix(in srgb,var(--bg) 16%,transparent)}
 
+.app{margin-top:28px;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.pill{display:inline-flex;align-items:center;gap:7px;appearance:none;cursor:pointer;padding:9px 15px;border-radius:999px;
+  border:1px solid var(--divider);background:transparent;color:var(--text);font:600 16px/1.1 var(--display);letter-spacing:.01em}
+.pill:hover{border-color:var(--accent)}
+.pill svg{width:16px;height:16px;color:var(--accent-strong)}
+.pill[hidden]{display:none}
+.note{width:100%;margin:6px 0 0;text-align:center;font-size:12.5px;color:var(--muted)}
 footer{margin-top:auto;padding-top:48px;text-align:center;font-size:12.5px;line-height:1.7;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
 </style>
@@ -91,6 +105,18 @@ footer{margin-top:auto;padding-top:48px;text-align:center;font-size:12.5px;line-
       </a>
     </li>
   </ul>
+
+  <div class="app">
+    <button class="pill" data-pwa-install>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>
+      Install on this phone
+    </button>
+    <button class="pill" data-pwa-update>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.9-3M4 13a8 8 0 0 0 14.9 3"/><path d="M5 3v5h5M19 21v-5h-5"/></svg>
+      Check for updates
+    </button>
+    <p class="note">Works offline once opened. <span class="ver">Saved version: <span data-pwa-version>not yet saved</span></span></p>
+  </div>
 
   <footer>Sarahan · Chitkul · Kalpa · Tabo · Mud · Kaza · Losar · Chandratal</footer>
 </main>

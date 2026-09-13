@@ -165,6 +165,14 @@ So before the road starts, here is who lives on it.
 
 ---
 
+## Story section · The name “Spiti”
+
+**Spiti** literally means **“middle land”**: a valley enclosed by mountain ranges and lying historically between the former powers of **Bushahr, Kullu, Ladakh and Tibet**.
+
+There are older stories about the name too. One traces it to **Ashwapati**, a ruler associated with the Pin Valley in the time of the *Mahabharata*. *Ashwapati* means **“lord of horses,”** and the story fits a valley once known for good horses and for horse competitions on the Lidung plateau. In this telling, the “land of Ashwapati” gradually became the “land of Spiti.” Another explanation remembers a Tibetan dacoit called **Spiti Thakur**, whose territory was said to stretch from Tibet across Spiti toward Kullu. He was reputed to have built temples at **Jagatsukh**, near Manali, and at **Hansa**, north of Kaza.
+
+There is a linguistic trace of an older Spiti as well. Local people traditionally pronounced the name **“Piti,” with the S silent**. With education and tourism, “Spiti” became increasingly common, and the older term **“Pitoons”** for the inhabitants gave way to **“Spitian.”**
+
 ## Who they are
 
 There is no single people on this route. There are at least four overlapping ones, and the transitions between them are gradual rather than sharp.
@@ -793,6 +801,12 @@ The Italian Tibetologist whose expeditions to western Tibet in the 1930s documen
 
 The Roerichs settled at **Naggar**, twenty kilometres south of Manali in the Kullu valley, in 1928. **Nicholas Roerich** — Russian painter, set designer for Stravinsky's *Rite of Spring*, mystic, and the man behind an international treaty for the protection of cultural monuments — painted hundreds of Himalayan canvases from that house. The estate is now a museum. **If you have a spare half-day at the end of the trip, go.** It is the best art gallery on the entire route and almost nobody on the Spiti circuit knows it is there.
 
+## Story section · Marco Pallis at Chango
+
+At **Chango**, Marco Pallis left a small and unexpectedly intimate record of travel in the old rest houses. His party had carried **treble and alto viols** through the Himalaya, and in the evenings, when they finally had the chance, they played chamber music.
+
+Sometimes the musicians discovered that a small group of porters had gathered quietly nearby. They did not interrupt or announce themselves; they simply listened. Pallis remembered them as an unusually attentive audience, and the scene made him think of an old argument in Thomas Mace's *Musick's Monument*: that people divided by language might still possess one common language intelligible to everyone — **music**.
+
 ## Rahul Sankrityayan (1893–1963)
 
 The greatest Indian traveller of the twentieth century and the necessary corrective to this entire list. Born a Brahmin in Uttar Pradesh, he became successively an Arya Samaji, a Buddhist monk in Sri Lanka, a Marxist, and a member of the Communist Party; learned Sanskrit, Pali, Tibetan, Russian, Persian, Arabic, Chinese and more; made four journeys into Tibet, partly in disguise, and brought back hundreds of manuscripts and thangkas that are now in Patna; wrote well over a hundred books; and was jailed by the British more than once.
@@ -832,9 +846,11 @@ This is worth knowing not to alarm you but to explain the behaviour you will see
 
 At **Wangtu** the road crosses the river and a check post records vehicles. At **Karcham** the Baspa comes in and the Karcham Wangtoo project takes the water.
 
-The trade-off in Kinnaur is genuinely hard, and worth thinking through rather than sloganeering about. Hydropower here is clean, the state needs revenue, and the projects paid for roads, schools and employment in villages that had none. They have also been associated with slope destabilisation from tunnelling and blasting, with cracked houses, with the drying of springs that villages depended on, and with a river reduced for long stretches to a dry bed with a trickle. Hillsides that were already marginal have been made less stable at the exact moment the monsoon is getting more intense.
+### Story section · The old Wangtu crossing
 
-There is no clean answer here. There is a real argument, and the people having it live in the villages you are driving through.
+Long before Wangtu became associated with a check post, a highway and a hydropower project, it was already a crossing on the Sutlej. **A. H. Francke**, writing about the antiquities of the western Himalaya, believed a bridge had existed here from very early times. His evidence included **ancient carvings on the rocks**, among them the figure of a man holding a sword in one hand and a club in the other.
+
+He also found signs of travellers who had stopped here before the modern road existed: **caves used as shelters**, Tibetan inscriptions written in charcoal and red chalk, and, in one cave, plain tablets of burnt clay together with human ashes. Francke thought a lama may once have been cremated there, with the clay tablets formed without the usual mould. The modern road crosses a place that had already been receiving travellers for centuries.
 
 ## Pooh, Khab, and the confluence
 
@@ -1018,6 +1034,14 @@ The functional boundary between Tibet and the Indian hill states was the one est
 When the British sent the boundary commission in 1846–48, the Chinese authorities declined to participate. So the line was never jointly fixed. Various British maps drew it various ways. At independence in 1947, India inherited a frontier that was clear in practice and vague on paper.
 
 In 1950 China took control of Tibet. The buffer vanished. India now had a direct land border with a major power, defined by custom rather than treaty, in terrain nobody had mapped properly.
+
+### Story section · Spiti's first election, 1957
+
+The first Indian general election was held in **1952**, but the account preserved here says that voting could not be conducted in Spiti because of the terrain and the absence of roads. Spitians did not participate in the next general election in **1957** either.
+
+Then came an unusual constitutional problem. A Member of Parliament challenged the election of the President of India in May 1957. Because representation from Spiti was implicated in the electoral process, a court ordered that an election be held there. The government therefore had to bring the machinery of democracy into a valley that still had no road connection adequate for the purpose.
+
+An election party travelled **by mule from Shimla**, eventually reaching **Kaza and the Pin Valley** to conduct the vote. The journey — officials, ballot arrangements and all — became the subject of Parmananda Sharma's *Men and Mules on a Mission of Democracy*. For Spiti, it was the beginning of electoral politics arriving not by jeep or bus, but on mule-back.
 
 ### 1962
 
@@ -1254,7 +1278,15 @@ The scholar David Snellgrove argued the prison story is legend, pointing out tha
 
 Keep both. One is what happened. The other is what the tradition decided the man meant.
 
----
+### Story section · Ludwig Schmaderer and H. Paidar
+
+The story of **Ludwig Schmaderer** and **H. Paidar** begins with the Second World War. Both were German mountaineers who had climbed in Sikkim before the war and were later interned by the British. The detailed chronology places them in **Dehradun by October 1941**. Schmaderer attempted one escape in 1943 and was caught. In March 1945, when a group of internees was to be transferred away from the Himalaya to Rajasthan, he tried again. Paidar followed on **27 March 1945**, hidden beneath rubbish in a cart leaving the camp, and joined him outside.
+
+They made their way through the high Himalaya, crossed into Tibet, and eventually returned to India through **Shipki and Namgya**. What they did not know was that the war in Europe had already ended. Fearing that a descent down the Sutlej would lead to internment again, they turned north into Spiti instead. By the middle of July they had reached **Tabo**. Paidar went ahead while Schmaderer stayed behind to bargain for provisions.
+
+When Schmaderer failed to appear, Paidar returned and began asking questions. The detailed account says that Schmaderer had exposed his money and valuables while paying for supplies. Three men followed him toward the steep bridge on the road to Puh, pushed him into the river and killed him. Paidar eventually travelled toward Rampur and Sarahan to report the matter; arrests followed, and Schmaderer's valuables were recovered.
+
+The chronology in the old account is not consistent. One passage calls this a murder committed in **1939**, a historical appendix gives **1940**, while the detailed escape narrative places the journey through Spiti and Schmaderer's death in **1945**. The sequence above follows that detailed narrative while leaving the conflicting dates unresolved.
 
 # Chapter 9 · Dhankar and Lalung
 
@@ -1299,6 +1331,14 @@ Dhankar answers a question you might not have thought to ask: why does a valley 
 Because it sat on a route. Spiti is a natural corridor between Ladakh, Tibet, Kinnaur and Kullu, crossed by passes in every direction — Kunzum to Lahaul, Pin–Parvati to Kullu, Pin–Bhaba to Kinnaur, and the Parang La north to Ladakh. Anyone moving between those worlds came through here. That made Spiti worth taxing, worth raiding and worth controlling, and it is why the list of armies in Chapter 10 is so long.
 
 A fort at the confluence of the Spiti and the Pin controls both valleys. Put the treasury, the jail and the ruler in it, and you have a state.
+
+### Story section · How Dhankar was defended
+
+Dhankar's position was part of its defence. When an attack threatened Spiti, warning could be sent across the landscape by lighting **large fires on selected mountain tops**. People then gathered at high places described as **“Dankhars,”** with Dhankar monastery and fort serving as one of the principal meeting points.
+
+The preferred defence was often not a pitched battle. Villagers could abandon fields and houses, take valuables from the monasteries, and withdraw either to high uninhabited ground or into a fort such as Dhankar. Then they waited. An invading force without local supplies had to face the Spiti winter. One story goes further: Ladakhi invaders were invited to a winter feast, given strong **chhang**, and, once drunk, killed and thrown from the cliffs; those who escaped higher into the mountains were said to have died from cold and hunger.
+
+The fort was also a place of punishment. The **Nono's prison** was described as a small cell built on a rock tower, bounded by precipices on two sides and stone walls on the other two. It had no door. A prisoner was lowered through an opening in the roof, the opening was closed with a large stone, and food was supplied once a day by the complainant. These judicial powers disappeared as British administration reduced the authority of the Nonos.
 
 ## Lhalung, and the Serkhang
 
@@ -1358,6 +1398,14 @@ Standing at Mud, the road ends and a footpath continues. It is worth knowing whe
 
 So Mud is not the end of anything. It is a **road-head at the bottom of two passes**, which is a completely different kind of place. For centuries this was where you loaded the animals before crossing, and where you arrived, exhausted, having crossed.
 
+### Story section · L. W. Dane and the Pin–Parvati route
+
+One of the most direct routes between Spiti and Kullu was opened to recorded British travel by **L. W. Dane**. The main account dates his crossing to **August 1884**. He followed the Pin Valley toward its head, forced a way over the high ridge separating it from the Parvati Valley, descended near **Mantalai lake**, and then followed the Parvati down toward **Manikaran and Kullu**. The crossing opened a new route and the pass became known as the **Pin–Parvati pass**.
+
+**F. Skemp** repeated the route in **1906**, and **H. Shuttleworth** is recorded as making the first crossing in the opposite direction, from Kullu to Spiti, in **1921**. In 1939 **J. O. M. Roberts** also tried to locate the Pin–Parvati pass, missed it, crossed the Tari Khango pass into Kinnaur instead, and reached Spiti by the older Sutlej route.
+
+There is one unresolved wrinkle in the record. The main narrative and the historical timeline date Dane's crossing to **1884**, but an appendix on the passes says he finally crossed it in **1897**. Both dates occur in the source, so the discrepancy is best left visible rather than silently corrected.
+
 ## Why Pin is Nyingma
 
 Spiti is overwhelmingly Gelug. Pin is Nyingma, and the reason is a good illustration of how religious geography works in the Himalaya.
@@ -1393,6 +1441,14 @@ Fuel here. It is the highest retail pump in the world by some claims, and more i
 Nine kilometres north, on a conical hill above the Spiti river at **4,166 m**, is **Ki Gompa** — also spelled Key, Kye, Kee. It is the largest monastery in Spiti and the image most people carry of the valley: whitewashed boxes stacked up a hill in no apparent order, like something grown rather than built.
 
 That shape has a reason, and the reason is violence.
+
+### Story section · “He has gone to Japan”
+
+A 1987 visit to **Ki monastery** captured, in one small exchange, how quickly the outside world was entering Spiti. The visitors arrived in a truck from Kaza and, even before reaching the monastery, passed a young lama riding a battered bicycle — a striking sight in a region that had only recently acquired roads.
+
+Inside, they found a lama chanting while chewing gum. Asked where the **Rinpoche** was, he pointed upward without interrupting his prayers. The visitors assumed the gesture meant the Rinpoche had died and were preparing themselves accordingly. Seeing their solemn faces, the lama quickly clarified in English: **“He has gone to Japan.”**
+
+For a monastery rooted in the eleventh century, it was a perfect little sign of the new Spiti: bicycles, English, international travel, and an old gesture suddenly acquiring a completely modern meaning.
 
 ### What happened to Ki
 
@@ -1569,6 +1625,14 @@ More than sixty species of Jurassic ammonite have been recorded from Spiti, and 
 
 Spiti has been attracting geologists since the 1860s. **Ferdinand Stoliczka** published on the fossils here in 1866; **Henry Hayden** in 1904. Stoliczka was a Czech-Moravian palaeontologist in the service of the Geological Survey of India, one of the most gifted field scientists of his generation, and he died in 1874 at high altitude in Ladakh on the way back from the Yarkand mission, probably of what we would now call altitude sickness. He was thirty-six.
 
+### Story section · Chau Chau Kang Nilda
+
+Behind **Langza** rises **Chau Chau Kang Nilda** (6,303 m), a mountain whose name is given as **“Blue moon in the sky.”** **J. O. M. Roberts** made the first ascent in **1939**. He later remembered the climb as steep but not dangerous. Poor weather covered the summit, however, and prevented him from getting the clear view he wanted of Shilla, whose supposed height of more than 23,000 feet was already attracting doubt.
+
+The same question drew **Trevor Braham and Peter Holmes** onto Chau Chau Kang Nilda in **1955**. They too had poor weather on the summit, but from another angle lower down they were able to see enough of Shilla to strengthen the case that its famous 7,000-metre height was wrong. The route used in 1939 and 1955 became the usual line for later climbers, helped by the mountain's proximity to Langza.
+
+A local belief grew around the mountain as well: **attempts on Chau Chau Kang Nilda were said to bring bad weather**. Rain might normally be welcome in dry Spiti, but not when crops were ready for harvest. In **1995**, an expedition camped at Langza intending to climb the peak; bad weather followed, and villagers quarrelled with the climbers and refused them help, blaming the attempt for the change in weather.
+
 ### Please do not buy a fossil
 
 This matters, and it is the one request in this book.
@@ -1653,7 +1717,7 @@ The pass fell out of use the moment a road existed, which tells you exactly what
 
 From **Mud**, where you sleep on Day 5, over the main Himalayan divide and down the Parvati valley into Kullu. This is the crossing from cold desert to monsoon forest in a single pass, and the contrast on the two sides is as extreme as anywhere in the Himalaya.
 
-It carries a colonial name: it was crossed in 1884 by **Sir Louis Dane**, later Lieutenant-Governor of Punjab, and is sometimes called Dane's Pass. It is now a serious and popular trek, with glacier crossings and genuine objective danger, and people get into trouble on it most seasons.
+Its modern historical association with **L. W. Dane's crossing** is covered in the Story section in Chapter 10, including the conflicting dates given in the source. It is now a serious and popular trek, with glacier crossings and genuine objective danger, and people get into trouble on it most seasons.
 
 ## Pin–Bhaba (about 4,900 m) — south-west, to Kinnaur
 
@@ -1681,7 +1745,7 @@ What the road did was replace five directions with one. Everything now comes fro
 
 ## The mountains, and the best story in Spiti
 
-Spiti's peaks are not famous. The highest is **Gya** (6,794 m), on the border with Ladakh and Tibet, and it resisted attempts through the 1990s before being climbed in 1999, with an earlier claimed ascent in 1998 that was never fully substantiated. **Chau Chau Kang Nilda** (6,303 m), visible from around Kaza, was climbed in 1939 by **J. O. M. Roberts** — later one of the founders of Himalayan trekking as an industry, and the man who wrote the foreword to Kapadia's book on Spiti.
+Spiti's peaks are not famous. The highest is **Gya** (6,794 m), on the border with Ladakh and Tibet, and it resisted attempts through the 1990s before being climbed in 1999, with an earlier claimed ascent in 1998 that was never fully substantiated. **Chau Chau Kang Nilda** (6,303 m), visible from around Kaza, was climbed in 1939 by **J. O. M. Roberts** — later one of the founders of Himalayan trekking as an industry.
 
 But the story worth carrying is **Shilla**.
 
@@ -1699,17 +1763,13 @@ The historian of Himalayan mountaineering **Kenneth Mason** wrote the line that 
 
 Hold that against the roll-call in Interlude Three — Moorcroft, the Gerards, Csoma, the Schlagintweits, Stoliczka — all named, all commemorated. And then the khalasi, who went higher than any of them.
 
-## One more, and it is grim
+### Story section · How Shilla's height was corrected
 
-A footnote that belongs on your Day 4.
+The survey record gave the station the name **Shilla** and the height **23,064 feet** on a Survey of India sheet published in **August 1874**. At that figure it was treated as the highest peak climbed up to that date. The supposed record lasted until **1907**, when Dr. Longstaff climbed **Trisul (23,360 ft)**.
 
-In 1944, several Austrian and German internees escaped from the British camp at Dehradun and crossed into Tibet. Two of them were **Heinrich Harrer** and **Peter Aufschnaiter**, who reached Lhasa and became the subject of *Seven Years in Tibet*.
+Doubts about Shilla's height accumulated later. **K. Snelson and J. de V. Graaff** questioned the figure in 1952, while observations by **J. O. M. Roberts**, **Peter Holmes** and **T. H. Braham** also suggested that the mountain was much lower than the old survey figure. **Col. R. H. Phillimore of the Survey of India** later reported an official height of **20,050 feet**; the modern figure given in the account is **6,132 m (20,120 ft)**.
 
-Another was **Ludwig Schmaderer**, a serious mountaineer who had made a first ascent in Sikkim before the war. In **July 1945**, still wandering and apparently not knowing the war had ended, he was **robbed and murdered at or near Tabo**. His companion **Herbert Paidar** walked down the Spiti and the Sutlej to Pooh and on to Sarahan, gave himself up, and reported it. Arrests followed.
-
-You are sleeping at Tabo on Night 4.
-
----
+One suggested explanation involves **Gya**. On the earlier survey sheet Gya was given as **22,309 feet**, very close to its modern height. From the Parang La survey station, Gya lies on the same axis as Shilla, and the account suggests that the two peaks may have been confused in the calculations. Whatever caused the error, the khalasi's ascent itself was real; what changed was the height assigned to the mountain.
 
 # Chapter 13 · Losar and Kunzum La
 
