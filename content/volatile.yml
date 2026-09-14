@@ -14,7 +14,7 @@
   expires: 2026-09-20
 
 - claim: Chandratal camps run until about 10–15 October
-  where: preparation#s2, practical#hours, book ch-14 box
+  where: preparation#s2, practical#hours, practical#stops
   source: preparation page (operator reports)
   verified: 2026-09-06
   expires: 2026-09-22
@@ -32,7 +32,7 @@
   expires: 2026-09-15
 
 - claim: Kaza has the last fuel pump before Manali
-  where: book ch-11, ch-13 box, practical#fuel
+  where: book ch-11, practical#fuel, practical#stops
   source: book text
   verified: never
   expires: 2026-09-15

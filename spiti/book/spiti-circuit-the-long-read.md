@@ -394,17 +394,6 @@ Whether or not it happened, the name tells you what Shimla was: a hothouse of a 
 
 If you have a spare hour before leaving, **Viceregal Lodge** (now the Indian Institute of Advanced Study) is genuinely worth it, and the **Gaiety Theatre** on the Mall, restored, has been in continuous use since 1887.
 
-### Practical: leaving Shimla
-
-- **Viceregal Lodge** (now the Indian Institute of Advanced Study): opening hours, weekly closing day, ticket price and guided-tour times. TODO(verify)
-- **Gaiety Theatre**: whether visitors can go in, and when. TODO(verify)
-- **Parking** near the Mall and the Ridge. TODO(verify)
-- **Leaving for Sarahan**: the day is roughly 175 km of mountain road to Sarahan. Aim to arrive before dark; a realistic departure time is TODO(verify)
-
-More: [Fuel and distances](../practical/#fuel) · [Opening hours](../practical/#hours)
-
-Source: not yet checked on the ground.
-
 ---
 
 # Chapter 2 · Narkanda, Kotgarh, Rampur
@@ -456,15 +445,6 @@ Between Narkanda and Rampur, at **Nirath** on the bank of the Sutlej, there is a
 That is what makes it interesting. It is one of very few surviving sun temples in North India, and it sits in a valley whose architecture is otherwise entirely timber. Somebody, a thousand years ago, built a plains temple here in plains style, which tells you that the connection down the Sutlej to the Gangetic world was live and strong long before Dalhousie's road.
 
 It is right beside the highway and almost nobody stops.
-
-### Practical: Narkanda to Sarahan
-
-- **Jeori memorial** to the 122 road-builders: at Jeori, where the road forks up to Sarahan, and easy to miss. Side of the road, nearest kilometre stone and coordinates: TODO(verify)
-- **Hatu Peak**: a rough road climbs from Narkanda. Surface, whether an ordinary car manages it, and the round-trip time: TODO(verify)
-- **Nirath sun temple**: where to stop. TODO(verify)
-- **Fuel at Rampur**: TODO(verify)
-
-Source: the chapter text; details not yet checked on the ground.
 
 ---
 
@@ -528,17 +508,6 @@ The state ran on land revenue, transit dues on trade, and **begar**. Its capital
 The **Raja was, in a real sense, the goddess's officer**. Bhimakali's sanction underwrote the dynasty's legitimacy, and the relationship between temple and throne here was not decorative. When the state merged into India in 1948, the family continued; **Virbhadra Singh**, son of the Raja Padam Singh who rebuilt this temple, went on to be chief minister of Himachal Pradesh six times, and was known throughout his political life as *Raja Sahab*.
 
 Which means the dynasty that traces itself to Krishna's son, that ruled from a fort at Kamru, that fought a Tibetan general in 1679, ended up running the state government until well within living memory. That is an unusually smooth transition from divine kingship to electoral politics.
-
-### Practical: Bhimakali temple
-
-- **Darshan hours**: TODO(verify)
-- **Cameras** inside the temple complex: TODO(verify)
-- **Dress**: whether a head covering is expected and leather (belts, wallets) must be left at the gate. TODO(verify)
-- **Pheasantry** hours and fee: TODO(verify)
-
-More: [Opening hours](../practical/#hours)
-
-Source: not yet checked on the ground.
 
 ---
 
@@ -979,17 +948,6 @@ A note, because you will hear about it. The **Kinner Kailash parikrama** is a ci
 
 Neither is a walk. Mentioning it here only so that when somebody in Kalpa says "you can go up to the shivling", you understand what is being described.
 
-### Practical: into the Baspa valley
-
-- **Turn-off**: leave NH-5 at Karcham and follow the Baspa up past Sangla to Chitkul.
-- **Road** from Sangla to Chitkul, and any ID check at Chitkul: TODO(verify)
-- **Fuel and cash**: plan on no fuel and no ATM in the valley. TODO(verify)
-- **Mobile signal**: which networks work, and how far up the valley. TODO(verify)
-
-More: [Money and connectivity](../practical/#money)
-
-Source: the chapter text; details not yet checked on the ground.
-
 ### Caution: the first cold night
 
 Chitkul, at 3,450 m, is the first real jolt: 0 to 4 °C at night, windy and damp. Get the warm layers out of the boot here, not later. See [the packing list](../preparation/#s4).
@@ -1025,15 +983,6 @@ Set that against what you will see on Day 4. By then you will be in a landscape 
 Below Kalpa is **Reckong Peo**, the district headquarters — the last place for a good while with functioning banks, a real market, and reliable fuel. The standard advice is that ATMs past Peo are unreliable and often empty in Kaza. Take this seriously. It is not a rural inconvenience, it is a structural fact of the valley economy.
 
 Peo is also the administrative memory of the **Inner Line**. For decades after 1962, foreigners needed permits to go beyond a certain point in Kinnaur, and Indians faced restrictions too. The line has moved and relaxed, but you are, from here on, in a frontier district with a border a few dozen kilometres away, and the army and ITBP presence you will notice from Pooh onwards is not decorative.
-
-### Practical: Reckong Peo, the last proper town
-
-- **Cash**: Reckong Peo is the last place for a good while with functioning banks and a real market. ATMs past Peo are unreliable and often empty in Kaza, so draw what you need for the rest of the trip here.
-- **Fuel**: Peo has reliable fuel. The pump at Powari: TODO(verify)
-- **Permits**: whether anything needs arranging here for the road past Pooh. TODO(verify) See [Permits and checkposts](../practical/#permits).
-- **Weavers' collective**: name and where to find it. TODO(verify)
-
-Source: the chapter text; details not yet checked on the ground.
 
 ### Respect: buying a shawl
 
@@ -1244,17 +1193,6 @@ In 1975 an earthquake cracked open a tomb at Gue. Inside was a seated human body
 It is the only known self-mummified monk in India, and the practice is otherwise associated mainly with Japan.
 
 The local account is not medical. Gue, they say, was suffering a plague of scorpions that was killing people. Sangha Tenzin told his followers to let him mummify himself, as an offering for the village. When he died, a rainbow appeared and the scorpions went.
-
-### Practical: the long drive
-
-- **Start early.** Departure time, total distance and realistic driving hours: TODO(verify) See [Fuel and distances](../practical/#fuel).
-- **Food**: where lunch actually exists between Reckong Peo and Tabo. TODO(verify)
-- **Nako** is the natural halt: the lake, the village and the old temples.
-- **Sumdo check post**: you formally enter Spiti here. What you register and which documents to show: TODO(verify)
-- **Gue detour**: about 8 km up a side road from Sumdo; allow an hour.
-- **Fuel**: where the last pump before Kaza is. TODO(verify)
-
-Source: the chapter text; details not yet checked on the ground.
 
 ### Caution: Nigulsari and Chaura
 
@@ -1706,17 +1644,6 @@ When Schmaderer failed to appear, Paidar returned and began asking questions. Th
 
 The chronology in the old account is not consistent. One passage calls this a murder committed in **1939**, a historical appendix gives **1940**, while the detailed escape narrative places the journey through Spiti and Schmaderer's death in **1945**. The sequence above follows that detailed narrative while leaving the conflicting dates unresolved.
 
-### Practical: visiting Tabo
-
-- **Opening hours** of the old temples, and whether a monk has to unlock them: TODO(verify)
-- **Light**: the old interiors are unlit and no electric light is allowed near the paintings. Bring a headlamp and keep it low.
-- **Photography**: not allowed inside the old temples; confirm the current rule on arrival. TODO(verify)
-- **Shoes** come off in the shrine rooms.
-
-More: [Opening hours](../practical/#hours)
-
-Source: the chapter text and Interlude Eight; hours not yet checked.
-
 ### Respect: at the gompa
 
 Leave a donation in the box: the entry fees do not cover the upkeep of a thousand-year-old mud building. No flash, no touching the paintings, and walk clockwise, as Interlude Eight sets out for every monastery.
@@ -1778,14 +1705,6 @@ If the detour is possible, **Lhalung** (about 3,700 m; also spelled Lalung) is o
 The **Serkhang**, the Golden Temple, is another of the foundations attributed to the Rinchen Zangpo period, with early sculpture and painting of the same family as Tabo's. What makes it remarkable is the **sculpture**: figures in stucco projecting from the walls in high relief, ringing the room, of a quality and antiquity that would make them a national treasure anywhere with better transport links.
 
 The village name means "land of the gods". There is a sacred juniper grove and a tradition that the trees change colour to warn of misfortune. Photography inside is not permitted.
-
-### Practical: Dhankar and Lhalung
-
-- **Getting up**: a link road climbs from Shichilling to Dhankar village. Road condition and where to park: TODO(verify)
-- **Old gompa**: access is sometimes restricted while the building is conserved. If it is shut, that is why.
-- **Lhalung**: road condition for the detour: TODO(verify). Photography is not permitted inside the Serkhang.
-
-Source: the chapter text; details not yet checked on the ground.
 
 ### Caution: the lake walk
 
@@ -1869,14 +1788,6 @@ Numbers of **free-ranging and feral dogs** have risen sharply in Spiti over the 
 
 It is an unglamorous conservation issue with an obvious cause: rubbish. It ties directly to the plea in Chapter 18 about carrying your waste out. Open food waste in Spiti does not attract birds. It feeds dogs, and the dogs eat the ibex.
 
-### Practical: up the Pin valley
-
-- **Crossing**: the road leaves the Spiti valley at the Attargo bridge. Road condition up to Mud: TODO(verify)
-- **Fuel**: none in the valley. TODO(verify)
-- **Signal**: assume none. TODO(verify)
-
-Source: not yet checked on the ground.
-
 ### Respect: at the homestay
 
 Ask for what the family is eating rather than a tourist menu. It is better food, and the income stays in the kitchen that earned it. The household dishes, chhutagi and skyu among them, are in Interlude Three, What You Will Eat.
@@ -1951,17 +1862,6 @@ This war is the reason your itinerary looks the way it does. Two of its settleme
 **1960.** Lahaul and Spiti became a single district of independent India, which is why two places separated by a 4,590 m pass and a watershed share a hyphen.
 
 **1962.** The war with China closed the border, ended the trade, and turned a crossroads into a cul-de-sac. The road you are driving was massively rebuilt in the years after 1962 for military reasons, at considerable cost in lives.
-
-### Practical: Kaza, the logistics hub
-
-- **Fuel**: Kaza has the last fuel pump before Manali. Fill up. Hours and whether it takes cards: TODO(verify)
-- **Cash**: the ATM is often empty; carry what you need from Reckong Peo. Which bank, and whether it is working: TODO(verify)
-- **Hospital**: Kaza has one. Where it is, and whether it has oxygen: TODO(verify) See [Emergency](../practical/#emergency).
-- **Mechanic**: TODO(verify)
-- **Seabuckthorn**: juice and tea from local producers. Where to buy: TODO(verify)
-- **Ki morning prayers**: if you can be there for them, do. Start time, and whether to ask at the monastery the evening before: TODO(verify)
-
-Source: the chapter text; details not yet checked on the ground.
 
 ---
 
@@ -2298,15 +2198,6 @@ What is not normal and means going down: a headache that does not respond to pai
 
 Water is the single most useful intervention. Three to four litres a day, more than feels reasonable. The air is bone-dry and you are losing water with every breath without noticing.
 
-### Practical: the high villages
-
-- **Hikkim post office**: closed in winter. Opening hours, and whether postcards and stamps are sold there: TODO(verify). Carry small cash.
-- **The loop**: the plan drives Kaza → Langza → Hikkim → Komic → Kaza. Confirm the direction and the road locally. TODO(verify)
-- **Komic**: time needed at Tangyud gompa. TODO(verify)
-- **Chicham bridge**: very exposed to wind. Hat and buff, even at noon.
-
-Source: the chapter text and preparation page; details not yet checked.
-
 ### Caution: altitude at 4,500 m
 
 Normal: breathlessness on slopes, a headache that goes with paracetamol and water, broken sleep. Not normal, and the answer is to go down: a headache painkillers do not touch, vomiting, confusion, unsteady walking, breathlessness at rest. Kaza has a hospital; Losar and Chandratal do not. See [Emergency](../practical/#emergency).
@@ -2458,15 +2349,6 @@ Losar as a festival falls in February or in some Spiti traditions earlier, and i
 - **Hot water bottle** into the sleeping bag half an hour before you get in.
 - This is the second-highest night of the trip and often the one people find hardest, because Chandratal is anticipated and Losar is not.
 
-### Practical: Losar
-
-- **Check post**: there is one at Losar. What to show: TODO(verify)
-- **Fuel**: none here. Kaza was the last pump before Manali.
-- **Heat**: homestays are essentially unheated. Ask about a bukhari (stove) and what it costs.
-- **Water**: whether pipes and bottles freeze overnight. TODO(verify)
-
-Source: the chapter text and preparation page.
-
 ### Caution: black ice
 
 In late September overnight moisture freezes into an invisible sheet on the road. Wait for the sun to come up before setting off for Kunzum.
@@ -2593,16 +2475,6 @@ Practical things that make the difference:
 
 By common agreement of everyone who has done this route, this is the best night of the trip. It is also the hardest. Both.
 
-### Practical: the Chandratal night
-
-- **The walk**: camps and parking are set back from the lake, which is a protected site. Distance from parking to the lake, and time needed: TODO(verify)
-- **No network, no charging, no hot shower.** Charge everything at Losar.
-- **Toilets** at the camps: TODO(verify)
-- **Cold**: −5 to −10 °C, colder in the wind off the glaciers. The down jacket on the packing list is rated around −10 °C; check your sleeping bag against the same number. See [the packing list](../preparation/#s4).
-- **Season**: camps usually run to around 10–15 October, so 23 September is well inside it.
-
-Source: preparation page and chapter text; walk and toilets not yet checked.
-
 ### Respect: a Ramsar site
 
 Chandratal is a protected wetland. Keep off the shoreline where the camps ask you to, leave nothing behind, and carry your rubbish out with you.
@@ -2666,14 +2538,6 @@ What it also means: Lahaul got mass tourism overnight. Sissu went from a quiet v
 Coming from Gramphu, the pragmatic choice is usually the tunnel: faster, warmer, and no Rohtang traffic. The Rohtang road, if it is open and you have time and the day is clear, gives you the last big view back over Lahaul and the classic descent into the Kullu valley. Both are defensible. Your drivers will know the conditions.
 
 Either way, watch what happens at **Koksar** and below: the first green in five days, the first trees, the first real rain shadow crossing. You will start pulling off layers and not stop.
-
-### Practical: down the Chandra valley
-
-- **Chandra Dhaba at Batal**: tea and food, the last hospitality of the cold desert.
-- **Gramphu**: where you join the Manali–Keylong road and choose between the Atal Tunnel and Rohtang La.
-- **Koksar check post**: TODO(verify)
-
-Source: the chapter text; check post not yet checked.
 
 ### Caution: stream crossings
 
@@ -2856,13 +2720,6 @@ Kinnaur gave you green. Nako took the trees away. Spiti took everything except p
 And then in one day you get it all back.
 
 That compression is the reason this route is worth doing in this direction, and it is why coming up from Manali in two days — which is faster, and which most people do — is a completely different and much lesser trip. You earned Spiti. Most people just arrive in it.
-
-### Practical: arriving in Manali
-
-- **Parking**, and where to leave the car: TODO(verify)
-- **Naggar**, about twenty kilometres south of Manali, needs half a day. TODO(verify)
-
-Source: not yet checked on the ground.
 
 ---
 
